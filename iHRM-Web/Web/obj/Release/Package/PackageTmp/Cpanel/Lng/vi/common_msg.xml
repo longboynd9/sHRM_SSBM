@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<common_msg>
+  <Please_Choose_Data>Xin vui lòng chọn dữ liệu</Please_Choose_Data>
+  <RecordNotFound>Không tìm thấy dữ liệu yêu cầu</RecordNotFound>
+  <Add_Success>Thêm mới thành công</Add_Success>
+  <Add_Fail>Thêm mới không thành công</Add_Fail>
+  <Edit_Success>Cập nhật thành công</Edit_Success>
+  <Edit_Fail>Cập nhật không thành công</Edit_Fail>
+  <Delete_Success>Xóa thành công</Delete_Success>
+  <Delete_Fail>Xóa không thành công</Delete_Fail>
+  <Save_Success>Lưu thành công</Save_Success>
+  <Save_Fail>Lưu không thành công</Save_Fail>
+  <Error_While_Exec>Có lỗi trong quá trình thực hiện, xin vui lòng thử lại..</Error_While_Exec>
+  <Record_Duplicate>[Trùng bản ghi] Dữ liệu đã tồn tại</Record_Duplicate>
+</common_msg>

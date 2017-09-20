@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C1BF39D-64D9-4C40-A8AC-C4EFE4CE12CA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YSB_Class</RootNamespace>
+    <AssemblyName>YSB_Class</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Charts.Designer.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Pdf.v14.2.Drawing, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v14.2.UI, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGauges.v14.2.Core, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="NCalc">
+      <HintPath>..\..\dll\NCalc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interface_Company.cs" />
+    <Compile Include="Contract\rep_InHopDong1nam_CN.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contract\rep_InHopDong1nam_CN.Designer.cs">
+      <DependentUpon>rep_InHopDong1nam_CN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contract\rep_InHopDong1nam_VP.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contract\rep_InHopDong1nam_VP.Designer.cs">
+      <DependentUpon>rep_InHopDong1nam_VP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contract\rep_InHopDongThuViec_CN.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contract\rep_InHopDongThuViec_CN.Designer.cs">
+      <DependentUpon>rep_InHopDongThuViec_CN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contract\rep_InHopDongThuViec_VP.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contract\rep_InHopDongThuViec_VP.Designer.cs">
+      <DependentUpon>rep_InHopDongThuViec_VP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contract\rep_InHopDongVoThoiHan_CN.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contract\rep_InHopDongVoThoiHan_CN.Designer.cs">
+      <DependentUpon>rep_InHopDongVoThoiHan_CN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contract\rep_InHopDongVoThoiHan_VP.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contract\rep_InHopDongVoThoiHan_VP.Designer.cs">
+      <DependentUpon>rep_InHopDongVoThoiHan_VP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contract\rep_ThongTinNhanVien.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contract\rep_ThongTinNhanVien.Designer.cs">
+      <DependentUpon>rep_ThongTinNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contract\ThuCanhCao.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contract\ThuCanhCao.Designer.cs">
+      <DependentUpon>ThuCanhCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\GiayXinNghi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="General\GiayXinNghi.Designer.cs">
+      <DependentUpon>GiayXinNghi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\GiayRaCong.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="General\GiayRaCong.Designer.cs">
+      <DependentUpon>GiayRaCong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General\QuyetDinhThoiViec.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="General\QuyetDinhThoiViec.Designer.cs">
+      <DependentUpon>QuyetDinhThoiViec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Luong\InPhieuLuong.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Luong\InPhieuLuong.designer.cs">
+      <DependentUpon>InPhieuLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Luong\TinhLuongHelper.cs" />
+    <Compile Include="Luong\XuLyDuLieu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuetThe\QuetThe.cs" />
+    <Compile Include="rep_InTheNhanVien.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rep_InTheNhanVien.Designer.cs">
+      <DependentUpon>rep_InTheNhanVien.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\iHRM.Core\Common\iHRM.Common.csproj">
+      <Project>{120caae4-814a-43f4-8969-5753d51f8c94}</Project>
+      <Name>iHRM.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\iHRM.Core\Data\iHRM.Core.csproj">
+      <Project>{a7a94f86-e9f6-439e-8d41-5d25832444ed}</Project>
+      <Name>iHRM.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Contract\rep_InHopDong1nam_CN.resx">
+      <DependentUpon>rep_InHopDong1nam_CN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contract\rep_InHopDong1nam_VP.resx">
+      <DependentUpon>rep_InHopDong1nam_VP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contract\rep_InHopDongThuViec_CN.resx">
+      <DependentUpon>rep_InHopDongThuViec_CN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contract\rep_InHopDongThuViec_VP.resx">
+      <DependentUpon>rep_InHopDongThuViec_VP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contract\rep_InHopDongVoThoiHan_CN.resx">
+      <DependentUpon>rep_InHopDongVoThoiHan_CN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contract\rep_InHopDongVoThoiHan_VP.resx">
+      <DependentUpon>rep_InHopDongVoThoiHan_VP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contract\rep_ThongTinNhanVien.resx">
+      <DependentUpon>rep_ThongTinNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contract\ThuCanhCao.resx">
+      <DependentUpon>ThuCanhCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\GiayXinNghi.resx">
+      <DependentUpon>GiayXinNghi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\GiayRaCong.resx">
+      <DependentUpon>GiayRaCong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="General\QuyetDinhThoiViec.resx">
+      <DependentUpon>QuyetDinhThoiViec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Luong\InPhieuLuong.resx">
+      <DependentUpon>InPhieuLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="rep_InTheNhanVien.resx">
+      <DependentUpon>rep_InTheNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

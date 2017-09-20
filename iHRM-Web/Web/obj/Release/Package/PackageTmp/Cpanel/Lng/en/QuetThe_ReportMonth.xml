@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<QuetThe_ReportMonth>
+  <thang>Month: &amp;nbsp;</thang>
+  <lbDenNgay>From date</lbDenNgay>
+  <chonPB>Choose department...</chonPB>
+  <title>Department list</title>
+  <tooltip>View payroll of choosed month and year</tooltip>
+  <xuatEx>Export Excel</xuatEx>
+  <manv>Employee ID</manv>
+  <hoten>Full name</hoten>
+  <ngayvao>Starting date</ngayvao>
+  <tong>Total</tong>
+  <chitiet>Detail</chitiet>
+  <luulai>Save</luulai>
+  <tailai>Reload</tailai>
+  <ngay>Date</ngay>
+  <trangthai>Status</trangthai>
+  <tgQuetDen>Swiping time when coming</tgQuetDen>
+  <tgDiMuon>Late coming time</tgDiMuon>
+  <tgQuetVe>Swiping time when leaving</tgQuetVe>
+  <tgVeSom>Early leaving time</tgVeSom>
+  <tgTangCa>Overtime (minute)</tgTangCa>
+  <msg_js>Please fill in full data</msg_js>
+  <msg_js2>Update employees </msg_js2>
+  <msg_js3>Are you sure to delete?</msg_js3>
+  <msg_1>Please choose department!</msg_1>
+  <detail>Attendance table in detail</detail>
+  <msg_3>Not find employee information</msg_3>
+  <msg_4>Update successfully!</msg_4>
+</QuetThe_ReportMonth>

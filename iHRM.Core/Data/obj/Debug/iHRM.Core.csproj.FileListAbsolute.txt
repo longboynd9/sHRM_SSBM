@@ -1,0 +1,97 @@
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\iHRM.Core.dll.config
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\iHRM.Core.dll
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\iHRM.Core.pdb
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\iHRM.Common.dll
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\mscorlib.dll
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\NCalc.dll
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\Aspose.Cells.dll
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\Microsoft.Exchange.WebServices.dll
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\iHRM.Common.pdb
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\normidna.nlp
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\normnfc.nlp
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\normnfd.nlp
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\normnfkc.nlp
+G:\sHRM - Ca dem\iHRM.Core\Data\bin\Debug\normnfkd.nlp
+G:\sHRM - Ca dem\iHRM.Core\Data\obj\Debug\iHRM.Core.csprojResolveAssemblyReference.cache
+G:\sHRM - Ca dem\iHRM.Core\Data\obj\Debug\iHRM.Core.Properties.Resources.resources
+G:\sHRM - Ca dem\iHRM.Core\Data\obj\Debug\iHRM.Core.csproj.GenerateResource.Cache
+G:\sHRM - Ca dem\iHRM.Core\Data\obj\Debug\iHRM.Core.dll
+G:\sHRM - Ca dem\iHRM.Core\Data\obj\Debug\iHRM.Core.pdb
+G:\sHRM\iHRM.Core\Data\bin\Debug\iHRM.Core.dll.config
+G:\sHRM\iHRM.Core\Data\bin\Debug\iHRM.Core.dll
+G:\sHRM\iHRM.Core\Data\bin\Debug\iHRM.Core.pdb
+G:\sHRM\iHRM.Core\Data\bin\Debug\iHRM.Common.dll
+G:\sHRM\iHRM.Core\Data\bin\Debug\NCalc.dll
+G:\sHRM\iHRM.Core\Data\bin\Debug\Aspose.Cells.dll
+G:\sHRM\iHRM.Core\Data\bin\Debug\Microsoft.Exchange.WebServices.dll
+G:\sHRM\iHRM.Core\Data\bin\Debug\iHRM.Common.pdb
+G:\sHRM\iHRM.Core\Data\obj\Debug\iHRM.Core.csprojResolveAssemblyReference.cache
+G:\sHRM\iHRM.Core\Data\obj\Debug\iHRM.Core.Properties.Resources.resources
+G:\sHRM\iHRM.Core\Data\obj\Debug\iHRM.Core.csproj.GenerateResource.Cache
+G:\sHRM\iHRM.Core\Data\obj\Debug\iHRM.Core.dll
+G:\sHRM\iHRM.Core\Data\obj\Debug\iHRM.Core.pdb
+F:\sHRM\iHRM.Core\Data\bin\Debug\iHRM.Core.dll.config
+F:\sHRM\iHRM.Core\Data\bin\Debug\iHRM.Core.dll
+F:\sHRM\iHRM.Core\Data\bin\Debug\iHRM.Core.pdb
+F:\sHRM\iHRM.Core\Data\bin\Debug\iHRM.Common.dll
+F:\sHRM\iHRM.Core\Data\bin\Debug\NCalc.dll
+F:\sHRM\iHRM.Core\Data\bin\Debug\Aspose.Cells.dll
+F:\sHRM\iHRM.Core\Data\bin\Debug\Microsoft.Exchange.WebServices.dll
+F:\sHRM\iHRM.Core\Data\bin\Debug\iHRM.Common.pdb
+F:\sHRM\iHRM.Core\Data\obj\Debug\iHRM.Core.csprojResolveAssemblyReference.cache
+F:\sHRM\iHRM.Core\Data\obj\Debug\iHRM.Core.Properties.Resources.resources
+F:\sHRM\iHRM.Core\Data\obj\Debug\iHRM.Core.csproj.GenerateResource.Cache
+F:\sHRM\iHRM.Core\Data\obj\Debug\iHRM.Core.dll
+F:\sHRM\iHRM.Core\Data\obj\Debug\iHRM.Core.pdb
+F:\sHRM_SSVN\iHRM.Core\Data\bin\Debug\iHRM.Core.dll.config
+F:\sHRM_SSVN\iHRM.Core\Data\bin\Debug\iHRM.Core.dll
+F:\sHRM_SSVN\iHRM.Core\Data\bin\Debug\iHRM.Core.pdb
+F:\sHRM_SSVN\iHRM.Core\Data\bin\Debug\iHRM.Common.dll
+F:\sHRM_SSVN\iHRM.Core\Data\bin\Debug\NCalc.dll
+F:\sHRM_SSVN\iHRM.Core\Data\bin\Debug\Aspose.Cells.dll
+F:\sHRM_SSVN\iHRM.Core\Data\bin\Debug\Microsoft.Exchange.WebServices.dll
+F:\sHRM_SSVN\iHRM.Core\Data\bin\Debug\iHRM.Common.pdb
+F:\sHRM_SSVN\iHRM.Core\Data\obj\Debug\iHRM.Core.csprojResolveAssemblyReference.cache
+F:\sHRM_SSVN\iHRM.Core\Data\obj\Debug\iHRM.Core.Properties.Resources.resources
+F:\sHRM_SSVN\iHRM.Core\Data\obj\Debug\iHRM.Core.csproj.GenerateResource.Cache
+F:\sHRM_SSVN\iHRM.Core\Data\obj\Debug\iHRM.Core.dll
+F:\sHRM_SSVN\iHRM.Core\Data\obj\Debug\iHRM.Core.pdb
+F:\sHRM_YS2\iHRM.Core\Data\bin\Debug\iHRM.Core.dll.config
+F:\sHRM_YS2\iHRM.Core\Data\bin\Debug\iHRM.Core.dll
+F:\sHRM_YS2\iHRM.Core\Data\bin\Debug\iHRM.Core.pdb
+F:\sHRM_YS2\iHRM.Core\Data\bin\Debug\iHRM.Common.dll
+F:\sHRM_YS2\iHRM.Core\Data\bin\Debug\NCalc.dll
+F:\sHRM_YS2\iHRM.Core\Data\bin\Debug\Aspose.Cells.dll
+F:\sHRM_YS2\iHRM.Core\Data\bin\Debug\Microsoft.Exchange.WebServices.dll
+F:\sHRM_YS2\iHRM.Core\Data\bin\Debug\iHRM.Common.pdb
+F:\sHRM_YS2\iHRM.Core\Data\obj\Debug\iHRM.Core.csprojResolveAssemblyReference.cache
+F:\sHRM_YS2\iHRM.Core\Data\obj\Debug\iHRM.Core.Properties.Resources.resources
+F:\sHRM_YS2\iHRM.Core\Data\obj\Debug\iHRM.Core.csproj.GenerateResource.Cache
+F:\sHRM_YS2\iHRM.Core\Data\obj\Debug\iHRM.Core.dll
+F:\sHRM_YS2\iHRM.Core\Data\obj\Debug\iHRM.Core.pdb
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Debug\iHRM.Core.dll.config
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Debug\iHRM.Core.dll
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Debug\iHRM.Core.pdb
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Debug\iHRM.Common.dll
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Debug\NCalc.dll
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Debug\Aspose.Cells.dll
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Debug\Microsoft.Exchange.WebServices.dll
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Debug\iHRM.Common.pdb
+F:\sHRM_SSBM\iHRM.Core\Data\obj\Debug\iHRM.Core.csprojResolveAssemblyReference.cache
+F:\sHRM_SSBM\iHRM.Core\Data\obj\Debug\iHRM.Core.Properties.Resources.resources
+F:\sHRM_SSBM\iHRM.Core\Data\obj\Debug\iHRM.Core.csproj.GenerateResource.Cache
+F:\sHRM_SSBM\iHRM.Core\Data\obj\Debug\iHRM.Core.dll
+F:\sHRM_SSBM\iHRM.Core\Data\obj\Debug\iHRM.Core.pdb
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\bin\Debug\iHRM.Core.dll.config
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\bin\Debug\iHRM.Core.dll
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\bin\Debug\iHRM.Core.pdb
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\bin\Debug\iHRM.Common.dll
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\bin\Debug\NCalc.dll
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\bin\Debug\Aspose.Cells.dll
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\bin\Debug\Microsoft.Exchange.WebServices.dll
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\bin\Debug\iHRM.Common.pdb
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\obj\Debug\iHRM.Core.csprojResolveAssemblyReference.cache
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\obj\Debug\iHRM.Core.Properties.Resources.resources
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\obj\Debug\iHRM.Core.csproj.GenerateResource.Cache
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\obj\Debug\iHRM.Core.dll
+F:\YSSCompany\sHRM\sHRM_SSBM\iHRM.Core\Data\obj\Debug\iHRM.Core.pdb

@@ -1,0 +1,13 @@
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Release\iHRM.Core.dll.config
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Release\iHRM.Core.dll
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Release\iHRM.Core.pdb
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Release\iHRM.Common.dll
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Release\NCalc.dll
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Release\Aspose.Cells.dll
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Release\Microsoft.Exchange.WebServices.dll
+F:\sHRM_SSBM\iHRM.Core\Data\bin\Release\iHRM.Common.pdb
+F:\sHRM_SSBM\iHRM.Core\Data\obj\Release\iHRM.Core.csprojResolveAssemblyReference.cache
+F:\sHRM_SSBM\iHRM.Core\Data\obj\Release\iHRM.Core.Properties.Resources.resources
+F:\sHRM_SSBM\iHRM.Core\Data\obj\Release\iHRM.Core.csproj.GenerateResource.Cache
+F:\sHRM_SSBM\iHRM.Core\Data\obj\Release\iHRM.Core.dll
+F:\sHRM_SSBM\iHRM.Core\Data\obj\Release\iHRM.Core.pdb

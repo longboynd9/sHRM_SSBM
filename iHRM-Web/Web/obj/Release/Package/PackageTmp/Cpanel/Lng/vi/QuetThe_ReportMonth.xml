@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<QuetThe_ReportMonth>
+  <thang>Tháng: &amp;nbsp;</thang>
+  <lbTuNgay>Từ ngày</lbTuNgay>
+  <lbDenNgay>Đến ngày</lbDenNgay>
+  <chonPB>Chọn phòng ban...</chonPB>
+  <title>Danh sách phòng ban</title>
+  <tooltip>Xem bảng lương của tháng và năm đã chọn</tooltip>
+  <xuatEx>Xuất Excel</xuatEx>
+  <manv>Mã NV</manv>
+  <hoten>Họ và tên</hoten>
+  <ngayvao>Ngày vào</ngayvao>
+  <tong>Tổng</tong>
+  <chitiet>Chi tiết</chitiet>
+  <luulai>Lưu lại</luulai>
+  <tailai>Tải lại</tailai>
+  <ngay>Ngày</ngay>
+  <trangthai>Trạng thái</trangthai>
+  <tgQuetDen>TG quẹt đến</tgQuetDen>
+  <tgDiMuon>TG đi muộn</tgDiMuon>
+  <tgQuetVe>TG quẹt về</tgQuetVe>
+  <tgVeSom>TG về sớm</tgVeSom>
+  <tgTangCa>TG tăng ca (phút)</tgTangCa>
+  <msg_js>Xin vui lòng điền đủ dữ liệu</msg_js>
+  <msg_js2>Cập nhật nhân viên </msg_js2>
+  <msg_js3>Bạn chắn chắn muốn xóa?</msg_js3>
+  <msg_1>Xin vui lòng chọn phòng ban!</msg_1>
+  <detail>Bảng chấm công chi tiết NV</detail>
+  <msg_3>Không tìm thấy thông tin của nhân viên</msg_3>
+  <msg_4>Cập nhật thành công!</msg_4>
+</QuetThe_ReportMonth>

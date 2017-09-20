@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Luong_PheDuyetBangLuong>
+  <msg_js>Are you sure to delete?</msg_js>
+  <thang>Month: &amp;nbsp;</thang>
+  <chonPB>Choose department...</chonPB>
+  <dsPB>Department list</dsPB>
+  <tooltip>View payroll of choosed month and year</tooltip>
+  <bangluongCT>Detailed payroll</bangluongCT>
+  <hoten>Are you sure to delete?</hoten>
+  <maNV>Month: &amp;nbsp;</maNV>
+  <idCard>ID</idCard>
+  <ngayvao>Starting date</ngayvao>
+  <luongCB>Basic salary</luongCB>
+  <luongPC>Allowance salary</luongPC>
+  <ngaycong>Working day</ngaycong>
+  <tiencong>Wage</tiencong>
+  <chitiet>Detail</chitiet>
+  <tongTGTC>Total overtime</tongTGTC>
+  <TienTangCa>Overtime salary</TienTangCa>
+  <phucapKhac>Other allowances</phucapKhac>
+  <tongluong>Total salary</tongluong>
+  <xuatEx>Export Excel</xuatEx>
+  <ngay>Date</ngay>
+  <grd_Status>Status</grd_Status>
+  <tgDiMuon>Late coming time</tgDiMuon>
+  <tgVeSom>Early leaving time</tgVeSom>
+  <hsLuong>Salary coefficient</hsLuong>
+  <trangthai>Status</trangthai>
+  <tangca>Overtime</tangca>
+  <sotien>Amount of money</sotien>
+  <phucap>Allowance</phucap>
+  <phieuluong>Salary sheet</phieuluong>
+  <inphieuluong>Print salary sheet</inphieuluong>
+  <nam> year </nam>
+  <msg_1>No data in month </msg_1>
+  <title>Overtime calculation in detail </title>
+  <title2>Allowance calculation in detail </title2>
+  <khoanphucap>Allowance</khoanphucap>
+  <chukyluong>Salary Cycle</chukyluong>
+  <bangluongthang>MONTHLY PAYROLL </bangluongthang>
+</Luong_PheDuyetBangLuong>

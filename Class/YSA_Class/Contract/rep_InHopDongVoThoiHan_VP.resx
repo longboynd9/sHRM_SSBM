@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="xrLabel151.Text" xml:space="preserve">
+    <value>1. Ghi cụ thể tên doanh nghiệp, cơ quan, tổ chức, ví dụ: Công ty Xây dựng Hà Nội.
+Write exactly and clearly name of enterprises, bodies and organizations. For example: Hanoi House Contruction Company.
+2. Ghi rõ tên nghề nghiệp (nếu có nhiều nghề nghiệp thì ghi nghề nghiệp chính), ví dụ: Kỹ sư
+Write exactly and clearly occupation (write the main work that you take over), for example: Engineer.
+3. Ghi rõ loại hợp đồng lao động, ví dụ 1: Không xác định thời hạn, ví dụ 2: 06 tháng.
+Write exactly and clearly kind of labor contract, for example: indefine term: 6 months term.
+4. Ghi cụ thể địa điểm chính, ví dụ: Số 2 Đinh Lễ – Hà Nội: và địa điểm phụ (nếu có), ví dụ: Số 5 Tràng Thi – Hà Nội.
+Write exactly and clearly address of head office, for example No 2 Dinh Le Hanoi and, if any, sub office for example No 5 Trang Thi, Hanoi.
+5. Ghi các công việc chính phải làm, ví dụ: Lắp đặt, kiểm tra, sửa chữa hệ thống điện, thiết bị thông gió, thiết bị lạnh …. Trong doanh nghiệp.
+Write the main works that you have to take over. For example: assembly, check, repair electric system:  ventilation equipment at the enterprise.
+6. Ghi cụ thể số giờ làm việc trong ngày hoặc trong tuần, ví dụ: 08 giờ/ngày hoặc 40 giờ/tuần.
+Write exactly and clearly the number of the daily/weekly working hours. For example: 08 h/per day and 40h/per week.
+7. Ghi rõ phương tiện đi lại do bên nào đảm nhiệm, ví dụ: xe đơn vị đưa đón hoặc cá nhân tự túc.
+Write exactly and clearly means of transport provided from whom, for example: means of transport providing from office or the employees do it themselves.
+8. Ghi cụ thể tiền lương theo thang lương hoặc bảng lương mà đơn vị áp dụng, ví dụ: Thang lương A. 1 Cơ khí, điện, điện tử – tin học; nhóm III: Bậc 4/7; Hệ số lương tại thời điểm ký hợp đồng lao động là 428.400 đồng/tháng. 
+Write exactly and clearly salary in accordance with salary scale or salary sheet that office applied. For example: A1 salary scale: mechanic, electric – informatic, Group III; grade 4/7; coeffcient 2.04; the salary level at the time of signing contract is 428.400d/per month.
+9. Ghi tên loại phụ cấp, hệ số, mức phụ cấp tại thời điểm ký kết hợp đồng lao động, ví dụ: Phụ cấp trách nhiệm Phó trưởng phòng; Hệ số: 0,3; Mức phụ cấp 63.000 đồng/tháng.
+Write kind of allowance, coefficient, level of allowance at the time of signing the labour contract. For example: Responsibility allowance for Vice Head of Department; coefficent 0,3 ; level of allowance 63.000d/per month.
+10. Đối với người lao động thuộc đối tượng đóng BHXH bắt buộc thì ghi tỷ lệ % tiền lương hàng tháng hai bên phải trích nộp cho cơ quan BHXH, ví dụ: Hàng tháng người sử dụng lao động trích từ 6% từ tiền lương tháng của người lao động và số tiền trong giá thành tương ứng bằng 17% tiền lương tháng của người lao động  để đóng 20% cho cơ quan BHXH và 3% cho cơ quan BHYT.
+Đối với người lao động không đóng BHXH bắt buộc thì khỏan tiền BHXH tính thêm vào tiền lương để người lao động tham gia bảo hiểm tự nguyện hoặc tự lo lấy bảo hiểm, ví dụ: Khoản tiền BHXH đã tính thêm vào tiền lương cho người lao động là 17% tiền lương tháng.
+For the employees that belong to volunteer social insurance scheme shall be write percentage of monthly salary that both side extracting fof social insurance fund.  For example: The employer extract 6% from month salary of employees and the amount in the price cost equal 17% of the month salary of employees for social insurance monthly.
+For the employees that belong to volunteer social insurance scheme shall be write the social insurance money added in employee’s salary in order that employee volunrarilly takes part the social insulate scheme or solves himself for social insurance fund, for example: the social insurance money have already added in employees salary is 17%.
+11. Ghi cụ thể trường hợp đơn vị cử đào tạo thì người lao động phải có nghĩa vụ gì và được hưởng quyền lợi gì, ví dụ: Trong thời gian đơn vị cử đi học người lao động phải hòan thành khóa học đúng thời hạn, được hưởng nguyên lương và các quyền lợi khác như người đi làm việc, trừ tiền bồi dưỡng độc hại.
+Write exactly and clearly rights, benefits and obligations of employee from the case that assign for training by enterprise. For example, during the time of assigning for training, the employees shall have the obligation complete the training course on time, shall have entitle to full salary and other rights and benefits as the other employee excluding addition payment for toxic working environment.
+12. Ghi những quyền lợi mà chưa có trong Bộ Luật Lao động, trong thỏa ước lao động tập thể hoặc đã có nhưng có lợi hơn cho người lao động, ví dụ: đi tham quan, du lịch, nghỉ mát, quà sinh nhật.
+Write exactly and clearly the level of compensation for each violated case. For example, the employee shall have to pay compensation of 6 million VND if shall not be working for enterprise after training; making payment of compesation of 3 million for not working full 2 years.
+13. Ghi rõ mức bồi thường cho mỗi trường hợp vi phạm, ví dụ: Sau khi đào tạo mà không làm việc cho doanh nghiệp thì phải bồi thường 06 (sáu) triệu đồng; không làm việc đủ 02 năm phải bồi thường 03 (ba) triệu đồng.
+</value>
+  </data>
+  <data name="xrLabel149.Text" xml:space="preserve">
+    <value>The labor contract are made in duplicate with equal validity from the date of signing, each party keeps one original. Where any addendum to this contract is concluded by parties, such addendum has the same validity as this labor contract.</value>
+  </data>
+  <data name="xrLabel117.Text" xml:space="preserve">
+    <value>- Bảo hiểm: Công ty chi trả 18% Bảo hiểm Xã hội, 3% Bảo hiểm Y tế, 1% bảo hiểm Thất nghiệp. Người lao động chi trả 8% Bảo hiểm xã hội, 1,5% Bảo hiểm Y tế, 1% bảo hiểm Thất nghiệp. Tỷ lệ chi trả theo quy định của Luật Lao động Việt Nam.</value>
+  </data>
+  <data name="xrLabel139.Text" xml:space="preserve">
+    <value>Company pays 18% social insurance, health insurance 3%, Unemployment insurance 1%. Employee pays 8% social insurance, health insurance1,5%, Unemployment insurance 1%.The rate of payment base on the labor Code of Viet Nam.</value>
+  </data>
+  <data name="xrLabel125.Text" xml:space="preserve">
+    <value>(Ban hành kèm theo Thông tư số: 21/2003/TT-BLĐTBXH
+Ngày 22/9/2003 của Bộ Lao động - Thương binh và Xã hội)
+(Issued under the circular of the Ministry of labor, Invalids and
+Social Affairs No 21/2003/TT-BLĐTBXH on 22 September 2003)
+</value>
+  </data>
+  <data name="xrLabel23.Text" xml:space="preserve">
+    <value>For labor issues which are not stated in this labor contract, the provisions of the collective labor agreement shall apply. Where a collective labor agreement does not exist, the provisions of the Labor Code shall apply.</value>
+  </data>
+  <data name="xrLabel84.Text" xml:space="preserve">
+    <value>- Hợp đồng lao động đựoc lập thành 02 bản có giá trị ngang nhau, mỗi bên giữ một bản, và có hiệu lực từ ngày ký. 
+Khi hai bên ký kết phụ lục hợp đồng thị nội dung của phụ lục hợp đồng cũng có giá trị như các nội dung của bản hợp đồng này.</value>
+  </data>
+  <data name="xrLabel88.Text" xml:space="preserve">
+    <value>Rights: To manage the employee to fulfill the jobs under labor contract (arrangement, transfer and suspension of jobs etc.). To suspend, terminate the labor contract and apply disciplinary measures in accordance with the provision of the Labor contract, the collective labor agreement (if any) and internal labor regulations of the Company.</value>
+  </data>
+  <data name="xrLabel83.Text" xml:space="preserve">
+    <value>2. Quyền hạn: Điều hành người lao đông hoàn thành công việc theo hợp đồng (bố trí, điều chuyển, tạm ngừng việc). Tạm hoãn, chấm dứt hợp đồng lao động, kỷ luật người lao động theo quy định của pháp luật và nội quy của doanh nghiệp. </value>
+  </data>
+  <data name="xrLabel109.Text" xml:space="preserve">
+    <value>Time of work: 
+1. Company starts working at 7:30; break 30 minutes, finishes at 16:30.
+2. Total 8 hours/ day, 48 hours/ week.
+3. Overtime maximum 4 hours per day (time overtime based on woker voluntary)
+</value>
+  </data>
+  <data name="xrLabel108.Text" xml:space="preserve">
+    <value>- Thời gian làm việc:
+       1. Công ty bắt đầu làm việc lúc 7:30, nghỉ trưa 30 phút, kết thúc thời gian làm việc lúc 16:30. 
+       2. Tổng số giờ làm việc 8h/ngày, 48h/ tuần.
+       3. Thời gian tăng ca một ngày không quá 4 tiếng (Thời gian tăng ca dựa trên sự tự nguyện của người lao động).</value>
+  </data>
+  <metadata name="bindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

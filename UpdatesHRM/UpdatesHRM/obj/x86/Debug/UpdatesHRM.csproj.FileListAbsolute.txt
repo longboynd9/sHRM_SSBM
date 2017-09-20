@@ -1,0 +1,51 @@
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\UpdatesHRM.exe.config
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\UpdatesHRM.exe
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\UpdatesHRM.pdb
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\UpdateConfig.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\Updater.XmlSerializers.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\Updater.exe
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\Ionic.Zip.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\UpdateConfig.pdb
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.csprojResolveAssemblyReference.cache
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.Update_sHRM.resources
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.Properties.Resources.resources
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.csproj.GenerateResource.Cache
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.exe.licenses
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.exe
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.pdb
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\DevExpress.BonusSkins.v14.2.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\DevExpress.Data.v14.2.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\DevExpress.Sparkline.v14.2.Core.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\DevExpress.Utils.v14.2.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\DevExpress.XtraEditors.v14.2.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\DevExpress.Data.v14.2.xml
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\DevExpress.Utils.v14.2.xml
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\DevExpress.Sparkline.v14.2.Core.xml
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\DevExpress.XtraEditors.v14.2.xml
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\de\DevExpress.Data.v14.2.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\es\DevExpress.Data.v14.2.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\ja\DevExpress.Data.v14.2.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\ru\DevExpress.Data.v14.2.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\de\DevExpress.Utils.v14.2.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\es\DevExpress.Utils.v14.2.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\ja\DevExpress.Utils.v14.2.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\ru\DevExpress.Utils.v14.2.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\de\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\es\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\ja\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\ru\DevExpress.Sparkline.v14.2.Core.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\de\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\es\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\ja\DevExpress.XtraEditors.v14.2.resources.dll
+C:\Users\LonG\documents\visual studio 2012\Projects\UpdatesHRM\UpdatesHRM\bin\x86\Debug\ru\DevExpress.XtraEditors.v14.2.resources.dll
+F:\YSSCompany\sHRM\sHRM_SSBM\UpdatesHRM\UpdatesHRM\bin\x86\Debug\UpdatesHRM.exe.config
+F:\YSSCompany\sHRM\sHRM_SSBM\UpdatesHRM\UpdatesHRM\bin\x86\Debug\UpdatesHRM.exe
+F:\YSSCompany\sHRM\sHRM_SSBM\UpdatesHRM\UpdatesHRM\bin\x86\Debug\UpdatesHRM.pdb
+F:\YSSCompany\sHRM\sHRM_SSBM\UpdatesHRM\UpdatesHRM\bin\x86\Debug\UpdateConfig.dll
+F:\YSSCompany\sHRM\sHRM_SSBM\UpdatesHRM\UpdatesHRM\bin\x86\Debug\UpdateConfig.pdb
+F:\YSSCompany\sHRM\sHRM_SSBM\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.csprojResolveAssemblyReference.cache
+F:\YSSCompany\sHRM\sHRM_SSBM\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.sHRM_Update.resources
+F:\YSSCompany\sHRM\sHRM_SSBM\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.Properties.Resources.resources
+F:\YSSCompany\sHRM\sHRM_SSBM\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.csproj.GenerateResource.Cache
+F:\YSSCompany\sHRM\sHRM_SSBM\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.exe
+F:\YSSCompany\sHRM\sHRM_SSBM\UpdatesHRM\UpdatesHRM\obj\x86\Debug\UpdatesHRM.pdb

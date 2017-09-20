@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<QuetThe_AnalyzeData>
+  <lblNote>This action will analyze all imported card swiping data and update attendance for workers working in shifts.</lblNote>
+  <lbTuNgay>From date</lbTuNgay>
+  <lbDenNgay>To date</lbDenNgay>
+  <msg_kqqt>Card swiping result: </msg_kqqt>
+  <msgTitleConfirm>Confirm again</msgTitleConfirm>
+  <msgConfirm>This action cannot cancel and undo!&lt;br /&gt;Are you sure to continue?</msgConfirm>
+  <msg_1>No executed record!</msg_1>
+  <msg_2>Update successfully (</msg_2>
+  <msg_3>record</msg_3>
+</QuetThe_AnalyzeData>

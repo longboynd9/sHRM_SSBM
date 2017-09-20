@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<Employee_Editor>
+  <msg_js2>Xin vui lòng điền đủ dữ liệu</msg_js2>
+  <Begindate>Từ ngày</Begindate>
+  <Enddate>Đến ngày</Enddate>
+  <dong>Đóng</dong>
+  <title_thongtinchung>Thông tin chung</title_thongtinchung>
+  <maNV>Mã NV &lt;span class='red'&gt;*&lt;/span&gt;</maNV>
+  <maNVcu>Mã NV cũ</maNVcu>
+  <ho>Họ:  &lt;span class='red'&gt;*&lt;/span&gt;</ho>
+  <ten>Tên: </ten>
+  <hoten>Họ và tên &lt;span class='red'&gt;*&lt;/span&gt;</hoten>
+  <tinhtrang>Tình trạng </tinhtrang>
+  <tinhtrangGD>Tình trạng GĐ</tinhtrangGD>
+  <gioitinh>Giới tính</gioitinh>
+  <chon>..Chọn..</chon>
+  <cardID>Số thẻ</cardID>
+  <ngayvaolam>Ngày vào làm</ngayvaolam>
+  <dienthoai>Số ĐT</dienthoai>
+  <ngaysinh>Ngày sinh</ngaysinh>
+  <save>Lưu</save>
+  <title_cmnd>Chứng minh nhân dân</title_cmnd>
+  <cmnd>Số CMND</cmnd>
+  <ngaycap>Ngày cấp</ngaycap>
+  <noicap>Nơi cấp</noicap>
+  <diachi>Địa chỉ</diachi>
+  <ngay_tgCD>Tham gia CĐ, Ngày</ngay_tgCD>
+  <phi_CD>Phí CĐ: </phi_CD>
+  <soTK>Số TK ngân hàng</soTK>
+  <ngaykyHD>Ngày ký HĐ: </ngaykyHD>
+  <taiNH>Tại ngân hàng</taiNH>
+  <ngaynopHS>Ngày Nộp HS:</ngaynopHS>
+  <KoTinhTangCa>Ko tính tiền tăng ca</KoTinhTangCa>
+  <luongcoban>Lương cơ bản</luongcoban>
+  <phucapTX>Phụ cấp TX:</phucapTX>
+  <bhld>Bảo hiểm - Sổ lao động</bhld>
+  <bhxh>Bảo hiểm xã hội</bhxh>
+  <chuyenden>Chuyển đến</chuyenden>
+  <soBHXHcu>Số BHXH cũ</soBHXHcu>
+  <sosoBH>Số sổ BH</sosoBH>
+  <daudongBH>Dấu đóng BH</daudongBH>
+  <dacapsoBH>Đã cấp sổ BH</dacapsoBH>
+  <ngaydoi>Ngày đổi</ngaydoi>
+  <chuyendi>Chuyển đi</chuyendi>
+  <ngaychuyen>Ngày chuyển</ngaychuyen>
+  <lydo>Lý do</lydo>
+  <title_BHYT>Bảo hiểm Y tế</title_BHYT>
+  <dadangky>Đã đăng ký</dadangky>
+  <soso>Số sổ</soso>
+  <batdau>Bắt đầu</batdau>
+  <title_DangKyKCB>Nơi đăng ký khám chữa bệnh</title_DangKyKCB>
+  <ngay>Ngày</ngay>
+  <noidangky>Nơi đăng ký</noidangky>
+  <ghichu>Ghi chú</ghichu>
+  <ngaynopdon>Ngày nộp đon</ngaynopdon>
+  <title_SoLaoDong>Sổ lao động</title_SoLaoDong>
+  <titleThoiviec>Thôi việc</titleThoiviec>
+  <daThoiViec>Đã thôi việc</daThoiViec>
+  <ngaythoiviec>Ngày thôi việc</ngaythoiviec>
+  <quyetdinhso>Quyết định số</quyetdinhso>
+  <huongtrocap>Hưởng trợ cấp</huongtrocap>
+  <thangtinhluongcuoi>Tháng tính lương cuối</thangtinhluongcuoi>
+  <namtraluongcuoi>Năm trả lương cuối cùng</namtraluongcuoi>
+  <lydothoiviec>Lý do thôi việc</lydothoiviec>
+  <ngaytraluongcuoi>Ngày trả lương cuối</ngaytraluongcuoi>
+  <title_ThongTinKhac>Thông tin khác</title_ThongTinKhac>
+  <loaiNV>Loại Nhân Viên</loaiNV>
+  <phongban>Phòng ban</phongban>
+  <chucdanh>Chức danh</chucdanh>
+  <capbac>Cấp bậc</capbac>
+  <phucap>Phụ cấp</phucap>
+  <phucaphangthang>Phụ cấp hàng tháng</phucaphangthang>
+  <thang>Tháng:   </thang>
+  <chonPB>Chọn phòng ban...</chonPB>
+  <dsPB>Danh sách phòng ban</dsPB>
+  <tooltip>Xem bảng lương của tháng và năm đã chọn</tooltip>
+  <bangluongCT>Bảng lương chi tiết</bangluongCT>
+  <idCard>CMND</idCard>
+  <ngayvao>Ngày vào</ngayvao>
+  <luongCB>Lương cơ bản</luongCB>
+  <luongPC>Lương phụ cấp</luongPC>
+  <ngaycong>Ngày công</ngaycong>
+  <tiencong>Tiền công</tiencong>
+  <chitiet>Chi tiết</chitiet>
+  <tongTGTC>Tổng tg tăng ca</tongTGTC>
+  <TienTangCa>Tiền tăng ca</TienTangCa>
+  <phucapKhac>Phụ cấp khác</phucapKhac>
+  <tongluong>Tổng Lương</tongluong>
+  <inphieu>In phiếu</inphieu>
+  <xuatEx>Xuất Excel</xuatEx>
+  <grd_Status>TT</grd_Status>
+  <tgDiMuon>TG đi muộn</tgDiMuon>
+  <tgVeSom>TG về sớm</tgVeSom>
+  <hsLuong>HS lương</hsLuong>
+  <trangthai>Trạng thái</trangthai>
+  <tangca>Tăng ca</tangca>
+  <sotien>Số tiền</sotien>
+  <hopdong>Hợp đồng</hopdong>
+  <mahopdong>Mã hợp đồng</mahopdong>
+  <loaihopdong>Loại hợp đồng</loaihopdong>
+  <tungay>Từ ngày</tungay>
+  <denngay>Đến ngày</denngay>
+  <chucvu>Chức vụ</chucvu>
+  <phieuluong>Phiếu lương</phieuluong>
+  <phieuluongthang>Phiếu lương tháng </phieuluongthang>
+  <inphieuluong>In phiếu lương</inphieuluong>
+  <nam1> năm </nam1>
+  <msg_1>Mã nhân viên đã được sử dụng!</msg_1>
+  <title>Chi tiết ngày công NV </title>
+  <title3>Chi tiết tính tăng ca NV </title3>
+  <title2>Chi tiết tính phụ cấp NV </title2>
+  <khoanphucap>Khoản phụ cấp</khoanphucap>
+  <chukyluong>Chu kỳ lương</chukyluong>
+  <bangluongthang>BẢNG LƯƠNG THÁNG </bangluongthang>
+  <sendingmail>Đang gửi mail...</sendingmail>
+</Employee_Editor>

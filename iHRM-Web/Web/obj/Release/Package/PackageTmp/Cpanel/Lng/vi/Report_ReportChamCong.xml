@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Report_ReportChamCong>
+  <title>Báo cáo Giờ công - Giờ tăng ca tháng</title>
+  <lbPhongBan>Phòng ban:   </lbPhongBan>
+  <pb>Phòng ban</pb>
+  <chonPB>Chọn phòng ban...</chonPB>
+  <dsPB>Danh sách phòng ban</dsPB>
+  <tungay>  Từ Ngày:  </tungay>
+  <denngay>  Đến Ngày:  </denngay>
+  <tenNV>Tên nhân viên</tenNV>
+  <nhanvien>Nhân viên</nhanvien>
+  <MaNV>Mã nhân viên</MaNV>
+  <MaNV2>Mã NV</MaNV2>
+  <chucvu>Chức vụ</chucvu>
+  <tongNC>Tổng Ngày công</tongNC>
+  <nghiLe>Nghỉ lễ</nghiLe>
+  <nghiPhep>Nghỉ phép</nghiPhep>
+  <nghiKoPhep>Nghỉ không phép</nghiKoPhep>
+  <tgTangCa>TG tăng ca</tgTangCa>
+  <msg_js1>Cập nhật nhân viên </msg_js1>
+  <msg_js2>Bạn chắn chắn muốn xóa?</msg_js2>
+  <msg_1>Không có dữ liệu</msg_1>
+  <msg_2>Bạn chưa chọn ngày</msg_2>
+</Report_ReportChamCong>

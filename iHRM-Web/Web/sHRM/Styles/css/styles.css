@@ -1,0 +1,22 @@
+﻿
+@charset "utf-8";
+
+.red { color: red;}
+
+.BannerShrm { background:url('/sHRM/Styles/img/bg_Head.jpg'); padding-right:10px; }
+
+.tenCty { white-space:nowrap; color:white; text-transform:uppercase; }
+.tenCty2 { white-space:nowrap; color:white; }
+.topMenu { background-color: #0072C6; }
+.topMenu ul { list-style:none; }
+.topMenu ul li { display:inline-block; }
+.topMenu ul li a { color:white; font-family:Tahoma; font-size:13px; padding:7px 10px; display: block; text-decoration:none; }
+.topMenu ul li a.active,
+.topMenu ul li a:hover { background-color: #005ea3; }
+.FooterShrm { background-color: #D6E3F2;}
+.FooterShrm ul { list-style:none;}
+.FooterShrm ul li { display:inline-block;}
+.FooterShrm ul li a { color:#244264; font-family:Tahoma; font-size:12px; padding:5px 10px; display: block; text-decoration:none; }
+.FooterShrm ul li a:hover { text-decoration:underline; }
+
+.footerLink { color:#244264; font-family:Tahoma; font-size:11px; display: block; text-decoration:none; margin-right:10px; }

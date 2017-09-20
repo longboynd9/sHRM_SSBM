@@ -1,0 +1,296 @@
+﻿{{INCLUDE Master\Header}}
+<script type="text/javascript">$(function () { SelectTopMenu(2); });</script>
+
+<!--start main -->
+<div class="main_bg">
+    <div class="wrap">
+        <div class="main">
+            <div class="details">
+                <h2>Reservation</h2>
+
+                <div class="det_text">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            {{msg}}
+                        </div>
+                    </div>
+
+                    <div class="container" id="form1">
+                        <form class="form-horizontal" role="form" method="post">
+
+                            <div class="form-group">
+                                <label for="BookRoom_fullName" class="col-md-2 control-label">Full Name <span class='red'>(*)</span></label>
+                                <div class="col-md-4">
+                                    <table style="width: 100%">
+                                        <tr>
+                                            <td style="width: 75px">
+                                                <select id="BookRoom_customerTitle" class="form-control" name="BookRoom_customerTitle" style="width: 75px; display: inline-block; float: left;">
+                                                    <option value="">Select a title</option>
+                                                    <option value="Mr">Mr</option>
+                                                    <option value="Mrs">Mrs</option>
+                                                    <option value="Miss">Miss</option>
+                                                    <option value="Ms">Ms</option>
+                                                    <option value="Dr">Dr</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input id="BookRoom_fullName" name="BookRoom_fullName" type="text" class="form-control required" placeholder="">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+
+                                <label for="BookRoom_Email" class="col-md-2 control-label">Email <span class='red'>(*)</span></label>
+                                <div class="col-md-4">
+                                    <input class="form-control required" id="BookRoom_Email" name="BookRoom_Email" type="text" placeholder="">
+                                </div>
+
+                                <label for="BookRoom_Email2" class="col-md-2 control-label">Confirm Email</label>
+                                <div class="col-md-4">
+                                    <input class="form-control required" id="BookRoom_Email2" name="BookRoom_Email2" type="text" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="BookRoom_Address" class="col-md-2 control-label">Address</label>
+                                <div class="col-md-4">
+                                    <input class="form-control" id="BookRoom_Address" name="BookRoom_Address" type="text" placeholder="">
+                                </div>
+
+                                <label class="col-md-2" style="padding-top:7px">
+                                    <a class="" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                        More...
+                                    </a>
+                                </label>
+                            </div>
+
+                            <div class="collapse" id="collapseExample">
+
+                                <div class="form-group">
+                                    <label for="BookRoom_Arrive" class="col-md-2 control-label">Arrive</label>
+                                    <div class="col-md-4">
+                                        <input class="form-control" id="BookRoom_Arrive" name="BookRoom_Arrive" type="text" placeholder="">
+                                    </div>
+
+                                    <label for="BookRoom_Depart" class="col-md-2 control-label">Depart</label>
+                                    <div class="col-md-4">
+                                        <input class="form-control" id="BookRoom_Depart" name="BookRoom_Depart" type="text" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="BookRoom_TravellerName" class="col-md-2 control-label">Traveller's Name</label>
+                                    <div class="col-md-4">
+                                        <input class="form-control" id="BookRoom_TravellerName" name="BookRoom_TravellerName" type="text" placeholder="">
+                                    </div>
+
+                                    <label for="BookRoom_Country" class="col-md-2 control-label">Country</label>
+                                    <div class="col-md-4">
+                                        <input class="form-control" id="BookRoom_Country" name="BookRoom_Country" type="text" placeholder="">
+                                    </div>
+
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="BookRoom_City" class="col-md-2 control-label">City</label>
+                                    <div class="col-md-4">
+                                        <input class="form-control" id="BookRoom_City" name="BookRoom_City" type="text" placeholder="">
+                                    </div>
+
+                                    <label for="BookRoom_Province" class="col-md-2 control-label">State/Province</label>
+                                    <div class="col-md-4">
+                                        <input class="form-control" id="BookRoom_Province" name="BookRoom_Province" type="text" placeholder="">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="BookRoom_Phone" class="col-md-2 control-label">Phone <span class='red'>(*)</span></label>
+                                <div class="col-md-4">
+                                    <input class="form-control required" id="BookRoom_Phone" name="BookRoom_Phone" type="text" placeholder="">
+                                </div>
+
+                                <label for="BookRoom_Fax" class="col-md-2 control-label">Fax</label>
+                                <div class="col-md-4">
+                                    <input class="form-control" id="BookRoom_Fax" name="BookRoom_Fax" type="text" placeholder="">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="BookRoom_date1" class="col-md-2 control-label">Check-in <span class='red'>(*)</span></label>
+                                <div class="col-md-4">
+                                    <input id="BookRoom_date1" class="form-control date required" name="BookRoom_date1" placeholder="MM/DD/YY" type="text">
+                                </div>
+
+                                <label for="BookRoom_date2" class="col-md-2 control-label">Check-out</label>
+                                <div class="col-md-4">
+                                    <input class="form-control date" id="BookRoom_date2" name="BookRoom_date2" type="text" placeholder="MM/DD/YY">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="BookRoom_roomType" class="col-md-2 control-label">Room<span class='red'>(*)</span></label>
+                                <div class="col-md-4">
+                                    <select id="BookRoom_roomType" name="BookRoom_roomType" class="form-control required">
+                                        <option value="">Select a type of room</option>
+                                        <!-- BEGIN BookRoom_roomType_Block -->
+                                        <option value="{{Value}}">{{Text}}</option>
+                                        <!-- END BookRoom_roomType_Block -->
+                                    </select>
+                                </div>
+
+                                <label for="BookRoom_peopleCount" class="col-md-2 control-label">Adults <span class='red'>(*)</span></label>
+                                <div class="col-md-1">
+                                    <select id="BookRoom_peopleCount" name="BookRoom_peopleCount" class="form-control required">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                    </select>
+                                </div>
+
+                                <label for="BookRoom_peopleCount" class="col-md-1 control-label">Childern</label>
+                                <div class="col-md-1">
+                                    <select id="BookRoom_childernCount" name="BookRoom_childernCount" class="form-control">
+                                        <option value="0">0</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="BookRoom_comments" class="col-md-2 control-label">Orther requests, comments</label>
+                                <div class="col-md-4">
+                                    <textarea class="form-control" id="BookRoom_comments" name="BookRoom_comments" rows="3"></textarea>
+                                </div>
+
+                                <label class="col-md-2 control-label">Services</label>
+                                <div class="col-md-4">
+                                    <label><input type="checkbox" id="BookRoom_oto" name="BookRoom_oto" /> shuttle</label><br />
+                                    <label><input type="checkbox" id="BookRoom_tour" name="BookRoom_tour" /> Tour</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-6">
+                                    <div class="res_btn">
+                                        <input name="me_book" id="me_book" type="submit" value="book now" style="width: 280px;">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <br /><br />
+                                    by click book you have agree with <a href="#">my rule</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="details">
+                <h2>Basic Information</h2>
+
+                <div class="det_text">
+
+                    <div class="row">
+                        <div class="col-md-12">
+
+                            <div class="res_online" style="margin-left: 25px; margin-bottom: 35px;">
+                                <p class="para">
+                                    LIEN HIEP THANH RESORT<br />
+                                    Long beach | Phu Quoc Island | Kien Giang Province | Vietnam | 920000<br />
+                                    T: +84 (0)773 847583 (7:00 – 21:00 GMT +7)<br />
+                                    M: +84 (0)908127313 (working hours)<br />
+                                    Skype: mr_phuquoc<br />
+                                    Please consider of contacting us directly for a
+                                    reservation within 48 hours prior to arrival date:<br />
+                                    <br />
+                                    E: lienhiepthanh2007@yahoo.com.vn<br />
+                                    M: +84 (0)908127303 (7:00 – 16:00 GMT +7)<br />
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<style type="text/css">
+    #form1 select {
+        margin: 0;
+    }
+
+    #form1 .input-group {
+        margin-bottom: 10px;
+    }
+
+    #form1 .er {
+        border-color: #a94442;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    }
+
+    .red {
+        color: red;
+    }
+</style>
+
+<!---strat-date-piker---->
+<script src="{{Assets}}js/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $(".date").datepicker();
+
+        $('#me_book').click(function () {
+            var ok = true;
+            $('#form1 .required').each(function () {
+                if ($(this).val() == '') {
+                    ok = false;
+                    $(this).addClass('er');
+                }
+                else {
+                    $(this).removeClass('er');
+                }
+            });
+
+            if ($('#BookRoom_Email2').val() != $('#BookRoom_Email').val()) {
+                $('#BookRoom_Email2').focus();
+                $('#BookRoom_Email2').select();
+                $('#BookRoom_Email2').addClass('er');
+                ok = false;
+            }
+            else
+                $('#BookRoom_Email2').removeClass('er');
+
+            return ok;
+        });
+
+        $('#msg112').effect('highlight', 750);
+
+        {{ScriptStart}}
+    });
+</script>
+<!---/End-date-piker---->
+{{INCLUDE Master\Footer}}

@@ -1,0 +1,35 @@
+﻿{{INCLUDE Master\Header}}
+<script type="text/javascript">$(function () { SelectTopMenu(3); });</script>
+
+<!--start main -->
+<div class="main_bg">
+    <div class="wrap">
+
+        <div class="main">
+            <div class="details">
+                <h2>Món ăn</h2>
+
+                <div class="det_text container">
+                    <div class="row">
+                        <!-- BEGIN mon_an_block -->
+                        <div class="col-md-3 grid1_of_3">
+                            <div class="grid1_of_3_img">
+                                <a href="{{link}}">
+                                    <img src="{{image}}" alt="" />
+                                    <span class="next"></span>
+                                </a>
+                            </div>
+                            <h4><a href="{{link}}">{{title}}</a></h4>
+                            <p>{{description}}</p>
+                        </div>
+                        {{div_clear}}
+                        <!-- END mon_an_block -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+{{INCLUDE Master\Footer}}

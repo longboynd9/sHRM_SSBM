@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Luong_ReportMonth>
+  <msg_js>Bạn chắn chắn muốn xóa?</msg_js>
+  <tungay>Từ ngày</tungay>
+  <denngay>Đến ngày</denngay>
+  <thang>Tháng:   </thang>
+  <chonPB>Chọn phòng ban...</chonPB>
+  <dsPB>Danh sách phòng ban</dsPB>
+  <tooltip>Xem bảng lương của tháng và năm đã chọn</tooltip>
+  <bangluongCT>Bảng lương chi tiết</bangluongCT>
+  <hoten>Họ và tên</hoten>
+  <maNV>Mã NV</maNV>
+  <idCard>CMND</idCard>
+  <ngayvao>Ngày vào</ngayvao>
+  <luongCB>Lương cơ bản</luongCB>
+  <luongPC>Lương phụ cấp</luongPC>
+  <ngaycong>Tổng ngày công</ngaycong>
+  <ngaycong_bt>Ngày công</ngaycong_bt>
+  <ngaycong_phep>NC phép</ngaycong_phep>
+  <ngaycong_lt>NC lễ tết</ngaycong_lt>
+  <tiencong>Tổng tiền công</tiencong>
+  <tiencong_bt>Tiền công</tiencong_bt>
+  <tiencong_phep>TC phép</tiencong_phep>
+  <tiencong_lt>TC lễ tết</tiencong_lt>
+  <chitiet>Chi tiết</chitiet>
+  <TGTC_bt>Tg tăng ca</TGTC_bt>
+  <TGTC_cn>TGTC chủ nhật</TGTC_cn>
+  <TGTC_lt>TGTC lễ tết</TGTC_lt>
+  <tongTGTC>Tổng tg tăng ca</tongTGTC>
+  <TienTangCa_bt>Tiền tăng ca</TienTangCa_bt>
+  <TienTangCa_cn>Tiền tc cn</TienTangCa_cn>
+  <TienTangCa_lt>Tiền tc lễ tết</TienTangCa_lt>
+  <TienTangCa>Tổng tiền tăng ca</TienTangCa>
+  <thuongChuyenCan>Thưởng chuyên cần</thuongChuyenCan>
+  <phucapKhac>Phụ cấp khác</phucapKhac>
+  <tongluong>Tổng Lương</tongluong>
+  <inphieu>In phiếu</inphieu>
+  <xuatEx>Xuất Excel</xuatEx>
+  <ngay>Ngày</ngay>
+  <grd_Status>TT</grd_Status>
+  <tgDiMuon>TG đi muộn</tgDiMuon>
+  <tgVeSom>TG về sớm</tgVeSom>
+  <hsLuong>HS lương</hsLuong>
+  <trangthai>Trạng thái</trangthai>
+  <tangca>Tăng ca</tangca>
+  <sotien>Số tiền</sotien>
+  <phucap>Phụ cấp</phucap>
+  <phieuluong>Phiếu lương</phieuluong>
+  <phieuluongthang>Phiếu lương tháng </phieuluongthang>
+  <inphieuluong>In phiếu lương</inphieuluong>
+  <nam> năm </nam>
+  <msg_1>Không có dữ liệu của tháng </msg_1>
+  <title>Chi tiết ngày công NV </title>
+  <title3>Chi tiết tính tăng ca NV </title3>
+  <title2>Chi tiết tính phụ cấp NV </title2>
+  <khoanphucap>Khoản phụ cấp</khoanphucap>
+  <chukyluong>Chu kỳ lương</chukyluong>
+  <bangluongthang>BẢNG LƯƠNG THÁNG </bangluongthang>
+  <sendingmail>Đang gửi mail...</sendingmail>
+</Luong_ReportMonth>

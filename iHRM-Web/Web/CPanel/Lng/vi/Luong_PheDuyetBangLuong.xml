@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Luong_PheDuyetBangLuong>
+  <msg_js>Bạn chắn chắn muốn xóa?</msg_js>
+  <thang>Tháng: &amp;nbsp;</thang>
+  <chonPB>Chọn phòng ban...</chonPB>
+  <dsPB>Danh sách phòng ban</dsPB>
+  <tooltip>Xem bảng lương của tháng và năm đã chọn</tooltip>
+  <bangluongCT>Bảng lương chi tiết</bangluongCT>
+  <hoten>Bạn chắn chắn muốn xóa?</hoten>
+  <maNV>Tháng: &amp;nbsp;</maNV>
+  <idCard>CMND</idCard>
+  <ngayvao>Ngày vào</ngayvao>
+  <luongCB>Lương cơ bản</luongCB>
+  <luongPC>Lương phụ cấp</luongPC>
+  <ngaycong>Ngày công</ngaycong>
+  <tiencong>Tiền công</tiencong>
+  <chitiet>Chi tiết</chitiet>
+  <tongTGTC>Tổng tg tăng ca</tongTGTC>
+  <TienTangCa>Tiền tăng ca</TienTangCa>
+  <phucapKhac>Phụ cấp khác</phucapKhac>
+  <tongluong>Tổng Lương</tongluong>
+  <xuatEx>Xuất Excel</xuatEx>
+  <ngay>Ngày</ngay>
+  <grd_Status>TT</grd_Status>
+  <tgDiMuon>TG đi muộn</tgDiMuon>
+  <tgVeSom>TG về sớm</tgVeSom>
+  <hsLuong>HS lương</hsLuong>
+  <trangthai>Trạng thái</trangthai>
+  <tangca>Tăng ca</tangca>
+  <sotien>Số tiền</sotien>
+  <phucap>Phụ cấp</phucap>
+  <phieuluong>Phiếu lương</phieuluong>
+  <inphieuluong>In phiếu lương</inphieuluong>
+  <nam> năm </nam>
+  <msg_1>Không có dữ liệu của tháng </msg_1>
+  <title>Chi tiết tính tăng ca NV </title>
+  <title2>Chi tiết tính phụ cấp NV </title2>
+  <khoanphucap>Khoản phụ cấp</khoanphucap>
+  <chukyluong>Chu kỳ lương</chukyluong>
+  <bangluongthang>BẢNG LƯƠNG THÁNG </bangluongthang>
+</Luong_PheDuyetBangLuong>

@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<Employee_Editor>
+  <msg_js2>Please fill in full data</msg_js2>
+  <dong>Close</dong>
+  <title_thongtinchung>General information</title_thongtinchung>
+  <maNV>Empl ID &lt;span class='red'&gt;*&lt;/span&gt;</maNV>
+  <maNVcu>Old Empl ID</maNVcu>
+  <ho>Last name &lt;span class='red'&gt;*&lt;/span&gt;</ho> 
+  <save>Save</save>
+  <ten>Name: </ten>
+  <hoten>Full name &lt;span class='red'&gt;*&lt;/span&gt;</hoten>
+  <tinhtrang>Status: </tinhtrang>
+  <tinhtrangGD>Family status </tinhtrangGD>
+  <gioitinh>Gender</gioitinh>
+  <chon>..Select..</chon>
+  <cardID>Card ID</cardID>
+  <ngayvaolam>Starting date</ngayvaolam>
+  <dienthoai>Phone</dienthoai>
+  <ngaysinh>Date of birth</ngaysinh>
+  <title_cmnd>ID</title_cmnd>
+  <cmnd>ID number</cmnd>
+  <ngaycap>Issue date</ngaycap>
+  <noicap>Issue place</noicap>
+  <diachi>Address</diachi>
+  <ngay_tgCD>Join trade union,Date</ngay_tgCD>
+  <phi_CD>Trade Union fee: </phi_CD>
+  <soTK>Bank account no.</soTK>
+  <ngaykyHD>Contract date: </ngaykyHD>
+  <taiNH>Bank name</taiNH>
+  <ngaynopHS>Profile Date:</ngaynopHS>
+  <KoTinhTangCa>Not calculate overtime</KoTinhTangCa>
+  <luongcoban>Basic salary</luongcoban>
+  <phucapTX>Allowance:</phucapTX>
+  <bhld>Insurance - Labor Book</bhld>
+  <bhxh>Social Insurance</bhxh>
+  <chuyenden>Send to</chuyenden>
+  <soBHXHcu>Old insurance</soBHXHcu>
+  <sosoBH>Insurance no</sosoBH>
+  <daudongBH>Insurance stamp</daudongBH>
+  <dacapsoBH>Issued insurance</dacapsoBH>
+  <ngaydoi>Changing date</ngaydoi>
+  <chuyendi>Move to</chuyendi>
+  <ngaychuyen>Transfering date</ngaychuyen>
+  <lydo>Reason</lydo>
+  <title_BHYT>Health insurance</title_BHYT>
+  <dadangky>Registered</dadangky>
+  <soso>Book no.</soso>
+  <batdau>Start</batdau>
+  <title_DangKyKCB>Health examination registering place</title_DangKyKCB>
+  <ngay>Date</ngay>
+  <noidangky>Register Place</noidangky>
+  <ghichu>Note</ghichu>
+  <ngaynopdon>Filing date</ngaynopdon>
+  <title_SoLaoDong>Labor book</title_SoLaoDong>
+  <titleThoiviec>Resignation</titleThoiviec>
+  <daThoiViec>Resigned</daThoiViec>
+  <ngaythoiviec>Resignation date</ngaythoiviec>
+  <quyetdinhso>Decision no.</quyetdinhso>
+  <huongtrocap>Enjoy allowance</huongtrocap>
+  <thangtinhluongcuoi>Last salary month</thangtinhluongcuoi>
+  <namtraluongcuoi>Last salary year</namtraluongcuoi>
+  <lydothoiviec>Resignation reason</lydothoiviec>
+  <ngaytraluongcuoi>Last salary date</ngaytraluongcuoi>
+  <title_ThongTinKhac>Other information</title_ThongTinKhac>
+  <loaiNV>Employee type</loaiNV>
+  <phongban>Department</phongban>
+  <chucdanh>Position</chucdanh>
+  <capbac>Grade</capbac>
+  <phucap>Allowance</phucap>
+  <phucaphangthang>Monthly allowance</phucaphangthang>
+  <thang>Month:   </thang>
+  <chonPB>Select department...</chonPB>
+  <dsPB>Department list</dsPB>
+  <tooltip>View payroll in selected month and year </tooltip>
+  <bangluongCT>Detailed payroll</bangluongCT>
+  <idCard>ID</idCard>
+  <ngayvao>Starting date</ngayvao>
+  <luongCB>Basic salary</luongCB>
+  <luongPC>Allowance salary</luongPC>
+  <ngaycong>Working day</ngaycong>
+  <tiencong>Wage</tiencong>
+  <chitiet>Detail</chitiet>
+  <tongTGTC>Total overtime</tongTGTC>
+  <TienTangCa>Overtime salary</TienTangCa>
+  <phucapKhac>Other allowance</phucapKhac>
+  <tongluong>Total salary</tongluong>
+  <inphieu>Print sheet</inphieu>
+  <xuatEx>Export Excel</xuatEx>
+  <grd_Status>Status</grd_Status>
+  <tgDiMuon>Late coming date</tgDiMuon>
+  <tgVeSom>Early leaving time</tgVeSom>
+  <hsLuong>Salary coefficient</hsLuong>
+  <trangthai>Status</trangthai>
+  <tangca>Overtime</tangca>
+  <sotien>Amount of money</sotien>
+  <hopdong>Contract</hopdong>
+  <mahopdong>Contract code</mahopdong>
+  <loaihopdong>Contract type</loaihopdong>
+  <tungay>From date</tungay>
+  <denngay>To date</denngay>
+  <chucvu>Position</chucvu>
+  <phieuluong>Salary sheet</phieuluong>
+  <phieuluongthang>Monthly salary sheet</phieuluongthang>
+  <inphieuluong>Print salary sheet</inphieuluong>
+  <nam1> Year </nam1>
+  <msg_1>Used employee ID!</msg_1>
+  <title>Working day in detail </title>
+  <title3>Overtime calculation in detail </title3>
+  <title2>Allowance calculation in detail </title2>
+  <khoanphucap>Allowance</khoanphucap>
+  <chukyluong>Salary cycle</chukyluong>
+  <bangluongthang>MONTHLY PAYROLL </bangluongthang>
+  <sendingmail>Sending email...</sendingmail>
+</Employee_Editor>

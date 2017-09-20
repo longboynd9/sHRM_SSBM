@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Desktop>
+  <cm_view>Hiện thị</cm_view>
+  <cm_view_theoluoi>Theo lưới</cm_view_theoluoi>
+  <cm_view_tudo>Tự do</cm_view_tudo>
+  <cm_refresh>Tải lại</cm_refresh>
+  <cm_persional>Cá nhân hóa</cm_persional>
+  <startMenu_Wrench>Cấu hình hệ thống</startMenu_Wrench>
+  <startMenu_Update>Cập nhật</startMenu_Update>
+  <startMenu_Logout>Đăng xuất</startMenu_Logout>
+  <startMenu_AllPrograme>Tất cả chương trình</startMenu_AllPrograme>
+</Desktop>

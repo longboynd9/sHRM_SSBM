@@ -1,0 +1,84 @@
+﻿
+.glossymenu {
+    padding: 0;
+    width: 100%; /*width of menu*/
+    float: left;
+    border-top: none;
+}
+
+    .glossymenu a.menuitem {
+        /*background: url(../images/menu1.png) repeat-x bottom left;*/
+        color: #345077;
+        display: block;
+        position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+        width: auto;
+        padding: 4px 0;
+        padding-left: 10px;
+        text-decoration: none;
+        border: 1px solid #b9cade;
+        border-top: none;
+        border-right: none;
+        height: 21px;
+        line-height: 20px;
+    }
+
+        .glossymenu a.menuitem .statusicon { /*CSS for icon image that gets dynamically added to headers*/
+            position: absolute;
+            top: 13px;
+            right: 5px;
+            border: none;
+        }
+
+        .glossymenu a.menuitem:hover {
+            background-color:#b9cade;
+            /*background-image: url(../images/menu2.png);*/
+        }
+
+    .glossymenu a.active {
+        /*background-image: url(../images/menu2.png);*/
+        color: #345077;
+        display: block;
+        position: relative;
+        width: auto;
+        padding: 4px 0;
+        padding-left: 10px;
+        text-decoration: none;
+        border: 1px solid #B9CADE;
+        border-right: none;
+        /*border-left:5px solid #0072c6;*/
+        height: 20px;
+        line-height: 20px;
+        font-weight: bold;
+        /*color:#104C95;*/
+    }
+
+    .glossymenu div.submenu { /*DIV that contains each sub menu*/
+        background: #f5f9fe;
+    }
+
+        .glossymenu div.submenu ul { /*UL of each sub menu*/
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+            .glossymenu div.submenu ul li {
+                border-bottom: 1px solid #d9dfe5;
+                height: 29px;
+            }
+
+                .glossymenu div.submenu ul li a {
+                    display: block;
+                    font-size: 11px;
+                    color: #345077;
+                    text-decoration: none;
+                    padding: 2px 0;
+                    padding-left: 25px;
+                    height: 24px;
+                    line-height: 24px;
+                }
+
+                    .glossymenu div.submenu ul li a:hover {
+                        background: #DFDCCB;
+                        color: white;
+                    }

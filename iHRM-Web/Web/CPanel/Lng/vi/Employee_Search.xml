@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Employee_Search>
+  <msg_js>Cập nhật nhân viên </msg_js>
+  <msg_js3>Bạn chắn chắn muốn xóa?</msg_js3>
+  <msg_js2>Xin vui lòng điền đủ dữ liệu</msg_js2>
+  <chonPB>Chọn phòng ban...</chonPB>
+  <dsPB>Danh sách phòng ban</dsPB>
+  <themmoiNV>Thêm mới NV</themmoiNV>
+  <taomoiNV>Tạo mới NV</taomoiNV>
+  <maNV>Mã NV</maNV>
+  <hoten>Họ và tên</hoten>
+  <ngaysinh>Ngày sinh</ngaysinh>
+  <gioitinh>Giới tính</gioitinh>
+  <sdt>Số ĐT</sdt>
+  <quequan>Quê quán</quequan>
+  <cmnd>CMND</cmnd>
+  <ngayvao>Ngày vào</ngayvao>
+  <bophan>Bộ phận</bophan>
+  <vitri>Vị trí</vitri>
+</Employee_Search>

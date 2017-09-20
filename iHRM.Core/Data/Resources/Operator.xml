@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<func>
+  <item Name="+" Description="" Usage="" />
+  <item Name="-" Description="" Usage="" />
+  <item Name="*" Description="" Usage="" />
+  <item Name="/" Description="" Usage="" />
+  <item Name="^" Description="" Usage="" />
+  <item Name="||" Description="or" Usage="" />
+  <item Name="&amp;&amp;" Description="and" Usage="" />
+  <item Name="=" Description="" Usage="" />
+  <item Name="==" Description="" Usage="" />
+  <item Name="!=" Description="" Usage="" />
+  <item Name="&lt;&gt;" Description="" Usage="" />
+  <item Name="&lt;" Description="" Usage="" />
+  <item Name="&lt;=" Description="" Usage="" />
+  <item Name=">" Description="" Usage="" />
+  <item Name=">=" Description="" Usage="" />
+  <item Name="+" Description="" Usage="" />
+  <item Name="-" Description="" Usage="" />
+  <item Name="*" Description="" Usage="" />
+  <item Name="/" Description="" Usage="" />
+  <item Name="%" Description="" Usage="" />
+  <item Name="&amp;" Description="bitwise and" Usage="" />
+  <item Name="|" Description="bitwise or" Usage="" />
+  <item Name="^" Description="bitwise xor" Usage="" />
+  <item Name="&lt;&lt;" Description="left shift" Usage="" />
+  <item Name=">>" Description="right shift" Usage="" />
+  <item Name="~" Description="bitwise not" Usage="" />
+  <item Name="!" Description="" Usage="" />
+  <item Name="not" Description="" Usage="" />
+  <item Name="(" Description="" Usage="" />
+  <item Name=")" Description="" Usage="" />
+
+</func>

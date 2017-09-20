@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Luong_AnalyzeData>
+  <lblNote>Hành động này sẽ phân tích tất cả dữ liệu chấm công đã được tính và thực hiện cập nhật lương cho nhân viên trong tháng.</lblNote>
+  <lbTuNgay>Từ ngày</lbTuNgay>
+  <lbDenNgay>Đến ngày</lbDenNgay>
+  <lbTuKhoa>Từ Khóa</lbTuKhoa>
+  <title_msg>Xác nhận lại</title_msg>
+  <msg>Hành động này không hủy bỏ và không hoàn tác được!&lt;br /&gt;Bạn chắc chắn muốn tiếp tục?</msg>
+  <ketquaCC>Kết quả chấm công: </ketquaCC>
+  <resetBL>Reset bảng lương</resetBL>
+  <emptmsg>Không có bản ghi nào được thực hiện</emptmsg>
+  <msg_1>Cập nhật thành công</msg_1>
+  <msg_2>Xử lý hoàn thành!</msg_2>
+</Luong_AnalyzeData>

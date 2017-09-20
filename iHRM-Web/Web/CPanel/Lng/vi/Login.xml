@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Login>
+  <Title>Đăng nhập vào hệ thống</Title>
+  <txtUsername>Tên đăng nhập</txtUsername>
+  <txtPassword>Mật khẩu</txtPassword>
+  <txtCode>Code</txtCode>
+  <cmbDb>Database</cmbDb>
+  <btnQuenMK>Quên mật khẩu</btnQuenMK>
+  <btnLogin>Đăng nhập</btnLogin>
+  <msg_Please_Choose_DB>Xin vui lòng chọn db</msg_Please_Choose_DB>
+  <msg_Login_Fail>Đăng nhập không thành công</msg_Login_Fail>
+</Login>

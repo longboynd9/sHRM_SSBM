@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<QuetThe_NgayNghiNam>
+  <ngay>Ngày</ngay>
+  <loaingay>Loại ngày</loaingay>
+  <lamca>Ca Làm</lamca>
+  <emptmsg>Không có bản ghi nào để hiển thị</emptmsg>
+  <kichthuoctrang>Kích thước trang:</kichthuoctrang>
+  <to>Tổ</to>
+  <ten>Tên</ten>
+  <ngaynghinam>Ngày nghỉ năm</ngaynghinam>
+  <thang>Tháng</thang>
+  <nam>Năm</nam>
+  <xacnhan>Xác nhận</xacnhan>
+  <msg_js>Xin vui lòng điền đủ dữ liệu</msg_js>
+  <msg_js2>Cập nhật nhân viên </msg_js2>
+  <msg_js3>Bạn chắn chắn muốn xóa?</msg_js3>
+  <dangky>Đăng ký</dangky>
+  <chon>Chọn</chon>
+</QuetThe_NgayNghiNam>

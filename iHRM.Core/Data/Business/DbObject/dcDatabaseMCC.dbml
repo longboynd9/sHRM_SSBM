@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DataQuetThe_SSYT" Class="dcDatabaseMCCDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=DataQuetThe_SSYT;User ID=sa" SettingsObjectName="iHRM.Core.Properties.Settings" SettingsPropertyName="DataQuetThe_SSYTConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbMayChamCong" Member="tbMayChamCongs">
+    <Type Name="tbMayChamCong">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="soMay" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tenMay" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="diaChiIP" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="port" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCheckInOut" Member="tbCheckInOuts">
+    <Type Name="tbCheckInOut">
+      <Column Name="idx" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="maChamCong" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ngayQuet" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="tgQuet" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="soMay" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbNhanVien_Finger" Member="tbNhanVien_Fingers">
+    <Type Name="tbNhanVien_Finger">
+      <Column Name="maChamCong" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="num_Finger" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="str_Finger" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="byte_Finger" Type="System.Data.Linq.Binary" DbType="Binary(8000)" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbNhanVien" Member="tbNhanViens">
+    <Type Name="tbNhanVien">
+      <Column Name="maChamCong" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tenChamCong" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="maThe" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="vanTay" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="maThesHRM" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="loaiNhanVien" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="trangThai" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="maNV" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

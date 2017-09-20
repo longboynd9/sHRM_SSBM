@@ -1,0 +1,104 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+iTemplate
+</name>
+</assembly>
+<members>
+<member name="P:iTemplate.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:iTemplate.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:iTemplate.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:iTemplate.iTemplateParser.UnknownsOutput">
+	<summary>
+ Đặt trạng thái áp dụng cho các thẻ không được parse
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:iTemplate.iTemplateParser._Templates">
+	<summary>
+ lưu mẫu đã được parse
+ </summary>
+	<remarks></remarks>
+</member><member name="P:iTemplate.iTemplateParser.Template">
+	<summary>
+ Template đang parse tại thời điểm hiện tại
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:iTemplate.iTemplateParser.#ctor(System.String)">
+	<summary>
+ Khởi tạo đối tượng
+ </summary>
+	<remarks></remarks>
+</member><member name="M:iTemplate.iTemplateParser.SetTemplate(System.String)">
+	<summary>
+ Gán Template gốc
+ </summary>
+	<param name="Template"></param>
+	<remarks></remarks>
+</member><member name="M:iTemplate.iTemplateParser.GetTemplate">
+	<summary>
+ Lấy Template gốc
+ </summary>
+	<remarks></remarks>
+</member><member name="M:iTemplate.iTemplateParser.Parse(System.String,System.String)">
+	<summary>
+ Gán biến
+ </summary>
+	<param name="BlockName"></param>
+	<param name="Text"></param>
+	<remarks></remarks>
+</member><member name="M:iTemplate.iTemplateParser.GetBlockMaker(System.String)">
+	<summary>
+ Trả lại thẻ đánh dấu văn bản đc lấy ra từ block để parse
+ </summary>
+	<param name="Token"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:iTemplate.iTemplateParser.RemoveBlock(System.String)">
+	<summary>
+ Xóa block
+ </summary>
+	<param name="BlockName"></param>
+	<remarks></remarks>
+</member><member name="M:iTemplate.iTemplateParser.BeginBlock(System.String)">
+	<summary>
+ Bắt đầu parse trong 1 đoạn block, các hàm Parse sau sẽ áp dụng trong block này
+ </summary>
+	<param name="BlockName"></param>
+	<remarks></remarks>
+</member><member name="M:iTemplate.iTemplateParser.ParseBlock(System.String)">
+	<summary>
+ Parse 1 lần vào block
+ </summary>
+	<param name="BlockName"></param>
+	<remarks></remarks>
+</member><member name="M:iTemplate.iTemplateParser.EndBlock(System.String)">
+	<summary>
+ Kết thúc việc parse block
+ </summary>
+	<param name="BlockName"></param>
+	<remarks></remarks>
+</member><member name="P:iTemplate.iTemplateParser.Gen">
+	<summary>
+ Lấy kết quả :v
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Category_Department>
+  <tenPB>Tên phòng ban</tenPB>
+  <sua>Sửa</sua>
+  <xoa>Xóa</xoa>
+  <refresh>Làm mới dữ liệu</refresh>
+  <saochep>Sao chép</saochep>
+  <cat>Cắt</cat>
+  <dan>Dán</dan>
+  <luu>Lưu</luu>
+  <xoatrang>Xóa trắng</xoatrang>
+  <dong>Đóng</dong>
+  <msg_js>Xin vui lòng điền đủ dữ liệu</msg_js>
+  <Do_Not_Access_Root>Không thể chỉnh sửa nút gốc</Do_Not_Access_Root>
+  <Editor_title>Danh mục phòng ban</Editor_title>
+  <Editor_lblParent>Phòng ban cha &lt;span class='red'&gt;*&lt;/span&gt;</Editor_lblParent>
+  <Editor_txtCaption>Tên phòng ban &lt;span class='red'&gt;*&lt;/span&gt;</Editor_txtCaption>
+  <Editor_txtCaption_VN>Tên tiếng việt</Editor_txtCaption_VN>
+  <Editor_txtCode>Mã phòng ban &lt;span class='red'&gt;*&lt;/span&gt;</Editor_txtCode>
+  <Editor_cboDepType>Loại</Editor_cboDepType>
+  <Editor_txtOrder>Thứ tự</Editor_txtOrder>
+  <Editor_txtNote>Ghi chú</Editor_txtNote>
+</Category_Department>

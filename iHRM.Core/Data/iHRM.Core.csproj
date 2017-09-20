@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7A94F86-E9F6-439E-8D41-5D25832444ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iHRM.Core</RootNamespace>
+    <AssemblyName>iHRM.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NCalc">
+      <HintPath>..\..\dll\NCalc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\Base\ExecuteResult.cs" />
+    <Compile Include="Business\Connection.cs" />
+    <Compile Include="Business\DbObject\dcDatabase.cs">
+      <DependentUpon>dcDatabase.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Business\DbObject\dcDatabase.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dcDatabase.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Helper\ConvertUnicode.cs" />
+    <Compile Include="Business\Helper\DbHelper.cs" />
+    <Compile Include="Business\Logic\AccessRight\CLogin.cs" />
+    <Compile Include="Business\Logic\AccessRight\Function.cs" />
+    <Compile Include="Business\Logic\AccessRight\Role.cs" />
+    <Compile Include="Business\Logic\AccessRight\User.cs" />
+    <Compile Include="Business\Logic\AllLogic.cs" />
+    <Compile Include="Business\Logic\Category\CatDefine.cs" />
+    <Compile Include="Business\Logic\Category\Cty.cs" />
+    <Compile Include="Business\Logic\Category\NhanVien.cs" />
+    <Compile Include="Business\Logic\ChamCong\analyze.cs" />
+    <Compile Include="Business\Logic\ChamCong\calam.cs" />
+    <Compile Include="Business\Logic\ChamCong\CauHinhCaObject.cs" />
+    <Compile Include="Business\Logic\ChamCong\CauHinhChamCongObject.cs" />
+    <Compile Include="Business\Logic\ChamCong\DoubleIntegerObject.cs" />
+    <Compile Include="Business\Logic\ChamCong\dsMayChamCong.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMayChamCong.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Logic\ChamCong\dsXuLyQuetThe.Designer.cs">
+      <DependentUpon>dsXuLyQuetThe.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Business\Logic\ChamCong\import.cs" />
+    <Compile Include="Business\Logic\ChamCong\NghiPhepObject.cs" />
+    <Compile Include="Business\Logic\ChamCong\NhatKyVaoRaObject.cs" />
+    <Compile Include="Business\Logic\ChamCong\QTTools.cs" />
+    <Compile Include="Business\Logic\ChamCong\report.cs" />
+    <Compile Include="Business\Logic\Common\login.cs" />
+    <Compile Include="Business\Logic\Employee\Emp.cs" />
+    <Compile Include="Business\Logic\Function\BaoCao.cs" />
+    <Compile Include="Business\Logic\Function\BieuDo.cs" />
+    <Compile Include="Business\Logic\LogicBase.cs" />
+    <Compile Include="Business\Logic\Luong\dsTinhLuong.cs">
+      <DependentUpon>dsTinhLuong.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Logic\Luong\dsTinhLuong.Designer.cs">
+      <DependentUpon>dsTinhLuong.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Business\Logic\Luong\PheDuyetLuong.cs" />
+    <Compile Include="Business\Logic\Luong\TinhLuong.cs" />
+    <Compile Include="Business\DbObject\dcDatabaseMCC.cs">
+      <DependentUpon>dcDatabaseMCC.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Business\DbObject\dcDatabaseMCC.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dcDatabaseMCC.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Logic\Report\BaoCao.cs" />
+    <Compile Include="Business\Logic\Slide\Slide.cs" />
+    <Compile Include="Business\Logic\sys\sysPa.cs" />
+    <Compile Include="Business\Provider.cs" />
+    <Compile Include="Business\Helper\TableConts.cs" />
+    <Compile Include="Controller\Employee\Employee.cs" />
+    <Compile Include="Controller\Employee\impEmployee.cs" />
+    <Compile Include="Controller\LogicBase.cs" />
+    <Compile Include="Controller\Luong\InPhieuLuong.cs" />
+    <Compile Include="Controller\QuetThe\Helper.cs" />
+    <Compile Include="Controller\QuetThe\ReportMonth.cs" />
+    <Compile Include="Controller\QuetThe\NhapDuLieuQuetThe.cs" />
+    <Compile Include="Controller\QuetThe\DkVangMat.cs" />
+    <Compile Include="Controller\QuetThe\DkCalam.cs" />
+    <Compile Include="Controller\Import\ImportHelper.cs" />
+    <Compile Include="Controller\Report\GetData.cs" />
+    <Compile Include="i_Report\BC_NvCoBH.cs" />
+    <Compile Include="i_Report\BC_NvDkNghi.cs" />
+    <Compile Include="i_Report\BC_NvLamCa.cs" />
+    <Compile Include="i_Report\BC_NvThaiSan.cs" />
+    <Compile Include="i_Report\BC_NghiPhepNam.cs" />
+    <Compile Include="i_Report\i_ReportLogic.cs" />
+    <Compile Include="i_Report\i_ReportBase.cs" />
+    <Compile Include="Lng\Account_Function.cs" />
+    <Compile Include="Lng\Category\Category_Banner.cs" />
+    <Compile Include="Lng\Category\Category_Company.cs" />
+    <Compile Include="Lng\Category\Category_Default.cs" />
+    <Compile Include="Lng\Category\Category_Department.cs" />
+    <Compile Include="Lng\Category\Category_SEOData.cs" />
+    <Compile Include="Lng\Category\Category_sysPa.cs" />
+    <Compile Include="Lng\common_btn.cs" />
+    <Compile Include="Lng\common_msg.cs" />
+    <Compile Include="Lng\Desktop.cs" />
+    <Compile Include="Lng\Employee\Employee_Editor.cs" />
+    <Compile Include="Lng\Employee\Employee_Search.cs" />
+    <Compile Include="Lng\Import\Import_ImportEmployee.cs" />
+    <Compile Include="Lng\Login.cs" />
+    <Compile Include="Lng\Luong\Luong_AnalyzeData.cs" />
+    <Compile Include="Lng\Luong\Luong_ImportPhuCapCoDinh.cs" />
+    <Compile Include="Lng\Luong\Luong_ImportTsTinhLuong.cs" />
+    <Compile Include="Lng\Luong\Luong_PheDuyetBangLuong.cs" />
+    <Compile Include="Lng\Luong\Luong_PheDuyetLuong.cs" />
+    <Compile Include="Lng\Luong\Luong_ReportMonth.cs" />
+    <Compile Include="Lng\QuetThe\QuetThe_AnalyzeData.cs" />
+    <Compile Include="Lng\QuetThe\QuetThe_DKCaLam.cs" />
+    <Compile Include="Lng\QuetThe\QuetThe_DKLamThem.cs" />
+    <Compile Include="Lng\QuetThe\QuetThe_DKNghiKhongLuong.cs" />
+    <Compile Include="Lng\QuetThe\QuetThe_DKVangMat.cs" />
+    <Compile Include="Lng\QuetThe\QuetThe_Import.cs" />
+    <Compile Include="Lng\QuetThe\QuetThe_LoaiNgayLamThem.cs" />
+    <Compile Include="Lng\QuetThe\QuetThe_NgayNghiNam.cs" />
+    <Compile Include="Lng\QuetThe\QuetThe_ReportMonth.cs" />
+    <Compile Include="Lng\QuetThe\QuetThe_TinhTangCa.cs" />
+    <Compile Include="Lng\Report\ReportChiTietVaoRaThang.cs" />
+    <Compile Include="Lng\Report\Report_NgayCongTangCaThang.cs" />
+    <Compile Include="Lng\Report\report_quetthengay.cs" />
+    <Compile Include="Lng\Report\Report_ReportChamCong.cs" />
+    <Compile Include="Lng\Report\Report_ThongkedulieuquetheNgay.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Business\Logic\ChamCong\dsXuLyQuetThe.xsc">
+      <DependentUpon>dsXuLyQuetThe.xsd</DependentUpon>
+    </Content>
+    <None Include="Business\DbObject\dcDatabase.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dcDatabase.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Business\Logic\ChamCong\dsMayChamCong.xsc">
+      <DependentUpon>dsMayChamCong.xsd</DependentUpon>
+    </None>
+    <None Include="Business\Logic\ChamCong\dsMayChamCong.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMayChamCong.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Business\Logic\ChamCong\dsMayChamCong.xss">
+      <DependentUpon>dsMayChamCong.xsd</DependentUpon>
+    </None>
+    <None Include="Business\DbObject\dcDatabaseMCC.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dcDatabaseMCC.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\Luong_Parameter.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\Operator.xml" />
+    <None Include="Resources\Function.xml" />
+    <None Include="app.config" />
+    <None Include="Business\Logic\ChamCong\dsXuLyQuetThe.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsXuLyQuetThe.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Business\Logic\ChamCong\dsXuLyQuetThe.xss">
+      <DependentUpon>dsXuLyQuetThe.xsd</DependentUpon>
+    </Content>
+    <Content Include="Business\Logic\Luong\dsTinhLuong.xsc">
+      <DependentUpon>dsTinhLuong.xsd</DependentUpon>
+    </Content>
+    <None Include="Business\Logic\Luong\dsTinhLuong.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTinhLuong.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Business\Logic\Luong\dsTinhLuong.xss">
+      <DependentUpon>dsTinhLuong.xsd</DependentUpon>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Business\DbObject\dcDatabase.dbml.layout">
+      <DependentUpon>dcDatabase.dbml</DependentUpon>
+    </None>
+    <None Include="Business\DbObject\dcDatabaseMCC.dbml.layout">
+      <DependentUpon>dcDatabaseMCC.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\iHRM.Common.csproj">
+      <Project>{120caae4-814a-43f4-8969-5753d51f8c94}</Project>
+      <Name>iHRM.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

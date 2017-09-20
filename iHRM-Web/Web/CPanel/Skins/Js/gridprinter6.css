@@ -1,0 +1,54 @@
+﻿html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td{margin:0;padding:0;}
+img,body,html{border:0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+q:before,q:after{content:'';}
+ 
+table.report {
+  width: 100%;
+  text-align: left;
+  font-size: 11px;
+  font-family: arial;
+  border-collapse: collapse;
+}
+ 
+table.report th {
+  padding: 4px 3px 4px 5px;
+  border: 1px solid #d0d0d0;
+  border-left-color: #eee;
+  background-color: #ededed;
+  text-align:center; font-weight:bold;
+}
+ 
+table.report td {
+  padding: 4px 3px 4px 5px;
+  border-style: none solid solid;
+  border-width: 1px;
+  border-color: #ededed;
+}
+
+
+table.head {
+    width: 100%; margin-bottom: 5px;
+}
+table.head .BC_donvi {
+    width:220px; vertical-align:top;
+}
+table.head .BC_donvi h4 {
+    font-size:13px;
+}
+
+table.head .BC_tieude {
+    text-align:center; padding-right: 220px;
+}
+table.head .BC_tieude h2{
+    font-size: 20px;
+}
+table.head .BC_filter {
+    font-size:16px; font-weight:600;
+}
+table.head .BC_desciption {
+    text-align:right; font-style:italic; color:#4f4f4f;
+}

@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <style type="text/css">
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        @media print {
+            html, body {
+                width: 297mm;
+                height: 210mm;
+                margin:0; padding:0mm;
+            }
+            /* ... the rest of the rules ... */
+        }
+
+        html, body {
+            width: 297mm;
+            height: 210mm;
+            margin:0; padding:0mm;
+        }
+
+        .pl1 {
+            width: 99mm;
+            height: 198mm;
+            float: left; overflow:hidden;
+        }
+
+        .pl2 {
+            border: solid 2px #454545;
+            padding: 3px;
+            margin: 15px;
+        }
+
+        .pl3 {
+            border: solid 1px #808080;
+            font-family: monospace;
+            font-size: 12px;
+        }
+
+        .bt {
+            border-bottom: solid 1px #808080;
+        }
+
+        table {
+            width: 100%;
+        }
+
+            table.bt {
+                padding: 0 7px 3px 7px;
+            }
+
+                table.bt.last {
+                    border-bottom: none;
+                }
+
+        .h {
+            color: #000dff;
+        }
+
+        h4.h {
+            margin: 0;
+            padding: 3px 3px 1px 3px;
+        }
+
+        h2.h {
+            text-align: center;
+            margin: 5px 0 0 0;
+        }
+
+        p.h {
+            text-align: center;
+            margin: 0;
+            font-size: 12px;
+        }
+
+        .t {
+        }
+
+        .tt {
+            text-decoration: underline;
+            font-weight: bold;
+            margin: 10px 7px 3px 7px;
+        }
+
+        .m {
+            text-align: right;
+            font-weight: bold;
+            padding-left: 10px;
+            width:100px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .haicham {
+            white-space: nowrap;
+            margin-right: 1px;
+            padding-left: 0px;
+        }
+        .haicham:before {
+            content: ':';
+            float: left;
+            
+        }
+
+        .pl1:nth-child(3n+1) {
+            clear: both;
+        }
+
+        .tit1, .tit2 {
+            font-size: 10px;
+        }
+
+        .sect1 .tit1 {
+            width: 60px;
+        }
+
+        .sect1 .tit2 {
+            width: 65px;
+        }
+
+        .sect2 .tit1 {
+            width: 80px;
+        }
+
+        .sect2 .tit2 {
+            width: 55px;
+        }
+
+        .sect3 .tit1 {
+            width: 80px;
+        }
+
+        .sect3 .tit2 {
+            width: 55px;
+        }
+
+        .nowrap {
+            overflow:hidden; white-space:nowrap;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- BEGIN In -->
+
+    <div class="pl1">
+        <div class="pl2">
+            <div class="pl3">
+                <h4 class="h bt">{{tenCongTy}}</h4>
+                <h2 class="h t">PHIẾU LƯƠNG THÁNG {{thang}}/{{nam}}</h2>
+                <p class="h">CHU KỲ LƯƠNG: {{chukyluong}}</p>
+
+                <br />
+                <table class="bt sect1" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="tit1">Họ và tên</td>
+                        <td class="haicham nowrap"><b>{{hoten}}</b></td>
+                        <td class="space"> </td>
+                        <td class="tit2">Ngày vào</td>
+                        <td class="haicham">{{ngayVao}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">MSNV</td>
+                        <td class="haicham">{{manv}}</td>
+                        <td class="space"> </td>
+                        <td class="tit2">Lương cũ</td>
+                        <td class="haicham">{{luongCu}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Số CMND</td>
+                        <td class="haicham">{{cmnd}}</td>
+                        <td class="space"> </td>
+                        <td class="tit2">Phụ cấp cũ</td>
+                        <td class="haicham">{{luongPcCu}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1"></td>
+                        <td></td>
+                        <td class="space"> </td>
+                        <!--<td class="tit2">Ngày ký HĐ</td>
+                        <td class="haicham">{{ngayHdMoi}}</td>-->
+                    </tr>
+                    <tr>
+                        <td class="tit1">Bộ phận</td>
+                        <td class="haicham nowrap">{{phongban}}</td>
+                        <td class="space"> </td>
+                        <td class="tit2">Lương mới</td>
+                        <td class="haicham">{{luongMoi}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Số TK</td>
+                        <td class="haicham">{{soTK}}</td>
+                        <td class="space"> </td>
+                        <td class="tit2">Phụ cấp mới</td>
+                        <td class="haicham">{{luongPcMoi}}</td>
+                    </tr>
+                </table>
+
+                <h3 class="tt">LƯƠNG NGÀY CÔNG<span style="float:right">Lương SP: {{luongSP}}</span></h3>
+                <table class="bt sect2" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="tit1">Ngày công cũ</td>
+                        <td class="haicham">{{ngaycong_bt_Cu}}</td>
+                        <td class="space"> </td>
+                        <td class="tit2">Thành tiền</td>
+                        <td class="m haicham">{{tienNC_bt_Cu}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Ngày công mới</td>
+                        <td class="haicham">{{ngaycong_bt}}</td>
+                        <td class="space"> </td>
+                        <td class="tit2">Thành tiền</td>
+                        <td class="m haicham">{{tienNC_bt}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Ngày phép năm</td>
+                        <td class="haicham">{{ngaycong_phep}}</td>
+                        <td class="space"> </td>
+                        <td class="tit2">Thành tiền</td>
+                        <td class="m haicham">{{tienNC_phep}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Nghỉ có lương</td>
+                        <td class="haicham">{{ngaycong_phepNam}}</td>
+                        <td class="space"> </td>
+                        <td class="tit2">Thành tiền</td>
+                        <td class="m haicham">{{tienNC_phepNam}}</td>
+                    </tr>
+                    <!--<tr>
+                        <td class="tit1">Nghỉ chế độ</td>
+                        <td class="haicham">{{ngaycong_phepNam}}</td>
+                        <td class="space"> </td>
+                        <td class="tit2">Thành tiền</td>
+                        <td class="m haicham">{{tienNC_phepNam}}</td>
+                    </tr>-->
+                    <tr>
+                        <td class="tit1">Ngày lễ</td>
+                        <td class="haicham">{{ngaycong_lt}}</td>
+                        <td class="space"> </td>
+                        <td class="tit1">Thành tiền</td>
+                        <td class="m haicham">{{tienNC_lt}}</td>
+                    </tr>
+                </table>
+
+                <h3 class="tt">LƯƠNG TĂNG CA<span style="float:right">Lương TC SP: {{luongTangCaSP}}</span></h3>
+                <table class="bt sect3" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="tit1">Tăng ca cũ</td>
+                        <td class="haicham">{{tgTangCa_bt_Cu}}</td>
+                        <td class="tit1">Thành tiền</td>
+                        <td class="m haicham">{{tienTangCa_bt_Cu}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Tăng ca mới</td>
+                        <td class="haicham">{{tgTangCa_bt}}</td>
+                        <td class="tit1">Thành tiền</td>
+                        <td class="m haicham">{{tienTangCa_bt}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Tăng ca CN</td>
+                        <td class="haicham">{{tongTgTangCa_cn_gio}}</td>
+                        <td class="tit1">Thành tiền</td>
+                        <td class="m haicham">{{tongTienTangCa_cn}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">TC Lễ,tết</td>
+                        <td class="haicham">{{tgTangCa_lt}}</td>
+                        <td class="tit1">Thành tiền</td>
+                        <td class="m haicham">{{tienTangCa_lt}}</td>
+                    </tr>
+                </table>
+
+                <h3 class="tt">PHỤ CẤP</h3>
+                <table class="bt sect4" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="tit1">Thưởng chuyên cần</td>
+                        <td class="m haicham">{{Calc1}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Giao thông</td>
+                        <td class="m haicham">{{Calc2}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Con thơ</td>
+                        <td class="m haicham">{{PC2}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Thưởng công đọan</td>
+                        <td class="m haicham">{{Calc3}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Khoản thưởng khác</td>
+                        <td class="m haicham">{{PC3}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Khoản khác</td>
+                        <td class="m haicham">{{PC4}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1"> <span style="font-size:12px; font-weight:bold; ">Tổng lương</span></td>
+                        <td class="m haicham">{{tongLuong}}</td>
+                    </tr>
+                </table>
+
+                <h3 class="tt">CÁC KHOẢN KHẤU TRỪ</h3>
+                <table class="bt sect5 last" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="tit1">BHXH, BHYT, BHTN (10.5%)</td>
+                        <td class="m haicham">{{BH105}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Khoản trừ khác</td>
+                        <td class="m haicham">{{PC5}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Thuế TNCN</td>
+                        <td class="m haicham">{{PC7}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1">Phí công đoàn</td>
+                        <td class="m haicham">{{phiCongDoan}}</td>
+                    </tr>
+                    <tr>
+                        <td class="tit1"><span style="font-size:12px; font-weight:bold; ">Tổng khấu trừ</span></td>
+                        <td class="m haicham">{{tongKhauTru}}</td>
+                    </tr>
+
+                </table>
+                <table class="bt sect5 last" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td class="tit1" style="font-size:12px; font-weight:bold;">Thực nhận</td>
+                        <td class="m haicham"><span style="font-size:12px; font-weight:bold; color:red;">{{actualBankTransfer}}</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- END In -->
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Luong_ReportMonth>
+  <msg_js>Are you sure to delete?</msg_js>
+  <tungay>From date</tungay>
+  <denngay>To date</denngay>
+  <thang>Month: &amp;nbsp;</thang>
+  <chonPB>Choose department...</chonPB>
+  <dsPB>Department list</dsPB>
+  <tooltip>View payroll in choosed month and year</tooltip>
+  <bangluongCT>Detailed payroll</bangluongCT>
+  <hoten>Full name</hoten>
+  <maNV>Employee ID</maNV>
+  <idCard>ID</idCard>
+  <ngayvao>Starting date</ngayvao>
+  <luongCB>Basic salary</luongCB>
+  <luongPC>Allowance salary</luongPC>
+  <ngaycong>Working day</ngaycong>
+  <ngaycong_bt>Working day</ngaycong_bt>
+  <ngaycong_phep>AL</ngaycong_phep>
+  <ngaycong_lt>PH</ngaycong_lt>
+  <tiencong>Wage</tiencong>
+  <tiencong_bt>Working salary</tiencong_bt>
+  <tiencong_phep>AL Salary</tiencong_phep>
+  <tiencong_lt>PH Salary</tiencong_lt>
+  <chitiet>Detail</chitiet>
+  <TGTC_bt>OverTime</TGTC_bt>
+  <TGTC_cn>Sunday</TGTC_cn>
+  <TGTC_lt>PH work</TGTC_lt>
+  <tongTGTC>Total overtime</tongTGTC>
+  <TienTangCa_bt>OT_Salary</TienTangCa_bt>
+  <TienTangCa_cn>Sunday Salary</TienTangCa_cn>
+  <TienTangCa_lt>
+    
+  </TienTangCa_lt>
+  <TienTangCa>Overtime salary</TienTangCa>
+  <thuongChuyenCan>Attendance bonus</thuongChuyenCan>
+  <phucapKhac>Other allowances</phucapKhac>
+  <tongluong>Total salary</tongluong>
+  <inphieu>Print sheet</inphieu>
+  <xuatEx>Export Excel</xuatEx>
+  <ngay>Date</ngay>
+  <grd_Status>Status</grd_Status>
+  <tgDiMuon>Late coming time</tgDiMuon>
+  <tgVeSom>Early leaving time</tgVeSom>
+  <hsLuong>Salary coefficient</hsLuong>
+  <trangthai>Status</trangthai>
+  <tangca>Overtime</tangca>
+  <sotien>Amount of money</sotien>
+  <phucap>Allowance</phucap>
+  <phieuluong>Salary sheet</phieuluong>
+  <phieuluongthang>Monthly salary sheet </phieuluongthang>
+  <inphieuluong>Print salary sheet</inphieuluong>
+  <nam> year </nam>
+  <msg_1>No data of month </msg_1>
+  <title>Working day in detail </title>
+  <title3>Overtime calculation in detail </title3>
+  <title2>Allowance calculation in detail </title2>
+  <khoanphucap>Allowance</khoanphucap>
+  <chukyluong>Salary cycle</chukyluong>
+  <bangluongthang>MONTHLY PAYROLL </bangluongthang>
+  <sendingmail>Sending email...</sendingmail>
+</Luong_ReportMonth>

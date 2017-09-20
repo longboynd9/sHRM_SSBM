@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<QuetThe_Import>
+  <msg_1>Xin vui lòng chọn MAPPING!</msg_1>
+  <note>File nhập liệu là file .zip, nén tất cả các file quẹt thẻ txt cùng thư mục (ko có thư mục con), hoặc file txt</note>
+  <kytu>Ký tự phân cách: </kytu>
+  <somay>Số Máy</somay>
+  <ngay>Ngày</ngay>
+  <gio>Giờ</gio>
+  <mathe>Mã thẻ</mathe>
+  <mamay>Mã máy</mamay>
+  <msg_2>Bạn cần nhập file zip (.zip) hoặc file text (.txt)</msg_2>
+  <msg_3>Có lỗi khi lưu file</msg_3>
+</QuetThe_Import>

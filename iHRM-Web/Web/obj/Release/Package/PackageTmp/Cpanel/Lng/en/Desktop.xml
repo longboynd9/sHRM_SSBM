@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Desktop>
+  <cm_view>View</cm_view>
+  <cm_view_theoluoi>Net</cm_view_theoluoi>
+  <cm_view_tudo>free</cm_view_tudo>
+  <cm_refresh>Refresh</cm_refresh>
+  <cm_persional>Personalize</cm_persional>
+  <startMenu_Wrench>System configuration</startMenu_Wrench>
+  <startMenu_Update>Update</startMenu_Update>
+  <startMenu_Logout>Logout</startMenu_Logout>
+  <startMenu_AllPrograme>All programme</startMenu_AllPrograme>
+</Desktop>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<common_btn>
+  <lbTuNgay>Từ ngày</lbTuNgay>
+  <lbDenNgay>Đến ngày</lbDenNgay>
+  <lbTuKhoa>Từ Khóa</lbTuKhoa>
+  <DKCaNhan>Đăng ký cá nhân</DKCaNhan>
+  <DKTapThe>Đăng ký tập thể</DKTapThe>
+  <ngay>Ngày</ngay>
+  <lamca>Ca Làm</lamca>
+  <FindOne>Tìm</FindOne>
+  <AddNew>Thêm mới</AddNew>
+  <Edit>Chỉnh sửa</Edit>
+  <Delete>Xóa</Delete>
+  <Refresh>Làm mới</Refresh>
+  <Find>Tìm kiếm</Find>
+  <Clear>Xóa trắng</Clear>
+  <Close>Đóng</Close>
+  <Ok>OK</Ok>
+  <Back>Quay lại</Back>
+  <Pagging_FirstText>Trang đầu</Pagging_FirstText>
+  <Pagging_PrevText>Trang trước</Pagging_PrevText>
+  <Pagging_NextText>Trang sau</Pagging_NextText>
+  <Pagging_LastText>Trang cuối</Pagging_LastText>
+  <Pagging_RefreshText>Nạp lại</Pagging_RefreshText>
+  <Pagging_DisplayMsg>Hiển thị {0} - {1} / {2}</Pagging_DisplayMsg>
+  <Pagging_EmptyMsg>Không có bản ghi nào để hiển thị</Pagging_EmptyMsg>
+  <Pagging_PageSize>Kích thước trang:</Pagging_PageSize>
+</common_btn>

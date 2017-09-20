@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<func>
+  <item Name="Abs" Description="Returns the absolute value of a specified number." Usage="Abs(-1)" />
+  <item Name="Acos" Description="Returns the angle whose cosine is the specified number." Usage="Acos(1)" />
+  <item Name="Asin" Description="Returns the angle whose sine is the specified number." Usage="Asin(0)" />
+  <item Name="Atan" Description="Returns the angle whose tangent is the specified number." Usage="Atan(0)" />
+  <item Name="Ceiling" Description="Returns the smallest integer greater than or equal to the specified number." Usage="Ceiling(1.5)" />
+  <item Name="Cos" Description="Returns the cosine of the specified angle." Usage="Cos(0)" />
+  <item Name="Exp" Description="Returns e raised to the specified power." Usage="Exp(0)" />
+  <item Name="Floor" Description="Returns the largest integer less than or equal to the specified number." Usage="Floor(1.5)" />
+  <item Name="IEEERemainder" Description="Returns the remainder resulting from the division of a specified number by another specified number." Usage="IEEERemainder(3, 2)" />
+  <item Name="Log" Description="Returns the logarithm of a specified number." Usage="Log(1, 10)" />
+  <item Name="Log10" Description="Returns the base 10 logarithm of a specified number." Usage="Log10(1)" />
+  <item Name="Max" Description="Returns the larger of two specified numbers." Usage="Max(1, 2)" />
+  <item Name="Min" Description="Returns the smaller of two numbers." Usage="Min(1, 2)" />
+  <item Name="Pow" Description="Returns a specified number raised to the specified power." Usage="Pow(3, 2)" />
+  <item Name="Round" Description="Rounds a value to the nearest integer or specified number of decimal places. The mid number behaviour can be changed by using EvaluateOption.RoundAwayFromZero during construction of the Expression object." Usage="Round(3.222, 2)" />
+  <item Name="Sign" Description="Returns a value indicating the sign of a number." Usage="Sign(-10)" />
+  <item Name="Sin" Description="Returns the sine of the specified angle." Usage="Sin(0)" />
+  <item Name="Sqrt" Description="Returns the square root of a specified number." Usage="Sqrt(4)" />
+  <item Name="Tan" Description="Returns the tangent of the specified angle." Usage="Tan(0)" />
+  <item Name="Truncate" Description="Calculates the integral part of a number." Usage="Truncate(1.7)" />
+  <item Name="in" Description="Returns whether an element is in a set of values." Usage="in(1 + 1, 1, 2, 3)" />
+  <item Name="if" Description="Returns a value based on a condition." Usage="if(3 % 2 = 1, 'true', 'false')" />
+</func>

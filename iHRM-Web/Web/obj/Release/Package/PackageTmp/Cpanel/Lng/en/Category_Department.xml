@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Category_Department>
+  <tenPB>Department name</tenPB>
+  <sua>Edit</sua>
+  <xoa>Delete</xoa>
+  <refresh>Refresh data</refresh>
+  <saochep>Copy</saochep>
+  <cat>Cut</cat>
+  <dan>Paste</dan>
+  <luu>Save</luu>
+  <xoatrang>Delete</xoatrang>
+  <dong>Close</dong>
+  <msg_js>Please fill in full data</msg_js>
+  <Do_Not_Access_Root>Cannot edit root </Do_Not_Access_Root>
+  <Editor_title>Department Category</Editor_title>
+  <Editor_lblParent>Main Department &lt;span class='red'&gt;*&lt;/span&gt;</Editor_lblParent>
+  <Editor_txtCaption>Department name &lt;span class='red'&gt;*&lt;/span&gt;</Editor_txtCaption>
+  <Editor_txtCaption_VN>Vietnamese name</Editor_txtCaption_VN>
+  <Editor_txtCode>Department code &lt;span class='red'&gt;*&lt;/span&gt;</Editor_txtCode>
+  <Editor_cboDepType>Type</Editor_cboDepType>
+  <Editor_txtOrder>Order</Editor_txtOrder>
+  <Editor_txtNote>Note</Editor_txtNote>
+</Category_Department>

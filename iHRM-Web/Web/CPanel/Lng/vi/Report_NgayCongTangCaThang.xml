@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Report_NgayCongTangCaThang>
+  <title>Báo cáo Giờ công - Giờ tăng ca tháng</title>
+  <lbPhongBan>Phòng ban:  </lbPhongBan>
+  <chonPB>Chọn phòng ban...</chonPB>
+  <dsPB>Danh sách phòng ban</dsPB>
+  <tungay>  Từ Ngày:   </tungay>
+  <denngay>  Đến Ngày: </denngay>
+  <pb>Phòng Ban</pb>
+  <tenNV>Tên nhân viên</tenNV>
+  <MaNV>Mã nhân viên</MaNV>
+  <chucvu>Chức vụ</chucvu>
+  <tongNC>Tổng Ngày công</tongNC>
+  <nghiLe>Nghỉ lễ</nghiLe>
+  <nghiPhep>Nghỉ phép</nghiPhep>
+  <nghiKoPhep>Nghỉ không phép</nghiKoPhep>
+  <tgTangCa>TG tăng ca</tgTangCa>
+</Report_NgayCongTangCaThang>

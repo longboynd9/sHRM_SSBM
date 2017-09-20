@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Account_Function>
+  <cm_Add>Thêm chức năng con</cm_Add>
+  <cm_Edit>Sửa</cm_Edit>
+  <cm_Delete>Xóa</cm_Delete>
+  <cm_Refresh>Làm mới dữ liệu</cm_Refresh>
+  <cm_Copy>Sao chép</cm_Copy>
+  <cm_Cut>Cắt</cm_Cut>
+  <cm_Paste>Dán</cm_Paste>
+  <editor_Title>Cập nhật chức năng</editor_Title>
+  <editor_lblParent>Danh mục cha &lt;span class='red'&gt;*&lt;/span&gt;</editor_lblParent>
+  <editor_txtCode>Mã danh mục</editor_txtCode>
+  <editor_txtCaption>Tên danh mục &lt;span class='red'&gt;*&lt;/span&gt;</editor_txtCaption>
+  <editor_txtCaption_EN>Tên danh mục EN</editor_txtCaption_EN>
+  <editor_txtAsemblyPath>Đường dẫn &lt;span class='red'&gt;*&lt;/span&gt;</editor_txtAsemblyPath>
+  <editor_txtAsemblyInherits>Inherits</editor_txtAsemblyInherits>
+  <editor_txtOrder>Thứ tự</editor_txtOrder>
+  <wAsemply_Title>Add asemplypath</wAsemply_Title>
+</Account_Function>

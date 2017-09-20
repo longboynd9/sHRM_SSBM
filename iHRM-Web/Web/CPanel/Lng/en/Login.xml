@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Login>
+  <Title>Login to system</Title>
+  <txtUsername>Username</txtUsername>
+  <txtPassword>Password</txtPassword>
+  <txtCode>Code</txtCode>
+  <cmbDb>Database</cmbDb>
+  <btnQuenMK>Forget password</btnQuenMK>
+  <btnLogin>Login</btnLogin>
+  <msg_Please_Choose_DB>Please chooose db</msg_Please_Choose_DB>
+  <msg_Login_Fail>Login fail</msg_Login_Fail>
+</Login>

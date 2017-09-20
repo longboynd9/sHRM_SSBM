@@ -1,0 +1,16 @@
+D:\iHRM\iHRM-Web\iTemplate\bin\Release\iTemplate.dll
+D:\iHRM\iHRM-Web\iTemplate\bin\Release\iTemplate.pdb
+D:\iHRM\iHRM-Web\iTemplate\bin\Release\iTemplate.xml
+D:\iHRM\iHRM-Web\iTemplate\obj\Release\iTemplate.Resources.resources
+D:\iHRM\iHRM-Web\iTemplate\obj\Release\iTemplate.vbproj.GenerateResource.Cache
+D:\iHRM\iHRM-Web\iTemplate\obj\Release\iTemplate.dll
+D:\iHRM\iHRM-Web\iTemplate\obj\Release\iTemplate.xml
+D:\iHRM\iHRM-Web\iTemplate\obj\Release\iTemplate.pdb
+G:\iHRM\iHRM-Web\iTemplate\bin\Release\iTemplate.dll
+G:\iHRM\iHRM-Web\iTemplate\bin\Release\iTemplate.pdb
+G:\iHRM\iHRM-Web\iTemplate\bin\Release\iTemplate.xml
+G:\iHRM\iHRM-Web\iTemplate\obj\Release\iTemplate.Resources.resources
+G:\iHRM\iHRM-Web\iTemplate\obj\Release\iTemplate.vbproj.GenerateResource.Cache
+G:\iHRM\iHRM-Web\iTemplate\obj\Release\iTemplate.dll
+G:\iHRM\iHRM-Web\iTemplate\obj\Release\iTemplate.xml
+G:\iHRM\iHRM-Web\iTemplate\obj\Release\iTemplate.pdb

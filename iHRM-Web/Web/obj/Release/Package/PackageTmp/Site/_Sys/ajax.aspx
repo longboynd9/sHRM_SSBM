@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="True" CodeBehind="ajax.aspx.cs" Inherits="iHRM.WebPC.Site._Sys.Ajax" %>

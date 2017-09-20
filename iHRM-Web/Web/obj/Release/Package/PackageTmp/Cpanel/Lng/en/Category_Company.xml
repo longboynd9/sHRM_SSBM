@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Category_Company>
+  <luulai>Company code</luulai>
+  <CompanyCode>Companny Code</CompanyCode>
+  <CompanyName>Company name</CompanyName>
+  <Address>Address</Address>
+  <Phone>Phone</Phone>
+  <VATCode>Tax code</VATCode>
+  <BankAccount>Bank account no.</BankAccount>
+  <BankAccount_USD>Bank account (USD)</BankAccount_USD>
+  <BankName>Bank name</BankName>
+</Category_Company>

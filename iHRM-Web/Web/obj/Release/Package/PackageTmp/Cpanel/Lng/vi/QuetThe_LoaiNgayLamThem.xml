@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<QuetThe_LoaiNgayLamThem>
+  <ngay>Ngày</ngay>
+  <tenloai>Tên loại</tenloai>
+  <lamca>Ca Làm</lamca>
+  <hsluong>Hs lương</hsluong>
+  <heso>Hệ số (%)</heso>
+  <emptmsg>Không có bản ghi nào để hiển thị</emptmsg>
+  <kichthuoctrang>Kích thước trang:</kichthuoctrang>
+  <msg_js>Xin vui lòng điền đủ dữ liệu</msg_js>
+  <msg_js2>Cập nhật nhân viên </msg_js2>
+  <msg_js3>Bạn chắn chắn muốn xóa?</msg_js3>
+  <titleMsg>Xác nhận</titleMsg>
+  <msg_1>Từ ngày phải nhỏ hơn đến ngày!</msg_1>
+  <msg_2>Đăng ký thành công</msg_2>
+  <msg_3>Không tìm thấy thông tin của nhân viên</msg_3>
+  <msg_4>Đăng ký không thành công</msg_4>
+</QuetThe_LoaiNgayLamThem>

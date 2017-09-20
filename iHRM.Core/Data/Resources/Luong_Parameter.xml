@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<func>
+  <item Name="thang" Description="Tháng đang tính lương" Usage="" />
+  <item Name="empoyeeID" Description="Empoyee ID" Usage="" />
+  <item Name="luongCB" Description="Lương cơ bản" Usage="" />
+  <item Name="luongPC" Description="Lương phụ cấp" Usage="" />
+  <item Name="luongCB_cu" Description="Lương cơ bản cũ" Usage="" />
+  <item Name="luongPC_cu" Description="Lương phụ cấp cũ" Usage="" />
+
+  <item Name="PC1" Description="Tiền phụ cấp 1" Usage="" />
+  <item Name="PC2" Description="Tiền phụ cấp 2" Usage="" />
+  <item Name="PC3" Description="Tiền phụ cấp 3" Usage="" />
+  <item Name="PC4" Description="Tiền phụ cấp 4" Usage="" />
+  <item Name="PC5" Description="Tiền phụ cấp 5" Usage="" />
+  <item Name="PC6" Description="Tiền phụ cấp 6" Usage="" />
+  <item Name="PC7" Description="Tiền phụ cấp 7" Usage="" />
+  <item Name="PC8" Description="Tiền phụ cấp 8" Usage="" />
+  <item Name="PC9" Description="Tiền phụ cấp 9" Usage="" />
+  <item Name="PC10" Description="Tiền phụ cấp 10" Usage="" />
+  <item Name="PC11" Description="Tiền phụ cấp 11" Usage="" />
+  <item Name="PC12" Description="Tiền phụ cấp 12" Usage="" />
+  <item Name="PC13" Description="Tiền phụ cấp 13" Usage="" />
+  <item Name="PC14" Description="Tiền phụ cấp 14" Usage="" />
+  <item Name="PC15" Description="Tiền phụ cấp 15" Usage="" />
+  <item Name="PC16" Description="Tiền phụ cấp 16" Usage="" />
+  <item Name="PC17" Description="Tiền phụ cấp 17" Usage="" />
+  <item Name="PC18" Description="Tiền phụ cấp 18" Usage="" />
+  <item Name="PC19" Description="Tiền phụ cấp 19" Usage="" />
+  <item Name="PC20" Description="Tiền phụ cấp 20" Usage="" />
+
+  <item Name="DataCalc1" Description="Data Calc 1" Usage="" />
+  <item Name="DataCalc2" Description="Data Calc 2" Usage="" />
+  <item Name="DataCalc3" Description="Data Calc 3" Usage="" />
+  <item Name="DataCalc4" Description="Data Calc 4" Usage="" />
+  <item Name="DataCalc5" Description="Data Calc 5" Usage="" />
+  <item Name="DataCalc6" Description="Data Calc 6" Usage="" />
+  <item Name="DataCalc7" Description="Data Calc 7" Usage="" />
+  <item Name="DataCalc8" Description="Data Calc 8" Usage="" />
+  <item Name="DataCalc9" Description="Data Calc 9" Usage="" />
+  <item Name="DataCalc10" Description="Data Calc 10" Usage="" />
+
+  <item Name="soNgayCongTrongThang" Description="Số ngày công trong tháng" Usage="" />
+  <item Name="soNgayNghiPhepNam" Description="Số ngày nghỉ phép năm" Usage="" />
+  <item Name="ngaycong_rounded" Description="Ngày công đã làm tròn" Usage="" />
+  <item Name="soNgayNghiCheDo" Description="Số ngày nghỉ chế độ (kết hôn, ma chay)" Usage="" />
+</func>

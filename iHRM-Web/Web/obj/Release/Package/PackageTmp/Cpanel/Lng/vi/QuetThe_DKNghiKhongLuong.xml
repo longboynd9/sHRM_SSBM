@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<QuetThe_DKNghiKhongLuong>
+  <lbTuGio>Từ giờ</lbTuGio>
+  <lbDenGio>Đến giờ</lbDenGio>
+  <lbLyDo>Lý do</lbLyDo>
+  <lbGhiChu>Ghi chú</lbGhiChu>
+  <DKCaNhan>Đăng ký cá nhân</DKCaNhan>
+  <DKTapThe>Đăng ký tập thể</DKTapThe>
+  <ngay>Ngày</ngay>
+  <loaingay>Loại ngày</loaingay>
+  <lamca>Ca Làm</lamca>
+  <hsluong>Hs lương</hsluong>
+  <emptmsg>Không có bản ghi nào để hiển thị</emptmsg>
+  <kichthuoctrang>Kích thước trang:</kichthuoctrang>
+  <to>Tổ</to>
+  <titleDKNKL>Đăng ký nghỉ không lương</titleDKNKL>
+  <maNV>Mã NV</maNV>
+  <nv>Nhân viên</nv>
+  <msg_js>Xin vui lòng điền đủ dữ liệu</msg_js>
+  <msg_js2>Cập nhật nhân viên </msg_js2>
+  <msg_js3>Bạn chắn chắn muốn xóa?</msg_js3>
+  <titleDKTapThe>Đăng ký nghỉ không lương tập thể</titleDKTapThe>
+  <CodeTapThe>Mã tập thể</CodeTapThe>
+  <dangky>Đăng ký</dangky>
+  <chon>Chọn</chon>
+  <ldNghiKoLuong>Nghỉ không lương</ldNghiKoLuong>
+  <ldNghiOm>Nghỉ ốm</ldNghiOm>
+  <ldNghiKetHon>Nghỉ kết hôn</ldNghiKetHon>
+  <ldNghiViecGD>Nghỉ việc gia đình</ldNghiViecGD>
+  <ldKhac>Khác</ldKhac>
+  <msg_1>Từ ngày phải nhỏ hơn đến ngày!</msg_1>
+  <msg_2>Đăng ký thành công</msg_2>
+  <msg_3>Không tìm thấy thông tin của nhân viên</msg_3>
+  <msg_4>Đăng ký không thành công</msg_4>
+</QuetThe_DKNghiKhongLuong>

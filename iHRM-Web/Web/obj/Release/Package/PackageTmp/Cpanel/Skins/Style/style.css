@@ -1,0 +1,42 @@
+body
+{
+	font-family:Tahoma, Geneva, sans-serif !important;
+	font-size:12px !important;
+	margin:0;
+	color:#345077 !important;
+	background-color:white !important;
+    text-decoration: none;
+}
+
+#unlicensed { display:none !important; }
+
+.winpadding15 { margin:10px 0 0 15px; }
+.winpadding15 .x-panel-body { background-color:transparent; }
+
+.red { color:red; font-weight:bold; }
+
+.banner { background:url('/Cpanel/Skins/Style/IMG/bg_banner.png') no-repeat; background-size:100% 100%; }
+
+.ul_footer { height:25px; }
+.ul_footer li { display:inline-block;  height:25px; line-height:30px; vertical-align:middle; margin-left:15px; }
+.ul_footer a { color: #15428b; font-weight: bold; font-size: 11px; font-family: tahoma,arial,verdana,sans-serif; }
+.ul_footer a:hover { font-style:italic; }
+.c1 {vertical-align:top}
+
+
+.mt10 { margin-top:10px; }
+.mb10 { margin-bottom:10px; }
+.ml10 { margin-left:10px; }
+.mr10 { margin-right:10px; }
+.pt10 { padding-top:10px; }
+.pb10 { padding-bottom:10px; }
+.pl10 { padding-left:10px; }
+.pr10 { padding-right:10px; }
+.mt20 { margin-top:20px; }
+.mb20 { margin-bottom:20px; }
+.ml20 { margin-left:20px; }
+.mr20 { margin-right:20px; }
+.pt20 { padding-top:20px; }
+.pb20 { padding-bottom:20px; }
+.pl20 { padding-left:20px; }
+.pr20 { padding-right:20px; }

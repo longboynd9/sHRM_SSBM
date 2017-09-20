@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<QuetThe_AnalyzeData>
+  <lblNote>This action will analyze imported card swiping data and update attendance for workers working in shift.</lblNote>
+  <tbTuNgay>From date</tbTuNgay>
+  <msg_kqqt>Result of swiping card </msg_kqqt>
+</QuetThe_AnalyzeData>

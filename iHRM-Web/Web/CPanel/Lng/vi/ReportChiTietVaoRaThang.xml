@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ReportChiTietVaoRaThang>
+  <title>Báo cáo chi tiết Vào - Ra trong tháng</title>
+  <lbPhongBan>Phòng ban:  </lbPhongBan>
+  <chonPB>Chọn phòng ban...</chonPB>
+  <dsPB>Danh sách phòng ban</dsPB>
+  <tungay>   Từ Ngày:  </tungay>
+  <denngay>   Đến Ngày:  </denngay>
+  <pb>Phòng Ban</pb>
+  <tenNV>Tên nhân viên</tenNV>
+  <MaNV>Mã nhân viên</MaNV>
+  <chucvu>Chức vụ</chucvu>
+  <tongNC>Tổng Ngày công</tongNC>
+  <nghiLe>Nghỉ lễ</nghiLe>
+  <nghiPhep>Nghỉ phép</nghiPhep>
+  <nghiKoPhep>Nghỉ không phép</nghiKoPhep>
+  <ngay>Ngày</ngay>
+  <trangthai>Trạng thái</trangthai>
+  <quetDen>Quẹt đến lúc</quetDen>
+  <tgDiMuon>TG đi muộn</tgDiMuon>
+  <quetVe>Quẹt về lúc</quetVe>
+  <quetVe>Quẹt về_Guest</quetVe>
+  <tgVeSom>TG về sớm</tgVeSom>
+  <tgTangCa>TG tăng ca</tgTangCa>
+</ReportChiTietVaoRaThang>

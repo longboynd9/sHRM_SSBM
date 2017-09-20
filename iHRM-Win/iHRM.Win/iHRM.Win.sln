@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iHRM.Win", "iHRM.Win.csproj", "{19B3DDFC-5EB8-494D-A7B6-8ECE0AC669DC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "sHRM_setup", "..\sHRM_setup\sHRM_setup.vdproj", "{424C080A-07D5-422E-9A00-C1DBD2E907F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B3DDFC-5EB8-494D-A7B6-8ECE0AC669DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B3DDFC-5EB8-494D-A7B6-8ECE0AC669DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B3DDFC-5EB8-494D-A7B6-8ECE0AC669DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B3DDFC-5EB8-494D-A7B6-8ECE0AC669DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424C080A-07D5-422E-9A00-C1DBD2E907F4}.Debug|Any CPU.ActiveCfg = Debug
+		{424C080A-07D5-422E-9A00-C1DBD2E907F4}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

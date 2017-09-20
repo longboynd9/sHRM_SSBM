@@ -1,0 +1,1182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\LonG\Desktop\pb</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Assets/css/bootstrap-theme.min.css">
+      <publishTime>09/11/2015 13:25:47</publishTime>
+    </File>
+    <File Include="Assets/css/bootstrap.min.css">
+      <publishTime>09/11/2015 13:25:47</publishTime>
+    </File>
+    <File Include="Assets/css/docs.min.css">
+      <publishTime>09/11/2015 13:25:47</publishTime>
+    </File>
+    <File Include="Assets/css/jquery-ui.css">
+      <publishTime>09/11/2015 13:25:47</publishTime>
+    </File>
+    <File Include="Assets/fonts/fontawesome-webfont.eot">
+      <publishTime>09/11/2015 13:25:48</publishTime>
+    </File>
+    <File Include="Assets/fonts/fontawesome-webfont.svg">
+      <publishTime>09/11/2015 13:25:48</publishTime>
+    </File>
+    <File Include="Assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/11/2015 13:25:48</publishTime>
+    </File>
+    <File Include="Assets/fonts/fontawesome-webfont.woff">
+      <publishTime>09/11/2015 13:25:48</publishTime>
+    </File>
+    <File Include="Assets/fonts/FontAwesome.otf">
+      <publishTime>09/11/2015 13:25:48</publishTime>
+    </File>
+    <File Include="Assets/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/11/2015 13:25:48</publishTime>
+    </File>
+    <File Include="Assets/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/11/2015 13:25:48</publishTime>
+    </File>
+    <File Include="Assets/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/11/2015 13:25:48</publishTime>
+    </File>
+    <File Include="Assets/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/11/2015 13:25:48</publishTime>
+    </File>
+    <File Include="Assets/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/11/2015 13:25:48</publishTime>
+    </File>
+    <File Include="Assets/img/loading.gif">
+      <publishTime>09/11/2015 13:25:48</publishTime>
+    </File>
+    <File Include="Assets/js/bootstrap.min.js">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Assets/js/cookie.js">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Assets/js/css3-mediaqueries.js">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Assets/js/google-maps.js">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Assets/js/ie-emulation-modes-warning.js">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Assets/js/ie10-viewport-bug-workaround.js">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Assets/js/jquery-1.9.1.js">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Assets/js/jquery-scrolltofixed-min.js">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Assets/js/jquery-ui.js">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Assets/js/jquery-ui.min.js">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Assets/js/UrlHelper.js">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="bin/Aspose.Cells.dll">
+      <publishTime>12/06/2015 18:07:23</publishTime>
+    </File>
+    <File Include="bin/CKEditor.NET.dll">
+      <publishTime>09/11/2015 13:27:03</publishTime>
+    </File>
+    <File Include="bin/CKFinder.dll">
+      <publishTime>09/11/2015 13:27:03</publishTime>
+    </File>
+    <File Include="bin/ePowerPortal_Core.dll">
+      <publishTime>08/23/2015 16:08:56</publishTime>
+    </File>
+    <File Include="bin/ePowerPortal_Data.dll">
+      <publishTime>08/19/2015 20:52:29</publishTime>
+    </File>
+    <File Include="bin/EPPlus.dll">
+      <publishTime>01/20/2013 11:26:01</publishTime>
+    </File>
+    <File Include="bin/Ext.Net.dll">
+      <publishTime>09/11/2015 13:27:03</publishTime>
+    </File>
+    <File Include="bin/Ext.Net.Utilities.dll">
+      <publishTime>09/11/2015 13:27:03</publishTime>
+    </File>
+    <File Include="bin/Ext.Net.UX.dll">
+      <publishTime>09/11/2015 13:27:03</publishTime>
+    </File>
+    <File Include="bin/iHRM.Common.dll">
+      <publishTime>03/11/2016 17:03:05</publishTime>
+    </File>
+    <File Include="bin/iHRM.Core.dll">
+      <publishTime>03/18/2016 11:05:46</publishTime>
+    </File>
+    <File Include="bin/iHRM.dll">
+      <publishTime>03/18/2016 11:05:49</publishTime>
+    </File>
+    <File Include="bin/Ionic.Zip.dll">
+      <publishTime>09/11/2015 13:27:03</publishTime>
+    </File>
+    <File Include="bin/iTemplate.dll">
+      <publishTime>03/11/2016 17:03:05</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Client.dll">
+      <publishTime>08/23/2015 11:09:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
+      <publishTime>08/23/2015 11:09:05</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Owin.dll">
+      <publishTime>08/23/2015 11:09:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.dll">
+      <publishTime>08/23/2015 11:09:15</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Exchange.WebServices.Auth.dll">
+      <publishTime>09/25/2015 14:25:29</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Exchange.WebServices.dll">
+      <publishTime>09/25/2015 14:25:29</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>08/23/2015 11:09:17</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>03/08/2012 09:20:10</publishTime>
+    </File>
+    <File Include="bin/NCalc.dll">
+      <publishTime>01/15/2016 08:02:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/23/2015 11:09:22</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>08/23/2015 11:09:25</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.dll">
+      <publishTime>07/10/2012 21:52:12</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>07/10/2012 21:51:54</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.WebRequest.dll">
+      <publishTime>07/10/2012 21:52:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>07/10/2012 21:51:54</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>07/10/2012 21:51:54</publishTime>
+    </File>
+    <File Include="bin/UrlRewritingNet.UrlRewriter.dll">
+      <publishTime>09/11/2015 13:27:03</publishTime>
+    </File>
+    <File Include="Business/DbObject/dcDatabase.dbml">
+      <publishTime>11/26/2015 00:50:17</publishTime>
+    </File>
+    <File Include="Business/Logic/ChamCong/dsXuLyQuetThe.xsc">
+      <publishTime>09/11/2015 13:25:41</publishTime>
+    </File>
+    <File Include="Business/Logic/ChamCong/dsXuLyQuetThe.xss">
+      <publishTime>11/26/2015 00:50:17</publishTime>
+    </File>
+    <File Include="Business/Logic/Luong/dsTinhLuong.xsc">
+      <publishTime>09/19/2015 16:32:05</publishTime>
+    </File>
+    <File Include="Business/Logic/Luong/dsTinhLuong.xss">
+      <publishTime>11/22/2015 22:34:09</publishTime>
+    </File>
+    <File Include="ClassDiagram1.cd">
+      <publishTime>11/18/2015 10:09:13</publishTime>
+    </File>
+    <File Include="Code/excel.xslt">
+      <publishTime>09/15/2015 16:33:36</publishTime>
+    </File>
+    <File Include="Cpanel/Account/Function.aspx">
+      <publishTime>09/15/2015 16:33:36</publishTime>
+    </File>
+    <File Include="Cpanel/Account/Role.aspx">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Account/User.aspx">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Account/User2Roles.aspx">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Admin/SQLManagement.aspx">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Admin/SystemTools.aspx">
+      <publishTime>10/12/2015 07:58:56</publishTime>
+    </File>
+    <File Include="Cpanel/Category/Banner.aspx">
+      <publishTime>09/28/2015 21:39:45</publishTime>
+    </File>
+    <File Include="Cpanel/Category/CatDefine.aspx">
+      <publishTime>09/28/2015 09:36:55</publishTime>
+    </File>
+    <File Include="Cpanel/Category/CatDefineDetail.aspx">
+      <publishTime>10/08/2015 13:41:47</publishTime>
+    </File>
+    <File Include="Cpanel/Category/Company.aspx">
+      <publishTime>09/28/2015 21:54:36</publishTime>
+    </File>
+    <File Include="Cpanel/Category/Default.aspx">
+      <publishTime>09/28/2015 22:39:24</publishTime>
+    </File>
+    <File Include="Cpanel/Category/Department.aspx">
+      <publishTime>09/28/2015 23:02:36</publishTime>
+    </File>
+    <File Include="Cpanel/Category/SEOData.aspx">
+      <publishTime>09/28/2015 23:09:52</publishTime>
+    </File>
+    <File Include="Cpanel/Category/sysPa.aspx">
+      <publishTime>09/11/2015 13:25:46</publishTime>
+    </File>
+    <File Include="Cpanel/Default.aspx">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Employee/Editor.aspx">
+      <publishTime>03/09/2016 11:45:46</publishTime>
+    </File>
+    <File Include="Cpanel/Employee/Search.aspx">
+      <publishTime>02/01/2016 14:18:21</publishTime>
+    </File>
+    <File Include="Cpanel/HtmlModule/ApprovedBody.html">
+      <publishTime>09/25/2015 14:25:24</publishTime>
+    </File>
+    <File Include="Cpanel/HtmlModule/ApprovedSubject.html">
+      <publishTime>09/25/2015 14:25:24</publishTime>
+    </File>
+    <File Include="Cpanel/HtmlModule/Default.aspx">
+      <publishTime>09/11/2015 13:25:46</publishTime>
+    </File>
+    <File Include="Cpanel/HtmlModule/PageConfig.aspx">
+      <publishTime>09/11/2015 13:25:46</publishTime>
+    </File>
+    <File Include="Cpanel/Import/ImportEmployee.aspx">
+      <publishTime>12/10/2015 08:37:22</publishTime>
+    </File>
+    <File Include="Cpanel/Import/ImportTKNganHang.aspx">
+      <publishTime>12/11/2015 11:48:33</publishTime>
+    </File>
+    <File Include="Cpanel/Import/Tempory/index.html">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/i_Report/DeptChoicer.aspx">
+      <publishTime>12/11/2015 15:00:58</publishTime>
+    </File>
+    <File Include="Cpanel/i_Report/Printer.aspx">
+      <publishTime>12/11/2015 13:03:05</publishTime>
+    </File>
+    <File Include="Cpanel/i_Report/Viewer.aspx">
+      <publishTime>12/14/2015 00:32:37</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Account_Function.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Category_Banner.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Category_Company.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Category_Default.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Category_Department.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Category_SEOData.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Category_sysPa.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/common_btn.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/common_msg.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Desktop.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Employee_Editor.xml">
+      <publishTime>09/29/2015 23:51:31</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Employee_Search.xml">
+      <publishTime>09/29/2015 14:04:48</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Import_ImportEmployee.xml">
+      <publishTime>09/30/2015 07:38:45</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Login.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Luong_AnalyzeData.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Luong_ImportPhuCapCoDinh.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Luong_ImportTsTinhLuong.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Luong_PheDuyetBangLuong.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Luong_PheDuyetLuong.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Luong_ReportMonth.xml">
+      <publishTime>09/30/2015 08:31:27</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/QuetThe/QuetThe_AnalyzeData.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/QuetThe_AnalyzeData.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/QuetThe_DKCaLam.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/QuetThe_DKLamThem.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/QuetThe_DKNghiKhongLuong.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/QuetThe_DKVangMat.xml">
+      <publishTime>09/29/2015 13:30:28</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/QuetThe_Import.xml">
+      <publishTime>09/29/2015 13:30:23</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/QuetThe_LoaiNgayLamThem.xml">
+      <publishTime>09/29/2015 13:30:23</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/QuetThe_NgayNghiNam.xml">
+      <publishTime>09/29/2015 13:30:23</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/QuetThe_ReportMonth.xml">
+      <publishTime>09/29/2015 13:30:23</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/QuetThe_TinhTangCa.xml">
+      <publishTime>09/29/2015 13:30:23</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/ReportChiTietVaoRaThang.xml">
+      <publishTime>01/22/2016 09:29:11</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Report_NgayCongTangCaThang.xml">
+      <publishTime>09/29/2015 13:30:23</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/report_quetthengay.xml">
+      <publishTime>09/29/2015 13:45:32</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Report_ReportChamCong.xml">
+      <publishTime>09/29/2015 13:30:23</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/en/Report_ThongkedulieuquetheNgay.xml">
+      <publishTime>09/30/2015 07:50:14</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/language.js">
+      <publishTime>03/15/2016 09:17:39</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Account_Function.xml">
+      <publishTime>12/25/2015 12:57:56</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Category_Banner.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Category_Company.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Category_Default.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Category_Department.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Category_SEOData.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Category_sysPa.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/common_btn.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/common_msg.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Desktop.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Employee_Editor.xml">
+      <publishTime>10/27/2015 15:38:15</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Employee_Search.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Import_ImportEmployee.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Login.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Luong_AnalyzeData.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Luong_ImportPhuCapCoDinh.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Luong_ImportTsTinhLuong.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Luong_PheDuyetBangLuong.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Luong_PheDuyetLuong.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Luong_ReportMonth.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/QuetThe/QuetThe_AnalyzeData.xml">
+      <publishTime>09/30/2015 14:06:39</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/QuetThe_AnalyzeData.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/QuetThe_DKCaLam.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/QuetThe_DKLamThem.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/QuetThe_DKNghiKhongLuong.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/QuetThe_DKVangMat.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/QuetThe_Import.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/QuetThe_LoaiNgayLamThem.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/QuetThe_NgayNghiNam.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/QuetThe_ReportMonth.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/QuetThe_TinhTangCa.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/ReportChiTietVaoRaThang.xml">
+      <publishTime>01/22/2016 09:29:50</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Report_NgayCongTangCaThang.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/report_quetthengay.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Report_ReportChamCong.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Lng/vi/Report_ThongkedulieuquetheNgay.xml">
+      <publishTime>10/14/2015 13:39:06</publishTime>
+    </File>
+    <File Include="Cpanel/Login.aspx">
+      <publishTime>11/18/2015 07:57:43</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/AnalyzeData.aspx">
+      <publishTime>12/06/2015 18:06:53</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/ImportCoBaoHiem.aspx">
+      <publishTime>10/12/2015 07:58:55</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/ImportLuongSP.aspx">
+      <publishTime>12/14/2015 00:32:36</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/ImportPhuCapCoDinh.aspx">
+      <publishTime>12/10/2015 11:01:40</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/ImportTsTinhLuong.aspx">
+      <publishTime>12/26/2015 15:01:21</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/In1PhieuLuong.aspx">
+      <publishTime>09/25/2015 14:25:24</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/InPhieuLuong.aspx">
+      <publishTime>01/26/2016 18:24:14</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/PheDuyetBangLuong.aspx">
+      <publishTime>09/27/2015 20:20:02</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/PheDuyetLuong.aspx">
+      <publishTime>09/11/2015 13:25:42</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/ReportMonth.aspx">
+      <publishTime>02/26/2016 11:54:45</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/Tempory/Import.xls">
+      <publishTime>12/28/2015 04:54:32</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/Tempory/ImportCoBH.xls">
+      <publishTime>12/21/2015 17:55:44</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/Tempory/ImportPCCD.xls">
+      <publishTime>11/16/2015 10:34:40</publishTime>
+    </File>
+    <File Include="Cpanel/Luong/Tempory/index.html">
+      <publishTime>09/15/2015 16:33:36</publishTime>
+    </File>
+    <File Include="Cpanel/News/BrowseFile.aspx">
+      <publishTime>09/11/2015 13:25:46</publishTime>
+    </File>
+    <File Include="Cpanel/News/Default.aspx">
+      <publishTime>09/11/2015 13:25:46</publishTime>
+    </File>
+    <File Include="Cpanel/News/Editor.aspx">
+      <publishTime>09/11/2015 13:25:46</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/AnalyzeData.aspx">
+      <publishTime>01/15/2016 11:19:46</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/CaLam.aspx">
+      <publishTime>11/10/2015 00:32:29</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/CauHinh/CaLam.aspx">
+      <publishTime>12/06/2015 18:06:28</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/CauHinh/DKCaMacDinh.aspx">
+      <publishTime>11/12/2015 03:06:22</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/CauHinh/LoaiNgayLamThem.aspx">
+      <publishTime>11/12/2015 03:06:22</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/CauHinh/NgayNghiNam.aspx">
+      <publishTime>11/12/2015 03:06:23</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/CauHinh/TinhTangCa.aspx">
+      <publishTime>11/21/2015 00:46:36</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/DKCaLam.aspx">
+      <publishTime>12/29/2015 14:21:45</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/DKLamThem.aspx">
+      <publishTime>11/05/2015 08:04:02</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/DKNghiKoLuong.aspx">
+      <publishTime>01/15/2016 08:02:16</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/DKVangMat.aspx">
+      <publishTime>01/11/2016 14:32:03</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/Import.aspx">
+      <publishTime>09/30/2015 07:43:35</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/LoaiNgayLamThem.aspx">
+      <publishTime>09/27/2015 10:34:05</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/NgayNghiNam.aspx">
+      <publishTime>09/27/2015 10:50:34</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/ReportMonth.aspx">
+      <publishTime>01/07/2016 09:19:43</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/Tempory/index.html">
+      <publishTime>09/11/2015 13:25:42</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/TinhTangCa.aspx">
+      <publishTime>11/04/2015 09:30:30</publishTime>
+    </File>
+    <File Include="Cpanel/QuetThe/Tools/SuaQuetThe.aspx">
+      <publishTime>11/12/2015 13:13:59</publishTime>
+    </File>
+    <File Include="Cpanel/Report/NgayCongTangCaThang.aspx">
+      <publishTime>03/03/2016 09:41:43</publishTime>
+    </File>
+    <File Include="Cpanel/Report/ReportChamCong.aspx">
+      <publishTime>03/02/2016 16:04:53</publishTime>
+    </File>
+    <File Include="Cpanel/Report/ReportChiTietVaoRaThang.aspx">
+      <publishTime>02/27/2016 12:19:05</publishTime>
+    </File>
+    <File Include="Cpanel/Report/reportchunhat.aspx">
+      <publishTime>03/04/2016 10:58:52</publishTime>
+    </File>
+    <File Include="Cpanel/Report/ReportDuLieuQuetTheGoc.aspx">
+      <publishTime>01/22/2016 09:07:08</publishTime>
+    </File>
+    <File Include="Cpanel/Report/ReportHopDongHetHan.aspx">
+      <publishTime>03/04/2016 09:42:32</publishTime>
+    </File>
+    <File Include="Cpanel/Report/ReportNguoiNghiLam.aspx">
+      <publishTime>10/05/2015 08:32:02</publishTime>
+    </File>
+    <File Include="Cpanel/Report/ReportNhanVienDuoi18Tuoi.aspx">
+      <publishTime>02/27/2016 12:19:31</publishTime>
+    </File>
+    <File Include="Cpanel/Report/ReportNhanVienHetHanThaiSan.aspx">
+      <publishTime>03/17/2016 16:17:23</publishTime>
+    </File>
+    <File Include="Cpanel/Report/ReportNhanVienNghiPhepNam.aspx">
+      <publishTime>10/09/2015 21:06:25</publishTime>
+    </File>
+    <File Include="Cpanel/Report/ReportNhanVienNghi_VaoLam.aspx">
+      <publishTime>03/03/2016 15:24:52</publishTime>
+    </File>
+    <File Include="Cpanel/Report/ReportNhanVienVangMat.aspx">
+      <publishTime>03/04/2016 11:58:20</publishTime>
+    </File>
+    <File Include="Cpanel/Report/report_quetthengay.aspx">
+      <publishTime>10/17/2015 17:22:27</publishTime>
+    </File>
+    <File Include="Cpanel/Report/rep_BaoCaoChuyenCan.aspx">
+      <publishTime>10/17/2015 14:42:03</publishTime>
+    </File>
+    <File Include="Cpanel/Report/rep_BaoCaoGioiTinh.aspx">
+      <publishTime>10/20/2015 11:06:32</publishTime>
+    </File>
+    <File Include="Cpanel/Report/rptOT6H.aspx">
+      <publishTime>12/03/2015 15:27:55</publishTime>
+    </File>
+    <File Include="Cpanel/Report/ThongkedulieuquetheNgay.aspx">
+      <publishTime>12/29/2015 10:49:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/BitHelper.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/cookie.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/ddaccordion.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/Base64.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/build">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/Button.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/CSVFormatter/CSVFormatter.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/example/index.html">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/example/style.css">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/ExcelFormatter/Cell.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/ExcelFormatter/ExcelFormatter.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/ExcelFormatter/Style.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/ExcelFormatter/Workbook.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/ExcelFormatter/Worksheet.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/Exporter-all.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/Exporter.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/Formatter.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/LICENSE.txt">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.Exporter/README.textile">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext.ux.GridPrinter.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext/textarea_getSelection.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/Ext/textfield_getSelection.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/gridprinter6.css">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/jquery-1.4.4.min.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/jquery-1.9.0.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/printThis.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Js/script.js">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/sky_animation/1.jpg">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/sky_animation/2.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/sky_animation/3.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/sky_animation/4.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/sky_animation/5.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/sky_animation/HtmlPage.html">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/glossymenu.css">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/404bg.jpg">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/bgApproved.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/bgRejected.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/bgRevise.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/bg_banner.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/building-construction.jpg">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/cham1.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/cham2.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/clock_blue.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/clock_green.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/desktop_bg2.jpg">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/file32.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/file48.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/first_year_production.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/folder.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/fview_item-over.gif">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/fview_item-selected.gif">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/grid48x48.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/i_cp.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/i_db.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/i_en.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/i_vi.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/i_vs.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/loading.gif">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/login.jpg">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/logo.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/LogoLogin.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/menu.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/report-icon.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/report.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/TT0.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/TT1.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/TT2.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/TT3.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/TT_danger.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/TT_info.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/TT_success.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/TT_warning.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/under-construction-sign.png">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/user48x48.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/vista_start_button.gif">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/w8button.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/IMG/window48x48.png">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/Skins/Style/style.css">
+      <publishTime>09/11/2015 13:25:44</publishTime>
+    </File>
+    <File Include="Cpanel/Slide/Default.aspx">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/SYS/404.aspx">
+      <publishTime>09/11/2015 13:25:46</publishTime>
+    </File>
+    <File Include="Cpanel/SYS/building-construction.aspx">
+      <publishTime>09/11/2015 13:25:46</publishTime>
+    </File>
+    <File Include="Cpanel/SYS/change-log.aspx">
+      <publishTime>10/23/2015 08:00:26</publishTime>
+    </File>
+    <File Include="Cpanel/SYS/error-right.aspx">
+      <publishTime>09/11/2015 13:25:46</publishTime>
+    </File>
+    <File Include="Cpanel/SYS/error.aspx">
+      <publishTime>09/11/2015 13:25:46</publishTime>
+    </File>
+    <File Include="Cpanel/UC/BrowseFile.ascx">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Cpanel/UC/ImageUploader.ascx">
+      <publishTime>09/11/2015 13:25:45</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>09/11/2015 13:25:47</publishTime>
+    </File>
+    <File Include="Error.aspx">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="ExcelTemplate/%24Temporary/index.html">
+      <publishTime>09/19/2015 16:32:07</publishTime>
+    </File>
+    <File Include="ExcelTemplate/Download.aspx">
+      <publishTime>09/19/2015 16:32:06</publishTime>
+    </File>
+    <File Include="ExcelTemplate/HowToCreateExcelTemplate.doc">
+      <publishTime>09/19/2015 16:32:07</publishTime>
+    </File>
+    <File Include="ExcelTemplate/HowToCreateWordTemplate.doc">
+      <publishTime>09/19/2015 16:32:06</publishTime>
+    </File>
+    <File Include="ExcelTemplate/i_Report/BC_NvThaiSan.xls">
+      <publishTime>12/14/2015 00:32:37</publishTime>
+    </File>
+    <File Include="ExcelTemplate/Luong/monthlySalary.xls">
+      <publishTime>03/15/2016 16:02:07</publishTime>
+    </File>
+    <File Include="ExcelTemplate/template.dot">
+      <publishTime>09/19/2015 16:32:06</publishTime>
+    </File>
+    <File Include="ExcelTemplate/template.xls">
+      <publishTime>09/19/2015 16:32:06</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/11/2015 13:25:47</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/11/2015 13:25:41</publishTime>
+    </File>
+    <File Include="HtmlModule/FollowUs.html">
+      <publishTime>09/11/2015 13:25:40</publishTime>
+    </File>
+    <File Include="Images/chonfile.png">
+      <publishTime>09/28/2015 10:00:07</publishTime>
+    </File>
+    <File Include="Images/Upload/slide/funring1695728704.png">
+      <publishTime>09/11/2015 13:25:50</publishTime>
+    </File>
+    <File Include="Images/Upload/slide/slider-bg1.jpg">
+      <publishTime>09/11/2015 13:25:50</publishTime>
+    </File>
+    <File Include="Images/Upload/slide/slider-bg2.jpg">
+      <publishTime>09/11/2015 13:25:50</publishTime>
+    </File>
+    <File Include="Images/Upload/slide/slider-bg3.jpg">
+      <publishTime>09/11/2015 13:25:50</publishTime>
+    </File>
+    <File Include="Images/Upload/slide/slider-bg4.jpg">
+      <publishTime>09/11/2015 13:25:50</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.6.4.js">
+      <publishTime>09/11/2015 13:25:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.6.4.min.js">
+      <publishTime>09/11/2015 13:25:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-1.1.4.js">
+      <publishTime>09/11/2015 13:25:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-1.1.4.min.js">
+      <publishTime>09/11/2015 13:25:41</publishTime>
+    </File>
+    <File Include="sHRM/Approved.aspx">
+      <publishTime>09/25/2015 14:25:26</publishTime>
+    </File>
+    <File Include="sHRM/Dashboard.aspx">
+      <publishTime>09/11/2015 13:25:38</publishTime>
+    </File>
+    <File Include="sHRM/Default.aspx">
+      <publishTime>03/14/2016 08:17:25</publishTime>
+    </File>
+    <File Include="sHRM/Styles/css/common.css">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/css/ext.css">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/css/reset-min.css">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/css/styles.css">
+      <publishTime>10/27/2015 11:30:20</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/accessdenied.png">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/bg_Head.jpg">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/bg_Shrm.jpg">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/cham1.png">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/cham2.png">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/ext.gif">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/loading2.gif">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/Logo_129.png">
+      <publishTime>10/27/2015 15:34:06</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/menu1.png">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/menu2.png">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/no-access-1516142.jpg">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/noimg.jpg">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/Quantri.png">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/img/Quantri_EN.png">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="sHRM/Styles/js/UrlHelper.js">
+      <publishTime>09/11/2015 13:25:39</publishTime>
+    </File>
+    <File Include="Site/contact.aspx">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Site/details.aspx">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Site/Images/noimg.jpg">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Site/news_cat.aspx">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Site/search.aspx">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Site/staticPage.aspx">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Site/_Sys/ajax.aspx">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Site/_Sys/genAllUC.aspx">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Site/_Sys/GetUserControl.aspx">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="Temp/BaoCaoThang.xlsx">
+      <publishTime>01/19/2016 12:20:40</publishTime>
+    </File>
+    <File Include="Temp/DanhsachChuNhat.xlsx">
+      <publishTime>01/23/2016 11:53:02</publishTime>
+    </File>
+    <File Include="Temp/DanhsachOT.xlsx">
+      <publishTime>02/26/2016 09:05:52</publishTime>
+    </File>
+    <File Include="Temp/Tempchitietvaorathang.xlsx">
+      <publishTime>01/22/2016 08:58:07</publishTime>
+    </File>
+    <File Include="Temp/Tempgioconggiotangca.xlsx">
+      <publishTime>11/21/2015 11:08:50</publishTime>
+    </File>
+    <File Include="Temp/TempNguoiNghiLam.xlsx">
+      <publishTime>10/02/2015 21:58:11</publishTime>
+    </File>
+    <File Include="Temp/TempNguoiNghi_VaoLam.xlsx">
+      <publishTime>11/21/2015 11:08:51</publishTime>
+    </File>
+    <File Include="Temp/TempNhanVien.xlsx">
+      <publishTime>01/04/2016 08:52:04</publishTime>
+    </File>
+    <File Include="Temp/TempNhanVienNghiPhepNam.xlsx">
+      <publishTime>11/21/2015 11:08:50</publishTime>
+    </File>
+    <File Include="Temp/TempNhanVienVangMat.xlsx">
+      <publishTime>11/21/2015 11:08:50</publishTime>
+    </File>
+    <File Include="Temp/TempReportChamCongThang.xlsx">
+      <publishTime>03/02/2016 16:07:22</publishTime>
+    </File>
+    <File Include="Temp/TempThongkequetthe.xlsx">
+      <publishTime>01/11/2016 10:27:44</publishTime>
+    </File>
+    <File Include="Temp/~%24TempNhanVien.xlsx">
+      <publishTime>11/21/2015 11:08:51</publishTime>
+    </File>
+    <File Include="Uploads/images/00001.jpg">
+      <publishTime>09/29/2015 20:47:21</publishTime>
+    </File>
+    <File Include="Uploads/images/01590.jpg">
+      <publishTime>09/30/2015 01:40:15</publishTime>
+    </File>
+    <File Include="Uploads/images/100779163.jpg">
+      <publishTime>09/28/2015 09:49:42</publishTime>
+    </File>
+    <File Include="Uploads/images/112252009.jpg">
+      <publishTime>09/28/2015 09:59:10</publishTime>
+    </File>
+    <File Include="Uploads/images/113548890.jpg">
+      <publishTime>09/28/2015 10:00:40</publishTime>
+    </File>
+    <File Include="View/web/contact.html">
+      <publishTime>09/11/2015 13:25:40</publishTime>
+    </File>
+    <File Include="View/web/details.html">
+      <publishTime>09/11/2015 13:25:40</publishTime>
+    </File>
+    <File Include="View/web/in1PhieuLuong.html">
+      <publishTime>09/25/2015 14:25:26</publishTime>
+    </File>
+    <File Include="View/web/index.html">
+      <publishTime>09/11/2015 13:25:40</publishTime>
+    </File>
+    <File Include="View/web/inPhieuLuong.html">
+      <publishTime>02/26/2016 11:51:35</publishTime>
+    </File>
+    <File Include="View/web/mon_an.html">
+      <publishTime>09/11/2015 13:25:40</publishTime>
+    </File>
+    <File Include="View/web/news_cat.html">
+      <publishTime>09/11/2015 13:25:40</publishTime>
+    </File>
+    <File Include="View/web/reservation.html">
+      <publishTime>09/11/2015 13:25:40</publishTime>
+    </File>
+    <File Include="View/web/search.html">
+      <publishTime>09/11/2015 13:25:40</publishTime>
+    </File>
+    <File Include="View/web/staticPage.html">
+      <publishTime>09/11/2015 13:25:40</publishTime>
+    </File>
+    <File Include="VTRewrites.config">
+      <publishTime>09/25/2015 14:25:25</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/18/2016 11:06:04</publishTime>
+    </File>
+    <File Include="WebPart/web/Master/Footer.ascx">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+    <File Include="WebPart/web/Master/Header.ascx">
+      <publishTime>09/11/2015 13:25:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

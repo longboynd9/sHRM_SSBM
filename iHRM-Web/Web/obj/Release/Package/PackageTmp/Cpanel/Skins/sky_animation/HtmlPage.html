@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <style type="text/css">
+        @keyframes animatedBg1 
+        {
+            0% { background-position-x:-860px; }
+            100% { background-position-x:1260px; }
+        }
+        @-webkit-keyframes animatedBg1 
+        {
+            0% { background-position-x:-860px; }
+            100% { background-position-x:1260px; }
+        }
+
+        html { height:100%; margin:0; padding:0; } 
+
+        body
+        {
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+            background-image: url('1.jpg');
+            background-repeat:no-repeat;
+            height:100%; margin:0; padding:0;
+        }
+
+        #div1, #div2, #div3 { height:500px; background-repeat: no-repeat; position:absolute; left:0; top:0; right:0; }
+        #div1 { -webkit-animation:animatedBg1 linear 15s infinite; animation: animatedBg1 linear 15s infinite; background-image: url('2.png'); background-position: -860px 70px; }
+        #div2 { -webkit-animation:animatedBg1 linear 25s infinite; animation: animatedBg1 linear 25s infinite; background-image: url('4.png'); background-position: -860px 0px; }
+        #div3 { -webkit-animation:animatedBg1 linear 20s infinite; animation: animatedBg1 linear 20s infinite; background-image: url('5.png'); background-position: -860px 70px; }
+    </style>
+</head>
+<body>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+</body>
+</html>

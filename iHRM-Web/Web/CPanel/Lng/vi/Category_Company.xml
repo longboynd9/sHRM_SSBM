@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Category_Company>
+  <luulai>Mã đơn vị</luulai>
+  <CompanyCode>Mã đơn vị</CompanyCode>
+  <CompanyName>Tên cty</CompanyName>
+  <Address>Địa chỉ</Address>
+  <Phone>Điện thoại</Phone>
+  <VATCode>Mã số thuế</VATCode>
+  <BankAccount>Số TK NH</BankAccount>
+  <BankAccount_USD>TK NH (USD)</BankAccount_USD>
+  <BankName>Tại ngân hàng</BankName>
+</Category_Company>

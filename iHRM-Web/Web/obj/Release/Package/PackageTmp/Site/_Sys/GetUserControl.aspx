@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetUserControl.aspx.cs" Inherits="iHRM.WebPC.Site._Sys.GetUserControl" %>

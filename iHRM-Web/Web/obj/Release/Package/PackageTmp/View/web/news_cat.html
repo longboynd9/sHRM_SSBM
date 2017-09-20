@@ -1,0 +1,120 @@
+﻿{{INCLUDE Master\Header}}
+
+<script type="text/javascript">$(function () { activeMainMenu('{{catIdd}}'); });</script>
+
+<style type="text/css">
+    .cls1 { width: 270px; float: left; }
+    .cls1 .h a { font-weight:bold; }
+    .cls1 .it1 {  }
+</style>
+
+<div class="page_content">
+    <div class="tile-page-main">
+        <h1 class="title" id="page-title">{{catName}}</h1>
+        <p>{{catDesc}}</p>
+    </div>
+
+
+    <!-- BEGIN SubCat -->
+    <div class="region region-content">
+        <div id="block-system-main" class="block block-system">
+
+
+            <div class="content">                
+                <!-- BEGIN SubCatItem -->
+                <div class="view view-ip-resources cls1">
+                    <div class="view-content">
+
+                        <div class="views-row">
+                            <span class="views-field views-field-field-category-ip-resources">
+                                <span class="field-content h">
+                                    <a href="{{SubCatItem_Link}}">{{SubCatItem_Name}}</a>
+                                </span>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="attachment attachment-after">
+                        <div class="view view-practice-areas view-id-practice_areas view-display-id-attachment_1">
+
+
+
+                            <div class="view-content">
+                                <div class="item-list">
+                                    <ul>                                        
+                                        <!-- BEGIN SubSubCatItem -->
+                                        <li class="views-row views-row-1 views-row-odd it1">
+                                            <div class="views-field views-field-title">        <span class="field-content"><a href="{{SubSubCatItem_Link}}">{{SubSubCatItem_Name}}</a></span>  </div>
+                                        </li>
+                                        <!-- END SubSubCatItem -->
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>                
+                <!-- END SubCatItem -->
+            </div>
+        </div>
+    </div>
+
+    <!-- END SubCat -->
+
+
+
+    <div class="region region-content">
+        <div class="block block-system">
+
+
+            <div class="content">
+                <div class="view view-news view-id-news view-display-id-page view-dom-id-1f6317a3a6204935cfbf23d3cf29bd50">
+
+
+
+                    <div class="view-content">
+                        <!-- BEGIN LstBV -->
+                        <div class="views-row">
+
+                            <div class="views-field views-field-field-images-news">
+                                <div class="field-content" style="width:190px;height:125px;text-align:center; border: solid 1px #ccc; line-height:125px">
+                                    <img src="{{LstBV_img}}" style="max-width:190px;max-height:125px;vertical-align:middle;" alt="">
+                                </div>
+                            </div>
+                            <div class="views-field views-field-title">
+                                <span class="field-content"><a href="{{LstBV_link}}">{{LstBV_title}}</a></span>
+                                <p class="desc1">{{LstBV_desc}}</p>
+                            </div>
+                            <div class="views-field views-field-nothing-1"><span class="field-content"><a href="{{LstBV_link}}">Read more</a></span>  </div>
+                        </div>
+                        <!-- END LstBV -->
+                    </div>
+
+                    <br />
+                    <div class="item-list {{cat_linkNextPage_display}}">
+                        <a href="{{cat_linkNextPage}}">Trang tiếp theo</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="region region-sidebar-right">
+    <div id="block-image-background-image-background" class="block block-image-background">
+
+
+        <div class="content">
+            <img src="http://lawfirmelite.com/sites/default/files/styles/image_background/public/web-banner-11.jpg" width="193" height="850" alt="">
+        </div>
+    </div>
+</div>
+
+
+{{INCLUDE Master\Footer}}

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Report_ThongkedulieuquetheNgay>
+  <title>Danh sách phòng ban</title>
+  <lbPhongBan>Phòng ban:  </lbPhongBan>
+  <chonPB>Chọn phòng ban...</chonPB>
+  <dsPB>Danh sách phòng ban</dsPB>
+  <tungay>  Từ Ngày:   </tungay>
+  <denngay>  Đến Ngày: </denngay>
+  <loaiquetthe>Loại quẹt thẻ</loaiquetthe>
+  <pb>Phòng Ban</pb>
+  <tenNV>Tên nhân viên</tenNV>
+  <MaNV>Mã nhân viên</MaNV>
+  <gioitinh>Giới tính</gioitinh>
+  <bophan>Bộ phận</bophan>
+  <ngay>Ngày</ngay>
+  <vaothuc>Vào thực</vaothuc>
+  <rathuc>Ra thực</rathuc>
+  <ca>Ca</ca>
+</Report_ThongkedulieuquetheNgay>

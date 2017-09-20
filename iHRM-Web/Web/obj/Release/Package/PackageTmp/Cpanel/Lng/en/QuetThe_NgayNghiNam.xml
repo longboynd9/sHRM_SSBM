@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<QuetThe_NgayNghiNam>
+  <ngay>Date</ngay>
+  <loaingay>Date type</loaingay>
+  <lamca>Working shift</lamca>
+  <emptmsg>No record to display</emptmsg>
+  <kichthuoctrang>Page size:</kichthuoctrang>
+  <to>Group</to>
+  <ten>Name</ten>
+  <ngaynghinam>Annual leave day</ngaynghinam>
+  <thang>Month</thang>
+  <nam>Year</nam>
+  <xacnhan>Confirm</xacnhan>
+  <msg_js>Please fill in full data</msg_js>
+  <msg_js2>Update employees </msg_js2>
+  <msg_js3>Are you sure to delete?</msg_js3>
+  <dangky>Register</dangky>
+  <chon>Choose</chon>
+</QuetThe_NgayNghiNam>

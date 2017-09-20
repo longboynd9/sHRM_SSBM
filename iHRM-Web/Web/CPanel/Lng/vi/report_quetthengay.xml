@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<report_quetthengay>
+  <title>Báo cáo Giờ công - Giờ tăng ca tháng</title>
+  <lbPhongBan>Phòng ban:  </lbPhongBan>
+  <chonPB>Chọn phòng ban...</chonPB>
+  <dsPB>Danh sách phòng ban</dsPB>
+  <ngay> Ngày:  </ngay>
+  <tungay>Từ ngày:  </tungay>
+  <denngay>Đến Ngày:  </denngay>
+  <gioitinh>Giới tính</gioitinh>
+  <tenNV>Tên nhân viên</tenNV>
+  <MaNV>Mã nhân viên</MaNV>
+  <bophan>Bộ phận</bophan>
+  <ngay2>Ngày</ngay2>
+  <trangthai>Trạng thái</trangthai>
+  <quetDen>Quẹt đến lúc</quetDen>
+  <tgDiMuon>TG đi muộn</tgDiMuon>
+  <quetVe>Quẹt về lúc</quetVe>
+  <tgVeSom>TG về sớm</tgVeSom>
+  <tgTangCa>TG tăng ca</tgTangCa>
+  <msg_1>Bạn chưa chọn ngày!</msg_1>
+</report_quetthengay>

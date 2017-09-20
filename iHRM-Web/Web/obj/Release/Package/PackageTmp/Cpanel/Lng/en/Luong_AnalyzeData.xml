@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<Luong_AnalyzeData>
+  <lblNote>This action will analyze all calculated attendance data and update salary for employees in month.</lblNote>
+  <lbTuNgay>From date</lbTuNgay>
+  <lbDenNgay>To date</lbDenNgay>
+  <lbTuKhoa>Keyword</lbTuKhoa>
+  <title_msg>Confirm again</title_msg>
+  <msg>This action cannot cancel and undo!&lt;br /&gt;Are you sure to continue?</msg>
+  <ketquaCC>Attendance check result: </ketquaCC>
+  <resetBL>Reset payroll</resetBL>
+  <emptmsg>No record</emptmsg>
+  <msg_1>Update successfully</msg_1>
+  <msg_2>Complete process!</msg_2>
+</Luong_AnalyzeData>

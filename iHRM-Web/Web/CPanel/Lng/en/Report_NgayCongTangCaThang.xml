@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Report_NgayCongTangCaThang>
+  <title>Report working time - overtime in month</title>
+  <lbPhongBan>Department:  </lbPhongBan>
+  <chonPB>Choose department...</chonPB>
+  <dsPB>Department name</dsPB>
+  <tungay>From date: </tungay>
+  <denngay>To date: </denngay>
+  <pb>Department</pb>
+  <tenNV>Employee name</tenNV>
+  <MaNV>Employee ID</MaNV>
+  <chucvu>Position</chucvu>
+  <tongNC>Total working day</tongNC>
+  <nghiLe>Holiday</nghiLe>
+  <nghiPhep>Annual leave</nghiPhep>
+  <nghiKoPhep>Leave without pay</nghiKoPhep>
+  <tgTangCa>Overtime</tgTangCa>
+</Report_NgayCongTangCaThang>

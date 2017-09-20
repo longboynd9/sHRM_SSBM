@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Luong_ImportPhuCapCoDinh>
+  <msg_js>Update employees </msg_js>
+  <msg_js2>Are you sure to delete?</msg_js2>
+  <msg_1>Please choose MAPPING!</msg_1>
+  <pb>Department</pb>
+  <dkCN>Personal registration</dkCN>
+  <dkTH>Group registration</dkTH>
+  <maTH>Group code</maTH>
+  <maNV>Employee ID</maNV>
+  <xangxe>Petrol</xangxe>
+  <nhanvien>Employee</nhanvien>
+  <pcXangXe>Petrol allowance</pcXangXe>
+  <dangky>Register</dangky>
+  <msg_js3>Please fill in full data</msg_js3>
+  <to>Group</to>
+  <chon>Choose</chon>
+  <msg_js4>Register successfully </msg_js4>
+  <msg_js5>Not find employee information</msg_js5>
+  <msg_2>You need to import file zip (.zip) or file text (.txt)</msg_2>
+  <msg_3>Error when saving file</msg_3>
+</Luong_ImportPhuCapCoDinh>

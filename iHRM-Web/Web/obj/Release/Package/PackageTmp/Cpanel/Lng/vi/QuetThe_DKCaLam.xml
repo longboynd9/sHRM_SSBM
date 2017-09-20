@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<QuetThe_DKCaLam>
+  <lblNote>Hành động này sẽ phân tích tất cả dữ liệu quẹt thẻ đã được import và thực hiện cập nhật tính công cho nhân viên làm ca.</lblNote>
+  <lbTuNgay>Từ ngày</lbTuNgay>
+  <lbDenNgay>Đến ngày</lbDenNgay>
+  <lbTuKhoa>Từ Khóa</lbTuKhoa>
+  <DKCaNhan>Đăng ký cá nhân</DKCaNhan>
+  <DKTapThe>Đăng ký tập thể</DKTapThe>
+  <ngay>Ngày</ngay>
+  <lamca>Ca Làm</lamca>
+  <emptmsg>Không có bản ghi nào để hiển thị</emptmsg>
+  <kichthuoctrang>Kích thước trang:</kichthuoctrang>
+  <to>Tổ</to>
+  <titleDKCL>Đăng ký ca làm</titleDKCL>
+  <maNV>Mã NV</maNV>
+  <nv>Nhân viên</nv>
+  <msg_js>Xin vui lòng điền đủ dữ liệu</msg_js>
+  <msg_js2>Cập nhật nhân viên </msg_js2>
+  <msg_js3>Bạn chắn chắn muốn xóa?</msg_js3>
+  <titleDKTapThe>Đăng ký ca làm tập thể</titleDKTapThe>
+  <CodeTapThe>Mã tập thể</CodeTapThe>
+  <dangky>Đăng ký</dangky>
+  <chon>Chọn</chon>
+  <msg_1>Từ ngày phải nhỏ hơn đến ngày!</msg_1>
+  <msg_2>Đăng ký thành công</msg_2>
+  <msg_3>Không tìm thấy thông tin của nhân viên</msg_3>
+</QuetThe_DKCaLam>

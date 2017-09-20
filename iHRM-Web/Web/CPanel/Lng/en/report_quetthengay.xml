@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<report_quetthengay>
+  <title>Report working time - overtime in month</title>
+  <lbPhongBan>Department:  </lbPhongBan>
+  <chonPB>Choose department...</chonPB>
+  <dsPB>Department name</dsPB>
+  <ngay>    Date:  </ngay>
+  <gioitinh>Gender</gioitinh>
+  <tenNV>Employee name</tenNV>
+  <MaNV>Employee ID</MaNV>
+  <bophan>Section</bophan>
+  <ngay2>Date</ngay2>
+  <trangthai>Status</trangthai>
+  <quetDen>Swipe when coming at</quetDen>
+  <tgDiMuon>Late coming time</tgDiMuon>
+  <quetVe>Swipe when leaving at</quetVe>
+  <tgVeSom>Early leaving time</tgVeSom>
+  <tgTangCa>Overtime</tgTangCa>
+  <tungay>From date:</tungay>
+  <denngay>To date:</denngay>
+</report_quetthengay>

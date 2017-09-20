@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Luong_PheDuyetLuong>
+  <txtSearchKey>Từ khóa</txtSearchKey>
+  <txtTuNgay>Từ ngày</txtTuNgay>
+  <txtDenNgay>Đến ngày</txtDenNgay>
+  <btnApproved>Phê duyệt</btnApproved>
+  <chkOnlyWaiting>Chưa duyệt</chkOnlyWaiting>
+  <grd_DateChange>Ngày</grd_DateChange>
+  <grd_EmployeeName>Nhân viên</grd_EmployeeName>
+  <grd_TitleName>Chức danh</grd_TitleName>
+  <grd_Coefficient>Hệ số</grd_Coefficient>
+  <grd_BasicSalary_Ins>Phụ cấp</grd_BasicSalary_Ins>
+  <grd_BasicSalary>Lương cơ bản</grd_BasicSalary>
+  <grd_Status>TT</grd_Status>
+  <btnApprovedAll>Phê duyệt tất</btnApprovedAll>
+  <btnRejectAll>Không duyệt tất</btnRejectAll>
+  <btnReviseAll>Xem lại tất</btnReviseAll>
+  <editor_Title>Phê duyệt lương</editor_Title>
+  <editor_btnApproved>Phê duyệt</editor_btnApproved>
+  <editor_btnReject>Không duyệt</editor_btnReject>
+  <editor_btnRevise>Xem lại</editor_btnRevise>
+  <editor_txtDate>Ngày</editor_txtDate>
+  <editor_txtEmployeeName>Nhân viên</editor_txtEmployeeName>
+  <editor_txtEmployeeCode />
+  <editor_txtDepName>Phòng ban</editor_txtDepName>
+  <editor_txtTitleName />
+  <editor_txtBasicSalary>Lương cơ bản</editor_txtBasicSalary>
+  <editor_txtBasicSalary_Ins>Phụ cấp</editor_txtBasicSalary_Ins>
+  <editor_txtNotes>Ghi chú</editor_txtNotes>
+  <editor_txtRemark>Ghi chú trạng thái</editor_txtRemark>
+</Luong_PheDuyetLuong>

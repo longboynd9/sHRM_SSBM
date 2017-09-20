@@ -1,0 +1,8 @@
+D:\iHRM\iHRM-Win\MaterialSkin\bin\Debug\MaterialSkin.dll
+D:\iHRM\iHRM-Win\MaterialSkin\bin\Debug\MaterialSkin.pdb
+D:\iHRM\iHRM-Win\MaterialSkin\obj\Debug\MaterialSkin.Properties.Resources.resources
+D:\iHRM\iHRM-Win\MaterialSkin\obj\Debug\MaterialSkin.csproj.GenerateResource.Cache
+D:\iHRM\iHRM-Win\MaterialSkin\obj\Debug\MaterialSkin.dll
+D:\iHRM\iHRM-Win\MaterialSkin\obj\Debug\MaterialSkin.pdb
+D:\iHRM\iHRM-Win\MaterialSkin\obj\Debug\MaterialSkin.csprojResolveAssemblyReference.cache
+D:\iHRM\iHRM-Win\MaterialSkin\obj\Debug\MaterialSkin.Controls.MaterialForm.resources

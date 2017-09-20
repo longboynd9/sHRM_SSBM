@@ -1,0 +1,1160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{14BA3006-EC25-4D78-A44E-69B117FE2752}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iHRM.WebPC</RootNamespace>
+    <AssemblyName>iHRM</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>..\..\dll\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="CKEditor.NET">
+      <HintPath>..\..\dll\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="CKFinder, Version=2.0.2.1326, Culture=neutral, PublicKeyToken=579e7adc719a1423, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dll\CKFinder.dll</HintPath>
+    </Reference>
+    <Reference Include="ePowerPortal_Core">
+      <HintPath>..\..\..\WORK-LAP\IVT\HRM\IVT_HRM_NEW\IVTSolution\Bin\ePowerPortal_Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ePowerPortal_Data">
+      <HintPath>..\..\..\WORK-LAP\IVT\HRM\IVT_HRM_NEW\IVTSolution\Bin\ePowerPortal_Data.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>..\..\..\WORK-LAP\IVT\HRM\IVT_HRM_NEW\IVTSolution\Bin\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Ext.Net">
+      <HintPath>..\..\dll\Ext.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Ext.Net.Utilities">
+      <HintPath>..\..\dll\Ext.Net.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Ext.Net.UX">
+      <HintPath>..\..\dll\Ext.Net.UX.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>..\..\dll\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Client">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Client.2.2.0\lib\net40\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Core">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Core.1.1.4\lib\net40\Microsoft.AspNet.SignalR.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.Owin.1.1.4\lib\net40\Microsoft.AspNet.SignalR.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.SignalR.SystemWeb">
+      <HintPath>..\packages\Microsoft.AspNet.SignalR.SystemWeb.1.1.4\lib\net40\Microsoft.AspNet.SignalR.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Exchange.WebServices, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dll\Microsoft.Exchange.WebServices.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Exchange.WebServices.Auth, Version=15.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dll\Microsoft.Exchange.WebServices.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.1.0.1\lib\net40\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UrlRewritingNet.UrlRewriter">
+      <HintPath>..\..\dll\UrlRewritingNet.UrlRewriter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\css\bootstrap-theme.min.css" />
+    <Content Include="Assets\css\bootstrap.min.css" />
+    <Content Include="Assets\css\docs.min.css" />
+    <Content Include="Assets\css\jquery-ui.css" />
+    <Content Include="Assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Assets\img\loading.gif" />
+    <Content Include="Assets\js\bootstrap.min.js" />
+    <Content Include="Assets\js\cookie.js" />
+    <Content Include="Assets\js\css3-mediaqueries.js" />
+    <Content Include="Assets\js\google-maps.js" />
+    <Content Include="Assets\js\ie-emulation-modes-warning.js" />
+    <Content Include="Assets\js\ie10-viewport-bug-workaround.js" />
+    <Content Include="Assets\js\jquery-1.9.1.js" />
+    <Content Include="Assets\js\jquery-scrolltofixed-min.js" />
+    <Content Include="Assets\js\jquery-ui.js" />
+    <Content Include="Assets\js\jquery-ui.min.js" />
+    <Content Include="Assets\js\UrlHelper.js" />
+    <Content Include="Code\excel.xslt" />
+    <Content Include="Cpanel\Account\Function.aspx" />
+    <Content Include="Cpanel\Account\Role.aspx" />
+    <Content Include="Cpanel\Account\User.aspx" />
+    <Content Include="Cpanel\Account\User2Roles.aspx" />
+    <Content Include="Cpanel\Admin\SQLManagement.aspx" />
+    <Content Include="Cpanel\Admin\SystemTools.aspx" />
+    <Content Include="Cpanel\Category\Company.aspx" />
+    <Content Include="Cpanel\Category\Banner.aspx" />
+    <Content Include="Cpanel\Category\CatDefineDetail.aspx" />
+    <Content Include="Cpanel\Category\CatDefine.aspx" />
+    <Content Include="Cpanel\Category\Department.aspx" />
+    <Content Include="Cpanel\Category\sysPa.aspx" />
+    <Content Include="Cpanel\Default.aspx" />
+    <Content Include="Cpanel\Employee\Search.aspx" />
+    <Content Include="Cpanel\Employee\Editor.aspx" />
+    <Content Include="Cpanel\HtmlModule\ApprovedBody.html" />
+    <Content Include="Cpanel\HtmlModule\ApprovedSubject.html" />
+    <Content Include="Cpanel\HtmlModule\Default.aspx" />
+    <Content Include="Cpanel\HtmlModule\PageConfig.aspx" />
+    <Content Include="Cpanel\Import\ImportEmployee.aspx" />
+    <Content Include="Cpanel\Import\ImportTKNganHang.aspx" />
+    <Content Include="Cpanel\Import\Tempory\index.html" />
+    <Content Include="Cpanel\i_Report\DeptChoicer.aspx" />
+    <Content Include="Cpanel\i_Report\Printer.aspx" />
+    <Content Include="Cpanel\i_Report\Viewer.aspx" />
+    <Content Include="Cpanel\Lng\en\Account_Function.xml" />
+    <Content Include="Cpanel\Lng\en\Category_Banner.xml" />
+    <Content Include="Cpanel\Lng\en\Category_Company.xml" />
+    <Content Include="Cpanel\Lng\en\Category_Default.xml" />
+    <Content Include="Cpanel\Lng\en\Category_Department.xml" />
+    <Content Include="Cpanel\Lng\en\Category_SEOData.xml" />
+    <Content Include="Cpanel\Lng\en\Category_sysPa.xml" />
+    <Content Include="Cpanel\Lng\en\common_btn.xml" />
+    <Content Include="Cpanel\Lng\en\common_msg.xml" />
+    <Content Include="Cpanel\Lng\en\Desktop.xml" />
+    <Content Include="Cpanel\Lng\en\Employee_Editor.xml" />
+    <Content Include="Cpanel\Lng\en\Employee_Search.xml" />
+    <Content Include="Cpanel\Lng\en\Import_ImportEmployee.xml" />
+    <Content Include="Cpanel\Lng\en\Login.xml" />
+    <Content Include="Cpanel\Lng\en\Luong_AnalyzeData.xml" />
+    <Content Include="Cpanel\Lng\en\Luong_ImportPhuCapCoDinh.xml" />
+    <Content Include="Cpanel\Lng\en\Luong_ImportTsTinhLuong.xml" />
+    <Content Include="Cpanel\Lng\en\Luong_PheDuyetBangLuong.xml" />
+    <Content Include="Cpanel\Lng\en\Luong_PheDuyetLuong.xml" />
+    <Content Include="Cpanel\Lng\en\Luong_ReportMonth.xml" />
+    <Content Include="Cpanel\Lng\en\QuetThe\QuetThe_AnalyzeData.xml" />
+    <Content Include="Cpanel\Lng\en\QuetThe_AnalyzeData.xml" />
+    <Content Include="Cpanel\Lng\en\QuetThe_DKCaLam.xml" />
+    <Content Include="Cpanel\Lng\en\QuetThe_DKLamThem.xml" />
+    <Content Include="Cpanel\Lng\en\QuetThe_DKNghiKhongLuong.xml" />
+    <Content Include="Cpanel\Lng\en\QuetThe_DKVangMat.xml" />
+    <Content Include="Cpanel\Lng\en\QuetThe_Import.xml" />
+    <Content Include="Cpanel\Lng\en\QuetThe_LoaiNgayLamThem.xml" />
+    <Content Include="Cpanel\Lng\en\QuetThe_NgayNghiNam.xml" />
+    <Content Include="Cpanel\Lng\en\QuetThe_ReportMonth.xml" />
+    <Content Include="Cpanel\Lng\en\QuetThe_TinhTangCa.xml" />
+    <Content Include="Cpanel\Lng\en\ReportChiTietVaoRaThang.xml" />
+    <Content Include="Cpanel\Lng\en\Report_NgayCongTangCaThang.xml" />
+    <Content Include="Cpanel\Lng\en\report_quetthengay.xml" />
+    <Content Include="Cpanel\Lng\en\Report_ReportChamCong.xml" />
+    <Content Include="Cpanel\Lng\en\Report_ThongkedulieuquetheNgay.xml" />
+    <Content Include="Cpanel\Lng\language.js" />
+    <Content Include="Cpanel\Lng\vi\Account_Function.xml" />
+    <Content Include="Cpanel\Lng\vi\Category_Banner.xml" />
+    <Content Include="Cpanel\Lng\vi\Category_Company.xml" />
+    <Content Include="Cpanel\Lng\vi\Category_Default.xml" />
+    <Content Include="Cpanel\Lng\vi\Category_Department.xml" />
+    <Content Include="Cpanel\Lng\vi\Category_SEOData.xml" />
+    <Content Include="Cpanel\Lng\vi\Category_sysPa.xml" />
+    <Content Include="Cpanel\Lng\vi\common_btn.xml" />
+    <Content Include="Cpanel\Lng\vi\common_msg.xml" />
+    <Content Include="Cpanel\Lng\vi\Desktop.xml" />
+    <Content Include="Cpanel\Lng\vi\Employee_Editor.xml" />
+    <Content Include="Cpanel\Lng\vi\Employee_Search.xml" />
+    <Content Include="Cpanel\Lng\vi\Import_ImportEmployee.xml" />
+    <Content Include="Cpanel\Lng\vi\Login.xml" />
+    <Content Include="Cpanel\Lng\vi\Luong_AnalyzeData.xml" />
+    <Content Include="Cpanel\Lng\vi\Luong_ImportPhuCapCoDinh.xml" />
+    <Content Include="Cpanel\Lng\vi\Luong_ImportTsTinhLuong.xml" />
+    <Content Include="Cpanel\Lng\vi\Luong_PheDuyetBangLuong.xml" />
+    <Content Include="Cpanel\Lng\vi\Luong_PheDuyetLuong.xml" />
+    <Content Include="Cpanel\Lng\vi\Luong_ReportMonth.xml" />
+    <Content Include="Cpanel\Lng\vi\QuetThe_AnalyzeData.xml" />
+    <Content Include="Cpanel\Lng\vi\QuetThe_DKCaLam.xml" />
+    <Content Include="Cpanel\Lng\vi\QuetThe_DKLamThem.xml" />
+    <Content Include="Cpanel\Lng\vi\QuetThe_DKNghiKhongLuong.xml" />
+    <Content Include="Cpanel\Lng\vi\QuetThe_DKVangMat.xml" />
+    <Content Include="Cpanel\Lng\vi\QuetThe_Import.xml" />
+    <Content Include="Cpanel\Lng\vi\QuetThe_LoaiNgayLamThem.xml" />
+    <Content Include="Cpanel\Lng\vi\QuetThe_NgayNghiNam.xml" />
+    <Content Include="Cpanel\Lng\vi\QuetThe_ReportMonth.xml" />
+    <Content Include="Cpanel\Lng\vi\QuetThe_TinhTangCa.xml" />
+    <Content Include="Cpanel\Lng\vi\ReportChiTietVaoRaThang.xml" />
+    <Content Include="Cpanel\Lng\vi\Report_NgayCongTangCaThang.xml" />
+    <Content Include="Cpanel\Lng\vi\report_quetthengay.xml" />
+    <Content Include="Cpanel\Lng\vi\Report_ReportChamCong.xml" />
+    <Content Include="Cpanel\Lng\vi\Report_ThongkedulieuquetheNgay.xml" />
+    <Content Include="Cpanel\Login.aspx" />
+    <Content Include="Cpanel\Luong\AnalyzeData.aspx" />
+    <Content Include="Cpanel\Luong\ImportCoBaoHiem.aspx" />
+    <Content Include="Cpanel\Luong\ImportPhuCapCoDinh.aspx" />
+    <Content Include="Cpanel\Luong\ImportLuongSP.aspx" />
+    <Content Include="Cpanel\Luong\InPhieuLuong.aspx" />
+    <Content Include="Cpanel\Luong\In1PhieuLuong.aspx" />
+    <Content Include="Cpanel\Luong\ImportTsTinhLuong.aspx" />
+    <Content Include="Cpanel\Luong\PheDuyetLuong.aspx" />
+    <Content Include="Cpanel\Luong\PheDuyetBangLuong.aspx" />
+    <Content Include="Cpanel\Luong\ReportMonth.aspx" />
+    <Content Include="Cpanel\Luong\Tempory\index.html" />
+    <Content Include="Cpanel\QuetThe\CauHinh\DKCaMacDinh.aspx" />
+    <Content Include="Cpanel\QuetThe\DKNghiKoLuong.aspx" />
+    <Content Include="Cpanel\QuetThe\Tools\SuaQuetThe.aspx" />
+    <Content Include="Cpanel\Report\reportchunhat.aspx" />
+    <Content Include="Cpanel\Report\ReportDuLieuQuetTheGoc.aspx" />
+    <Content Include="Cpanel\Report\ReportNhanVienHetHanThaiSan.aspx" />
+    <Content Include="Cpanel\Report\ReportHopDongHetHan.aspx" />
+    <Content Include="Cpanel\Report\ReportNhanVienNghiPhepNam.aspx" />
+    <Content Include="Cpanel\Report\ReportNhanVienVangMat.aspx" />
+    <Content Include="Cpanel\Report\ReportNhanVienDuoi18Tuoi.aspx" />
+    <Content Include="Cpanel\Report\ReportNhanVienNghi_VaoLam.aspx" />
+    <Content Include="Cpanel\Report\NgayCongTangCaThang.aspx" />
+    <Content Include="Cpanel\Report\ReportChamCong.aspx" />
+    <Content Include="Cpanel\Report\ReportChiTietVaoRaThang.aspx" />
+    <Content Include="Cpanel\Report\rptOT6H.aspx" />
+    <Content Include="Cpanel\Report\ThongkedulieuquetheNgay.aspx" />
+    <Content Include="ExcelTemplate\%24Temporary\index.html" />
+    <Content Include="ExcelTemplate\Download.aspx" />
+    <Content Include="Images\chonfile.png" />
+    <Content Include="sHRM\Approved.aspx" />
+    <Content Include="Uploads\images\00001.jpg" />
+    <Content Include="Uploads\images\01590.jpg" />
+    <Content Include="Uploads\images\100779163.jpg" />
+    <Content Include="Uploads\images\112252009.jpg" />
+    <Content Include="Uploads\images\113548890.jpg" />
+    <Content Include="View\web\inPhieuLuong.html" />
+    <Content Include="Cpanel\QuetThe\AnalyzeData.aspx" />
+    <Content Include="Cpanel\QuetThe\DKVangMat.aspx" />
+    <Content Include="Cpanel\QuetThe\DKLamThem.aspx" />
+    <Content Include="Cpanel\QuetThe\CauHinh\NgayNghiNam.aspx" />
+    <Content Include="Cpanel\QuetThe\CauHinh\LoaiNgayLamThem.aspx" />
+    <Content Include="Cpanel\QuetThe\CauHinh\TinhTangCa.aspx" />
+    <Content Include="Cpanel\QuetThe\CauHinh\CaLam.aspx" />
+    <Content Include="Cpanel\QuetThe\Import.aspx" />
+    <Content Include="Cpanel\QuetThe\DKCaLam.aspx" />
+    <Content Include="Cpanel\QuetThe\ReportMonth.aspx" />
+    <Content Include="Cpanel\QuetThe\Tempory\index.html" />
+    <Content Include="Cpanel\Report\report_quetthengay.aspx" />
+    <Content Include="Cpanel\Skins\Js\BitHelper.js" />
+    <Content Include="Cpanel\Skins\Js\cookie.js" />
+    <Content Include="Cpanel\Skins\Js\ddaccordion.js" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\Base64.js" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\Button.js" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\CSVFormatter\CSVFormatter.js" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\example\index.html" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\example\style.css" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\ExcelFormatter\Cell.js" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\ExcelFormatter\ExcelFormatter.js" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\ExcelFormatter\Style.js" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\ExcelFormatter\Workbook.js" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\ExcelFormatter\Worksheet.js" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\Exporter-all.js" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\Exporter.js" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\Formatter.js" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\LICENSE.txt" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.GridPrinter.js" />
+    <Content Include="Cpanel\Skins\Js\Ext\textarea_getSelection.js" />
+    <Content Include="Cpanel\Skins\Js\Ext\textfield_getSelection.js" />
+    <Content Include="Cpanel\Skins\Js\gridprinter6.css" />
+    <Content Include="Cpanel\Skins\Js\jquery-1.4.4.min.js" />
+    <Content Include="Cpanel\Skins\Js\jquery-1.9.0.js" />
+    <Content Include="Cpanel\Skins\Js\printThis.js" />
+    <Content Include="Cpanel\Skins\Js\script.js" />
+    <Content Include="Cpanel\Skins\sky_animation\1.jpg" />
+    <Content Include="Cpanel\Skins\sky_animation\2.png" />
+    <Content Include="Cpanel\Skins\sky_animation\3.png" />
+    <Content Include="Cpanel\Skins\sky_animation\4.png" />
+    <Content Include="Cpanel\Skins\sky_animation\5.png" />
+    <Content Include="Cpanel\Skins\sky_animation\HtmlPage.html" />
+    <Content Include="Cpanel\Skins\Style\glossymenu.css" />
+    <Content Include="Cpanel\Skins\Style\IMG\404bg.jpg" />
+    <Content Include="Cpanel\Skins\Style\IMG\bgApproved.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\bgRejected.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\bgRevise.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\bg_banner.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\building-construction.jpg" />
+    <Content Include="Cpanel\Skins\Style\IMG\cham1.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\cham2.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\clock_blue.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\clock_green.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\desktop_bg2.jpg" />
+    <Content Include="Cpanel\Skins\Style\IMG\i_en.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\file32.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\file48.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\first_year_production.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\folder.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\fview_item-over.gif" />
+    <Content Include="Cpanel\Skins\Style\IMG\fview_item-selected.gif" />
+    <Content Include="Cpanel\Skins\Style\IMG\grid48x48.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\i_cp.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\i_db.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\i_vs.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\loading.gif" />
+    <Content Include="Cpanel\Skins\Style\IMG\login.jpg" />
+    <Content Include="Cpanel\Skins\Style\IMG\logo.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\LogoLogin.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\menu.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\report-icon.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\report.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\TT0.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\TT2.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\TT_danger.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\TT_info.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\TT1.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\TT_success.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\TT3.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\TT_warning.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\under-construction-sign.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\user48x48.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\i_vi.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\vista_start_button.gif" />
+    <Content Include="Cpanel\Skins\Style\IMG\w8button.png" />
+    <Content Include="Cpanel\Skins\Style\IMG\window48x48.png" />
+    <Content Include="Cpanel\Skins\Style\style.css" />
+    <Content Include="Cpanel\Slide\Default.aspx" />
+    <Content Include="Cpanel\SYS\404.aspx" />
+    <Content Include="Cpanel\SYS\building-construction.aspx" />
+    <Content Include="Cpanel\SYS\change-log.aspx" />
+    <Content Include="Cpanel\SYS\error-right.aspx" />
+    <Content Include="Cpanel\SYS\error.aspx" />
+    <Content Include="Cpanel\UC\BrowseFile.ascx" />
+    <Content Include="Cpanel\UC\ImageUploader.ascx" />
+    <Content Include="HtmlModule\FollowUs.html" />
+    <Content Include="Images\Upload\slide\funring1695728704.png" />
+    <Content Include="Images\Upload\slide\slider-bg1.jpg" />
+    <Content Include="Images\Upload\slide\slider-bg2.jpg" />
+    <Content Include="Images\Upload\slide\slider-bg3.jpg" />
+    <Content Include="Images\Upload\slide\slider-bg4.jpg" />
+    <Content Include="ExcelTemplate\Luong\monthlySalary.xls" />
+    <Content Include="ExcelTemplate\HowToCreateExcelTemplate.doc" />
+    <Content Include="ExcelTemplate\HowToCreateWordTemplate.doc" />
+    <Content Include="ExcelTemplate\template.dot" />
+    <Content Include="ExcelTemplate\template.xls" />
+    <Content Include="ExcelTemplate\i_Report\BC_NvThaiSan.xls" />
+    <Content Include="Cpanel\Luong\Tempory\Import.xls" />
+    <Content Include="Cpanel\Luong\Tempory\ImportCoBH.xls" />
+    <Content Include="Cpanel\Luong\Tempory\ImportPCCD.xls" />
+    <None Include="Properties\PublishProfiles\111.pubxml" />
+    <None Include="Properties\PublishProfiles\abc.pubxml" />
+    <None Include="Properties\PublishProfiles\asd.pubxml" />
+    <None Include="Properties\PublishProfiles\zxc.pubxml" />
+    <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.6.4.js" />
+    <Content Include="Scripts\jquery-1.6.4.min.js" />
+    <Content Include="Scripts\jquery.signalR-1.1.4.js" />
+    <Content Include="Scripts\jquery.signalR-1.1.4.min.js" />
+    <Content Include="sHRM\Dashboard.aspx" />
+    <Content Include="sHRM\Default.aspx" />
+    <Content Include="sHRM\Styles\css\common.css" />
+    <Content Include="sHRM\Styles\css\ext.css" />
+    <Content Include="sHRM\Styles\css\reset-min.css" />
+    <Content Include="sHRM\Styles\css\styles.css" />
+    <Content Include="sHRM\Styles\img\accessdenied.png" />
+    <Content Include="sHRM\Styles\img\bg_Head.jpg" />
+    <Content Include="sHRM\Styles\img\bg_Shrm.jpg" />
+    <Content Include="sHRM\Styles\img\cham1.png" />
+    <Content Include="sHRM\Styles\img\cham2.png" />
+    <Content Include="sHRM\Styles\img\ext.gif" />
+    <Content Include="sHRM\Styles\img\loading2.gif" />
+    <Content Include="sHRM\Styles\img\Logo_129.png" />
+    <Content Include="sHRM\Styles\img\menu1.png" />
+    <Content Include="sHRM\Styles\img\menu2.png" />
+    <Content Include="sHRM\Styles\img\no-access-1516142.jpg" />
+    <Content Include="sHRM\Styles\img\noimg.jpg" />
+    <Content Include="sHRM\Styles\img\Quantri.png" />
+    <Content Include="sHRM\Styles\img\Quantri_EN.png" />
+    <Content Include="sHRM\Styles\js\UrlHelper.js" />
+    <Content Include="Site\contact.aspx" />
+    <Content Include="Site\Images\noimg.jpg" />
+    <Content Include="Site\staticPage.aspx" />
+    <Content Include="Site\_Sys\genAllUC.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Site\_Sys\ajax.aspx" />
+    <Content Include="Site\_Sys\GetUserControl.aspx" />
+    <Content Include="View\web\search.html" />
+    <Content Include="View\web\staticPage.html" />
+    <Content Include="WebPart\web\Master\Footer.ascx" />
+    <Content Include="WebPart\web\Master\Header.ascx" />
+    <Content Include="View\web\mon_an.html" />
+    <Content Include="View\web\contact.html" />
+    <Content Include="View\web\details.html" />
+    <Content Include="View\web\index.html" />
+    <Content Include="View\web\reservation.html" />
+    <Content Include="View\web\news_cat.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\AjaxBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Base\SessionManager.cs" />
+    <Compile Include="Base\SystemConst.cs" />
+    <Compile Include="Classes\ExcelExportHelper.cs" />
+    <Compile Include="Classes\Serializer.cs" />
+    <Compile Include="Code\LoginHelper.cs" />
+    <Compile Include="Classes\CacheMng.cs" />
+    <Compile Include="Classes\GuiHelper.cs" />
+    <Compile Include="Classes\Helper\CartHelper.cs" />
+    <Compile Include="Classes\Helper\UrlRewriteHelper.cs">
+      <SubType>
+      </SubType>
+    </Compile>
+    <Compile Include="Classes\Helper\Cookies.cs" />
+    <Compile Include="Classes\Helper\WebHelper.cs" />
+    <Compile Include="Classes\UrlRewrite.cs" />
+    <Compile Include="Code\BackEndPageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Code\Globall.cs" />
+    <Compile Include="Code\GUIHelper.cs" />
+    <Compile Include="Code\Tool.cs" />
+    <Compile Include="Cpanel\Account\Function.aspx.cs">
+      <DependentUpon>Function.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Account\Function.aspx.designer.cs">
+      <DependentUpon>Function.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Account\Role.aspx.cs">
+      <DependentUpon>Role.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Account\Role.aspx.designer.cs">
+      <DependentUpon>Role.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Account\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Account\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Account\User2Roles.aspx.cs">
+      <DependentUpon>User2Roles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Account\User2Roles.aspx.designer.cs">
+      <DependentUpon>User2Roles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Admin\SQLManagement.aspx.cs">
+      <DependentUpon>SQLManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Admin\SQLManagement.aspx.designer.cs">
+      <DependentUpon>SQLManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Admin\SystemTools.aspx.cs">
+      <DependentUpon>SystemTools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Admin\SystemTools.aspx.designer.cs">
+      <DependentUpon>SystemTools.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Category\Company.aspx.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Category\Company.aspx.designer.cs">
+      <DependentUpon>Company.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Category\Banner.aspx.cs">
+      <DependentUpon>Banner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Category\Banner.aspx.designer.cs">
+      <DependentUpon>Banner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Category\CatDefineDetail.aspx.cs">
+      <DependentUpon>CatDefineDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Category\CatDefineDetail.aspx.designer.cs">
+      <DependentUpon>CatDefineDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Category\CatDefine.aspx.cs">
+      <DependentUpon>CatDefine.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Category\CatDefine.aspx.designer.cs">
+      <DependentUpon>CatDefine.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Category\Department.aspx.cs">
+      <DependentUpon>Department.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Category\Department.aspx.designer.cs">
+      <DependentUpon>Department.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Category\sysPa.aspx.cs">
+      <DependentUpon>sysPa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Category\sysPa.aspx.designer.cs">
+      <DependentUpon>sysPa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Employee\Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Employee\Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Employee\Editor.aspx.cs">
+      <DependentUpon>Editor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Employee\Editor.aspx.designer.cs">
+      <DependentUpon>Editor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\HtmlModule\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\HtmlModule\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\HtmlModule\PageConfig.aspx.cs">
+      <DependentUpon>PageConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\HtmlModule\PageConfig.aspx.designer.cs">
+      <DependentUpon>PageConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Import\ImportEmployee.aspx.cs">
+      <DependentUpon>ImportEmployee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Import\ImportEmployee.aspx.designer.cs">
+      <DependentUpon>ImportEmployee.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Import\ImportEmployeeHub.cs" />
+    <Compile Include="Cpanel\i_Report\DeptChoicer.aspx.cs">
+      <DependentUpon>DeptChoicer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\i_Report\DeptChoicer.aspx.designer.cs">
+      <DependentUpon>DeptChoicer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\i_Report\Viewer.aspx.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\i_Report\Viewer.aspx.designer.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Import\ImportTKNganHang.aspx.cs">
+      <DependentUpon>ImportTKNganHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Import\ImportTKNganHang.aspx.designer.cs">
+      <DependentUpon>ImportTKNganHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Lng\Language.cs" />
+    <Compile Include="Cpanel\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Luong\AnalyzeData.aspx.cs">
+      <DependentUpon>AnalyzeData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Luong\AnalyzeData.aspx.designer.cs">
+      <DependentUpon>AnalyzeData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Luong\ImportCoBaoHiem.aspx.cs">
+      <DependentUpon>ImportCoBaoHiem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Luong\ImportCoBaoHiem.aspx.designer.cs">
+      <DependentUpon>ImportCoBaoHiem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Luong\ImportPhuCapCoDinh.aspx.cs">
+      <DependentUpon>ImportPhuCapCoDinh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Luong\ImportPhuCapCoDinh.aspx.designer.cs">
+      <DependentUpon>ImportPhuCapCoDinh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Luong\ImportLuongSP.aspx.cs">
+      <DependentUpon>ImportLuongSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Luong\ImportLuongSP.aspx.designer.cs">
+      <DependentUpon>ImportLuongSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Luong\InPhieuLuong.aspx.cs">
+      <DependentUpon>InPhieuLuong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Luong\InPhieuLuong.aspx.designer.cs">
+      <DependentUpon>InPhieuLuong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Luong\In1PhieuLuong.aspx.cs">
+      <DependentUpon>In1PhieuLuong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Luong\In1PhieuLuong.aspx.designer.cs">
+      <DependentUpon>In1PhieuLuong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Luong\ImportTsTinhLuong.aspx.cs">
+      <DependentUpon>ImportTsTinhLuong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Luong\ImportTsTinhLuong.aspx.designer.cs">
+      <DependentUpon>ImportTsTinhLuong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Luong\PheDuyetLuong.aspx.cs">
+      <DependentUpon>PheDuyetLuong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Luong\PheDuyetLuong.aspx.designer.cs">
+      <DependentUpon>PheDuyetLuong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Luong\PheDuyetBangLuong.aspx.cs">
+      <DependentUpon>PheDuyetBangLuong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Luong\PheDuyetBangLuong.aspx.designer.cs">
+      <DependentUpon>PheDuyetBangLuong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Luong\ReportMonth.aspx.cs">
+      <DependentUpon>ReportMonth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Luong\ReportMonth.aspx.designer.cs">
+      <DependentUpon>ReportMonth.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\AnalyzeData.aspx.cs">
+      <DependentUpon>AnalyzeData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\AnalyzeData.aspx.designer.cs">
+      <DependentUpon>AnalyzeData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\CauHinh\DKCaMacDinh.aspx.cs">
+      <DependentUpon>DKCaMacDinh.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\CauHinh\DKCaMacDinh.aspx.designer.cs">
+      <DependentUpon>DKCaMacDinh.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\DKNghiKoLuong.aspx.cs">
+      <DependentUpon>DKNghiKoLuong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\DKNghiKoLuong.aspx.designer.cs">
+      <DependentUpon>DKNghiKoLuong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\DKVangMat.aspx.cs">
+      <DependentUpon>DKVangMat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\DKVangMat.aspx.designer.cs">
+      <DependentUpon>DKVangMat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\DKLamThem.aspx.cs">
+      <DependentUpon>DKLamThem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\DKLamThem.aspx.designer.cs">
+      <DependentUpon>DKLamThem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\CauHinh\NgayNghiNam.aspx.cs">
+      <DependentUpon>NgayNghiNam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\CauHinh\NgayNghiNam.aspx.designer.cs">
+      <DependentUpon>NgayNghiNam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\CauHinh\LoaiNgayLamThem.aspx.cs">
+      <DependentUpon>LoaiNgayLamThem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\CauHinh\LoaiNgayLamThem.aspx.designer.cs">
+      <DependentUpon>LoaiNgayLamThem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\CauHinh\TinhTangCa.aspx.cs">
+      <DependentUpon>TinhTangCa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\CauHinh\TinhTangCa.aspx.designer.cs">
+      <DependentUpon>TinhTangCa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\CauHinh\CaLam.aspx.cs">
+      <DependentUpon>CaLam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\CauHinh\CaLam.aspx.designer.cs">
+      <DependentUpon>CaLam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\Import.aspx.cs">
+      <DependentUpon>Import.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\Import.aspx.designer.cs">
+      <DependentUpon>Import.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\DKCaLam.aspx.cs">
+      <DependentUpon>DKCaLam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\DKCaLam.aspx.designer.cs">
+      <DependentUpon>DKCaLam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\ReportMonth.aspx.cs">
+      <DependentUpon>ReportMonth.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\ReportMonth.aspx.designer.cs">
+      <DependentUpon>ReportMonth.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\Tools\SuaQuetThe.aspx.cs">
+      <DependentUpon>SuaQuetThe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\QuetThe\Tools\SuaQuetThe.aspx.designer.cs">
+      <DependentUpon>SuaQuetThe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\reportchunhat.aspx.cs">
+      <DependentUpon>reportchunhat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\reportchunhat.aspx.designer.cs">
+      <DependentUpon>reportchunhat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportDuLieuQuetTheGoc.aspx.cs">
+      <DependentUpon>ReportDuLieuQuetTheGoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportDuLieuQuetTheGoc.aspx.designer.cs">
+      <DependentUpon>ReportDuLieuQuetTheGoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportNhanVienHetHanThaiSan.aspx.cs">
+      <DependentUpon>ReportNhanVienHetHanThaiSan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportNhanVienHetHanThaiSan.aspx.designer.cs">
+      <DependentUpon>ReportNhanVienHetHanThaiSan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportHopDongHetHan.aspx.cs">
+      <DependentUpon>ReportHopDongHetHan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportHopDongHetHan.aspx.designer.cs">
+      <DependentUpon>ReportHopDongHetHan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportNhanVienNghiPhepNam.aspx.cs">
+      <DependentUpon>ReportNhanVienNghiPhepNam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportNhanVienNghiPhepNam.aspx.designer.cs">
+      <DependentUpon>ReportNhanVienNghiPhepNam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportNhanVienVangMat.aspx.cs">
+      <DependentUpon>ReportNhanVienVangMat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportNhanVienVangMat.aspx.designer.cs">
+      <DependentUpon>ReportNhanVienVangMat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportNhanVienDuoi18Tuoi.aspx.cs">
+      <DependentUpon>ReportNhanVienDuoi18Tuoi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportNhanVienDuoi18Tuoi.aspx.designer.cs">
+      <DependentUpon>ReportNhanVienDuoi18Tuoi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportNhanVienNghi_VaoLam.aspx.cs">
+      <DependentUpon>ReportNhanVienNghi_VaoLam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportNhanVienNghi_VaoLam.aspx.designer.cs">
+      <DependentUpon>ReportNhanVienNghi_VaoLam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\NgayCongTangCaThang.aspx.cs">
+      <DependentUpon>NgayCongTangCaThang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\NgayCongTangCaThang.aspx.designer.cs">
+      <DependentUpon>NgayCongTangCaThang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportChamCong.aspx.cs">
+      <DependentUpon>ReportChamCong.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportChamCong.aspx.designer.cs">
+      <DependentUpon>ReportChamCong.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportChiTietVaoRaThang.aspx.cs">
+      <DependentUpon>ReportChiTietVaoRaThang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\ReportChiTietVaoRaThang.aspx.designer.cs">
+      <DependentUpon>ReportChiTietVaoRaThang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\report_quetthengay.aspx.cs">
+      <DependentUpon>report_quetthengay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\report_quetthengay.aspx.designer.cs">
+      <DependentUpon>report_quetthengay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\rptOT6H.aspx.cs">
+      <DependentUpon>rptOT6H.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\rptOT6H.aspx.designer.cs">
+      <DependentUpon>rptOT6H.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Report\ThongkedulieuquetheNgay.aspx.cs">
+      <DependentUpon>ThongkedulieuquetheNgay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Report\ThongkedulieuquetheNgay.aspx.designer.cs">
+      <DependentUpon>ThongkedulieuquetheNgay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\Slide\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\Slide\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\UC\BrowseFile.ascx.cs">
+      <DependentUpon>BrowseFile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\UC\BrowseFile.ascx.designer.cs">
+      <DependentUpon>BrowseFile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Cpanel\UC\BrowseFileHelper.cs" />
+    <Compile Include="Cpanel\UC\ImageUploader.ascx.cs">
+      <DependentUpon>ImageUploader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cpanel\UC\ImageUploader.ascx.designer.cs">
+      <DependentUpon>ImageUploader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="HtmlModule\HtmlModuleRender.cs" />
+    <Compile Include="sHRM\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sHRM\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sHRM\Approved.aspx.cs">
+      <DependentUpon>Approved.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sHRM\Approved.aspx.designer.cs">
+      <DependentUpon>Approved.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sHRM\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sHRM\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\staticPage.aspx.cs">
+      <DependentUpon>staticPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\staticPage.aspx.designer.cs">
+      <DependentUpon>staticPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\_Sys\Ajax.aspx.designer.cs">
+      <DependentUpon>ajax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\_Sys\genAllUC.aspx.cs">
+      <DependentUpon>genAllUC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\_Sys\genAllUC.aspx.designer.cs">
+      <DependentUpon>genAllUC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site\_Sys\ajax.aspx.cs">
+      <DependentUpon>ajax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\_Sys\GetUserControl.aspx.cs">
+      <DependentUpon>GetUserControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site\_Sys\GetUserControl.aspx.designer.cs">
+      <DependentUpon>GetUserControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPart\web\Master\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPart\web\Master\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPart\web\Master\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPart\web\Master\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPart\UserControlBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Base\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="Assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="Assets\fonts\FontAwesome.otf" />
+    <Content Include="VTRewrites.config" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\build" />
+    <Content Include="Cpanel\Skins\Js\Ext.ux.Exporter\README.textile" />
+    <None Include="Properties\PublishProfiles\lht.pubxml" />
+    <None Include="Properties\PublishProfiles\web.pubxml" />
+    <Content Include="Temp\TempNhanVien.xlsx" />
+    <Content Include="Temp\Tempgioconggiotangca.xlsx" />
+    <Content Include="Temp\TempReportChamCongThang.xlsx" />
+    <Content Include="Temp\TempThongkequetthe.xlsx" />
+    <Content Include="Temp\TempNguoiNghi_VaoLam.xlsx" />
+    <Content Include="Temp\TempNhanVienNghiPhepNam.xlsx" />
+    <Content Include="Temp\TempNhanVienVangMat.xlsx" />
+    <Content Include="Temp\BaoCaoThang.xlsx" />
+    <Content Include="Temp\Tempchitietvaorathang.xlsx" />
+    <Content Include="Temp\~%24TempNhanVien.xlsx" />
+    <Content Include="Temp\DanhsachChuNhat.xlsx" />
+    <Content Include="Temp\DanhsachOT.xlsx" />
+    <None Include="VTRewrites.Debug.config">
+      <DependentUpon>VTRewrites.config</DependentUpon>
+    </None>
+    <None Include="VTRewrites.Release.config">
+      <DependentUpon>VTRewrites.config</DependentUpon>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CacheFiles\" />
+    <Folder Include="ExcelTemplate\ChamCong\" />
+    <Folder Include="Images\Upload\BaiViet\" />
+    <Folder Include="Uploads\files\" />
+    <Folder Include="Uploads\_thumbs\" />
+    <Folder Include="View\mobile\" />
+    <Folder Include="View\Static\" />
+    <Folder Include="WebPart\mobile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Class\YS2_Class\YS2_Class.csproj">
+      <Project>{d926563e-bc56-4f49-9faf-4e24198e4ee4}</Project>
+      <Name>YS2_Class</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\iHRM.Core\Common\iHRM.Common.csproj">
+      <Project>{120caae4-814a-43f4-8969-5753d51f8c94}</Project>
+      <Name>iHRM.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\iHRM.Core\Data\iHRM.Core.csproj">
+      <Project>{a7a94f86-e9f6-439e-8d41-5d25832444ed}</Project>
+      <Name>iHRM.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iTemplate\iTemplate.vbproj">
+      <Project>{c596116f-2210-4d6f-923c-a6a516e35846}</Project>
+      <Name>iTemplate</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13829</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:6579/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

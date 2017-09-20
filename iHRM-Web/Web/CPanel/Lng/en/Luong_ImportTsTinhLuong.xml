@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Luong_ImportTsTinhLuong>
+  <msg_js>Update employees </msg_js>
+  <msg_js2>Are you sure to delete?</msg_js2>
+  <msg_1>Please choose MAPPING!</msg_1>
+  <thang>Month</thang>
+  <pb>Department</pb>
+  <dkCN>Personal registration</dkCN>
+  <dkTH>Group registration</dkTH>
+  <maNV>Employee ID</maNV>
+  <dangky>Register</dangky>
+  <nhanvien>Employee</nhanvien>
+  <phucap>Allowance</phucap>
+  <giatri>Value</giatri>
+  <msg_js3>Please fill in full data</msg_js3>
+  <maTH>Group code</maTH>
+  <to>Group</to>
+  <chon>Choose</chon>
+  <thangimport>Month import: </thangimport>
+  <msg_js4>Please fill in allowance</msg_js4>
+  <msg_js5>Register successfully </msg_js5>
+  <msg_js6>Not find employee information</msg_js6>
+</Luong_ImportTsTinhLuong>

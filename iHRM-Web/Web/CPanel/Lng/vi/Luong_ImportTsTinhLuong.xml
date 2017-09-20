@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Luong_ImportTsTinhLuong>
+  <msg_js>Cập nhật nhân viên </msg_js>
+  <msg_js2>Bạn chắn chắn muốn xóa?</msg_js2>
+  <msg_1>Xin vui lòng chọn MAPPING!</msg_1>
+  <thang>Tháng</thang>
+  <pb>Phòng ban</pb>
+  <dkCN>Đăng ký cá nhân</dkCN>
+  <dkTH>Đăng ký tập thể</dkTH>
+  <maNV>Mã NV</maNV>
+  <dangky>Đăng ký</dangky>
+  <nhanvien>Nhân viên</nhanvien>
+  <phucap>Phụ cấp</phucap>
+  <giatri>Giá trị</giatri>
+  <msg_js3>Xin vui lòng điền đủ dữ liệu</msg_js3>
+  <maTH>Mã tập thể</maTH>
+  <to>Tổ</to>
+  <chon>Chọn</chon>
+  <thangimport>Tháng import: </thangimport>
+  <msg_js4>Xin vui lòng điền phụ cấp</msg_js4>
+  <msg_js5>Đăng ký thành công </msg_js5>
+  <msg_js6>Không tìm thấy thông tin của nhân viên</msg_js6>
+</Luong_ImportTsTinhLuong>

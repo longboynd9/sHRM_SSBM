@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<QuetThe_DKVangMat>
+  <lbTuGio>From time</lbTuGio>
+  <lbDenGio>To time</lbDenGio>
+  <lbLyDo>Reason</lbLyDo>
+  <lbGhiChu>Note</lbGhiChu>
+  <DKCaNhan>Personal absence registration</DKCaNhan>
+  <DKTapThe>Group absence registration</DKTapThe>
+  <ngay>Date</ngay>
+  <loaingay>Date type</loaingay>
+  <lamca>Working shift</lamca>
+  <hsluong>Salary coefficient</hsluong>
+  <emptmsg>No record to display</emptmsg>
+  <kichthuoctrang>Page size:</kichthuoctrang>
+  <to>Group</to>
+  <titleDKNKL>Register leave without pay</titleDKNKL>
+  <maNV>Employee ID</maNV>
+  <nv>Employee</nv>
+  <msg_js>Please fill in full data</msg_js>
+  <msg_js2>Update employees </msg_js2>
+  <msg_js3>Are you sure to delete?</msg_js3>
+  <titleDKTapThe>Register group leave without pay</titleDKTapThe>
+  <CodeTapThe>Group code</CodeTapThe>
+  <dangky>Register</dangky>
+  <chon>Choose</chon>
+  <ldVangMat>Absence</ldVangMat>
+  <ldRaNgoai>Go out</ldRaNgoai>
+  <ldKhac>Others</ldKhac>
+  <msg_1>From date must be less than to date!</msg_1>
+  <msg_2>Register successfully</msg_2>
+  <msg_3>Not find employee information</msg_3>
+  <msg_4>Register fail</msg_4>
+</QuetThe_DKVangMat>

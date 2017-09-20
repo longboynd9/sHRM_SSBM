@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Category_Default>
+  <msg_js1>Cập nhật bài viết danh mục</msg_js1>
+  <msg_js2>Cập nhật SEO data của danh mục</msg_js2>
+  <msg_js3>Xin vui lòng điền đủ dữ liệu</msg_js3>
+  <msg_2>Chưa chọn danh mục!</msg_2>
+  <msg_3>Chọn danh mục cần sửa</msg_3>
+  <msg_4>Chọn danh mục cần xóa</msg_4>
+  <msg_5>Danh mục gốc không được xóa</msg_5>
+  <msg_6>Có lỗi trong quá trình xóa. Vui lòng thử lại...</msg_6>
+  <msg_7>Chọn danh mục cần thêm vào...</msg_7>
+  <themDMCon>Thêm danh mục con</themDMCon>
+  <sua>Sửa</sua>
+  <xoa>Xóa</xoa>
+  <refresh>Làm mới dữ liệu</refresh>
+  <saochep>Sao chép</saochep>
+  <cat>Cắt</cat>
+  <dan>Dán</dan>
+  <them>Thêm</them>
+  <title_msg>Xác nhận lại</title_msg>
+  <msg>Hành động này sẽ xóa vĩnh viễn danh mục và không thể hoàn tác.&lt;br /&gt;Bạn chắc chắn muốn tiếp tục?</msg>
+  <title>Danh mục bài viết</title>
+  <dmCha>Danh mục cha &lt;span class='red'&gt;*&lt;/span&gt;</dmCha>
+  <tenDM>Tên danh mục &lt;span class='red'&gt;*&lt;/span&gt;</tenDM>
+  <tenEN>Tên EN</tenEN>
+  <tenKR>Tên KR</tenKR>
+  <maDM>Mã danh mục &lt;span class='red'&gt;*&lt;/span&gt;</maDM>
+  <thutu>Thứ tự</thutu>
+  <baiviet>Bài viết</baiviet>
+  <trangthai>Trạng thái</trangthai>
+  <luu>Lưu</luu>
+  <dong>Đóng</dong>
+  <taomoi>Tạo mới</taomoi>
+  <chinhsua>Chỉnh sửa</chinhsua>
+  <xoatrang>Xóa trắng</xoatrang>
+</Category_Default>

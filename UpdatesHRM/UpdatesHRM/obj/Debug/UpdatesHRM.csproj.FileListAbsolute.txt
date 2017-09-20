@@ -1,0 +1,15 @@
+G:\sHRM\UpdatesHRM\UpdatesHRM\bin\Debug\UpdatesHRM.exe.config
+G:\sHRM\UpdatesHRM\UpdatesHRM\bin\Debug\UpdatesHRM.exe
+G:\sHRM\UpdatesHRM\UpdatesHRM\bin\Debug\UpdatesHRM.pdb
+G:\sHRM\UpdatesHRM\UpdatesHRM\bin\Debug\UpdateConfig.dll
+G:\sHRM\UpdatesHRM\UpdatesHRM\bin\Debug\UpdateConfig.pdb
+G:\sHRM\UpdatesHRM\UpdatesHRM\obj\Debug\UpdatesHRM.csprojResolveAssemblyReference.cache
+G:\sHRM\UpdatesHRM\UpdatesHRM\obj\Debug\UpdatesHRM.sHRM_Update.resources
+G:\sHRM\UpdatesHRM\UpdatesHRM\obj\Debug\UpdatesHRM.Properties.Resources.resources
+G:\sHRM\UpdatesHRM\UpdatesHRM\obj\Debug\UpdatesHRM.csproj.GenerateResource.Cache
+G:\sHRM\UpdatesHRM\UpdatesHRM\obj\Debug\UpdatesHRM.exe.licenses
+G:\sHRM\UpdatesHRM\UpdatesHRM\obj\Debug\UpdatesHRM.exe
+G:\sHRM\UpdatesHRM\UpdatesHRM\obj\Debug\UpdatesHRM.pdb
+F:\sHRM_SSBM\UpdatesHRM\UpdatesHRM\bin\Debug\UpdatesHRM.exe.config
+F:\sHRM_SSBM\UpdatesHRM\UpdatesHRM\obj\Debug\UpdatesHRM.exe
+F:\sHRM_SSBM\UpdatesHRM\UpdatesHRM\obj\Debug\UpdatesHRM.pdb

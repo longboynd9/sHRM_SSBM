@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Employee_Search>
+  <msg_js>Update employees </msg_js>
+  <msg_js3>Are you sure to delete?</msg_js3>
+  <msg_js2>Please fill in full data</msg_js2>
+  <chonPB>Select department...</chonPB>
+  <dsPB>Department list</dsPB>
+  <themmoiNV>Add new employees</themmoiNV>
+  <taomoiNV>Create new employees</taomoiNV>
+  <hoten>Full name</hoten>
+  <ngaysinh>Date of birth</ngaysinh>
+  <gioitinh>Gender</gioitinh>
+  <sdt>Phone number</sdt>
+  <quequan>Hometown</quequan>
+  <cmnd>ID</cmnd>
+  <ngayvao>Starting date</ngayvao>
+  <bophan>Section</bophan>
+  <vitri>Position</vitri>
+  <maNV>Employee Code</maNV>
+</Employee_Search>

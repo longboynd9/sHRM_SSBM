@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<common_btn>
+  <lbTuNgay>From date</lbTuNgay>
+  <lbDenNgay>To date</lbDenNgay>
+  <lbTuKhoa>Keyword</lbTuKhoa>
+  <DKCaNhan>Personal registration</DKCaNhan>
+  <DKTapThe>Group registration</DKTapThe>
+  <ngay>Date</ngay>
+  <lamca>Working shift</lamca>
+  <FindOne>Find</FindOne>
+  <AddNew>Add new</AddNew>
+  <Edit>Edit</Edit>
+  <Delete>Delete</Delete>
+  <Refresh>Refresh</Refresh>
+  <Find>Find</Find>
+  <Clear>Clear</Clear>
+  <Close>Close</Close>
+  <Ok>OK</Ok>
+  <Back>Back</Back>
+  <Pagging_FirstText>First Page</Pagging_FirstText>
+  <Pagging_PrevText>Previous Page</Pagging_PrevText>
+  <Pagging_NextText>Next Page</Pagging_NextText>
+  <Pagging_LastText>Last Page</Pagging_LastText>
+  <Pagging_RefreshText>Reload</Pagging_RefreshText>
+  <Pagging_DisplayMsg>Display {0} - {1} / {2}</Pagging_DisplayMsg>
+  <Pagging_EmptyMsg>No record to display</Pagging_EmptyMsg>
+  <Pagging_PageSize>Page Size:</Pagging_PageSize>
+</common_btn>

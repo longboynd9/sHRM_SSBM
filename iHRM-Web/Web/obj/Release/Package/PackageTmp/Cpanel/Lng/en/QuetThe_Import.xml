@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<QuetThe_Import>
+  <msg_1>Please choose MAPPING!</msg_1>
+  <note>Import file is file .zip, compress all card swiping file txt in the same folder (no sub folder), or file txt</note>
+  <kytu>Separated character: </kytu>
+  <somay>Machine no.</somay>
+  <ngay>Date</ngay>
+  <gio>Time</gio>
+  <mathe>Card no.</mathe>
+  <mamay>Machine code</mamay>
+  <msg_2>You need to import file zip (.zip) or file text (.txt)</msg_2>
+  <msg_3>Error when saving file</msg_3>
+</QuetThe_Import>

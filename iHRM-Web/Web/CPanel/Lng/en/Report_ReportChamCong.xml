@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Report_ReportChamCong>
+  <title>Report working time - overtime in month</title>
+  <lbPhongBan>Department:  &amp;nbsp;</lbPhongBan>
+  <pb>Department</pb>
+  <chonPB>Choose department...</chonPB>
+  <dsPB>Department name</dsPB>
+  <tungay>&amp;nbsp;From date: &amp;nbsp;</tungay>
+  <denngay>&amp;nbsp;To date: &amp;nbsp;</denngay>
+  <tenNV>Employee name</tenNV>
+  <nhanvien>Employee</nhanvien>
+  <MaNV>Employee ID</MaNV>
+  <MaNV2>Employee ID</MaNV2>
+  <chucvu>Position</chucvu>
+  <tongNC>Total working day</tongNC>
+  <nghiLe>Holiday</nghiLe>
+  <nghiPhep>Annual leave</nghiPhep>
+  <nghiKoPhep>Leave without pay</nghiKoPhep>
+  <tgTangCa>Overtime</tgTangCa>
+  <msg_js1>Update employees </msg_js1>
+  <msg_js2>Are you sure to delete?</msg_js2>
+  <msg_1>No data</msg_1>
+  <msg_2>You have not choosed date yet</msg_2>
+</Report_ReportChamCong>

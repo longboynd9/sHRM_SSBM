@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Account_Function>
+  <cm_Add>Add sub function</cm_Add>
+  <cm_Edit>Edit</cm_Edit>
+  <cm_Delete>Delete</cm_Delete>
+  <cm_Refresh>Refresh data</cm_Refresh>
+  <cm_Copy>Copy</cm_Copy>
+  <cm_Cut>Cut</cm_Cut>
+  <cm_Paste>Paste</cm_Paste>
+  <editor_Title>Update function</editor_Title>
+  <editor_lblParent>Main category &lt;span class='red'&gt;*&lt;/span&gt;</editor_lblParent>
+  <editor_txtCode>Category code</editor_txtCode>
+  <editor_txtCaption>Category name &lt;span class='red'&gt;*&lt;/span&gt;</editor_txtCaption>
+  <editor_txtCaption_EN>Category name EN</editor_txtCaption_EN>
+  <editor_txtAsemblyPath>Path &lt;span class='red'&gt;*&lt;/span&gt;</editor_txtAsemblyPath>
+  <editor_txtAsemblyInherits>Inherits</editor_txtAsemblyInherits>
+  <editor_txtOrder>Order</editor_txtOrder>
+  <wAsemply_Title>Add asemplypath</wAsemply_Title>
+</Account_Function>

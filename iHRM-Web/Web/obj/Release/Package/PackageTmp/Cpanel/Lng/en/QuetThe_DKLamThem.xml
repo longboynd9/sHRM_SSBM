@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<QuetThe_DKLamThem>
+  <lblNote>This action will analyze all imported card swiping data and update attendance for workers working in shifts.</lblNote>
+  <DKCaNhan>Personal registration</DKCaNhan>
+  <DKTapThe>Group registration</DKTapThe>
+  <ngay>Date</ngay>
+  <loaingay>Date type</loaingay>
+  <lamca>Working shift</lamca>
+  <hsluong>Salary coefficient</hsluong>
+  <emptmsg>No record to display</emptmsg>
+  <kichthuoctrang>Page size:</kichthuoctrang>
+  <to>Group</to>
+  <titleDKLT>Register overtime</titleDKLT>
+  <maNV>Employee ID</maNV>
+  <nv>Employee</nv>
+  <msg_js>Please fill in full data</msg_js>
+  <msg_js2>Update employees </msg_js2>
+  <msg_js3>Are you sure to delete?</msg_js3>
+  <titleDKTapThe>Register group working shift</titleDKTapThe>
+  <CodeTapThe>Group code</CodeTapThe>
+  <dangky>Register</dangky>
+  <chon>Choose</chon>
+  <msg_1>From date must be less than to date!</msg_1>
+  <msg_2>Register successfully</msg_2>
+  <msg_3>Not find employee information</msg_3>
+</QuetThe_DKLamThem>

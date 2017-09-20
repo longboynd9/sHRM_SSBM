@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Report_ThongkedulieuquetheNgay>
+  <title>List of Department</title>
+  <lbPhongBan>Department:  </lbPhongBan>
+  <chonPB>Choose department...</chonPB>
+  <dsPB>List of Department</dsPB>
+  <tungay>From date : </tungay>
+  <denngay>To date: </denngay>
+  <loaiquetthe>type of </loaiquetthe>
+  <pb>Department</pb>
+  <tenNV>Empl Name</tenNV>
+  <MaNV>Empl Code</MaNV>
+  <gioitinh>Gender</gioitinh>
+  <bophan>Department</bophan>
+  <ngay>Date</ngay>
+  <vaothuc>Real arrival</vaothuc>
+  <rathuc>Real left</rathuc>
+  <ca>Shift</ca>
+</Report_ThongkedulieuquetheNgay>

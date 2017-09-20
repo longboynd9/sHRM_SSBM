@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsMayChamCong" targetNamespace="http://tempuri.org/dsMayChamCong.xsd" xmlns:mstns="http://tempuri.org/dsMayChamCong.xsd" xmlns="http://tempuri.org/dsMayChamCong.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="WiseEyeV5_12_New01022016SQLConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="WiseEyeV5_12_New01022016SQLConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.iHRM.Core.Properties.Settings.GlobalReference.Default.WiseEyeV5_12_New01022016SQLConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsMayChamCong" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsMayChamCong" msprop:Generator_UserDSName="dsMayChamCong">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CheckInOut" msprop:Generator_TableClassName="CheckInOutDataTable" msprop:Generator_TableVarName="tableCheckInOut" msprop:Generator_TablePropName="CheckInOut" msprop:Generator_RowDeletingName="CheckInOutRowDeleting" msprop:Generator_RowChangingName="CheckInOutRowChanging" msprop:Generator_RowEvHandlerName="CheckInOutRowChangeEventHandler" msprop:Generator_RowDeletedName="CheckInOutRowDeleted" msprop:Generator_UserTableName="CheckInOut" msprop:Generator_RowChangedName="CheckInOutRowChanged" msprop:Generator_RowEvArgName="CheckInOutRowChangeEvent" msprop:Generator_RowClassName="CheckInOutRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserEnrollNumber" msprop:Generator_ColumnVarNameInTable="columnUserEnrollNumber" msprop:Generator_ColumnPropNameInRow="UserEnrollNumber" msprop:Generator_ColumnPropNameInTable="UserEnrollNumberColumn" msprop:Generator_UserColumnName="UserEnrollNumber" type="xs:int" minOccurs="0" />
+              <xs:element name="TimeDate" msprop:Generator_ColumnVarNameInTable="columnTimeDate" msprop:Generator_ColumnPropNameInRow="TimeDate" msprop:Generator_ColumnPropNameInTable="TimeDateColumn" msprop:Generator_UserColumnName="TimeDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TimeStr" msprop:Generator_ColumnVarNameInTable="columnTimeStr" msprop:Generator_ColumnPropNameInRow="TimeStr" msprop:Generator_ColumnPropNameInTable="TimeStrColumn" msprop:Generator_UserColumnName="TimeStr" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="OriginType" msprop:Generator_ColumnVarNameInTable="columnOriginType" msprop:Generator_ColumnPropNameInRow="OriginType" msprop:Generator_ColumnPropNameInTable="OriginTypeColumn" msprop:Generator_UserColumnName="OriginType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NewType" msprop:Generator_ColumnVarNameInTable="columnNewType" msprop:Generator_ColumnPropNameInRow="NewType" msprop:Generator_ColumnPropNameInTable="NewTypeColumn" msprop:Generator_UserColumnName="NewType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Source" msprop:Generator_ColumnVarNameInTable="columnSource" msprop:Generator_ColumnPropNameInRow="Source" msprop:Generator_ColumnPropNameInTable="SourceColumn" msprop:Generator_UserColumnName="Source" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MachineNo" msprop:Generator_ColumnVarNameInTable="columnMachineNo" msprop:Generator_ColumnPropNameInRow="MachineNo" msprop:Generator_ColumnPropNameInTable="MachineNoColumn" msprop:Generator_UserColumnName="MachineNo" type="xs:int" minOccurs="0" />
+              <xs:element name="WorkCode" msprop:Generator_ColumnVarNameInTable="columnWorkCode" msprop:Generator_ColumnPropNameInRow="WorkCode" msprop:Generator_ColumnPropNameInTable="WorkCodeColumn" msprop:Generator_UserColumnName="WorkCode" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Luong_PheDuyetLuong>
+  <txtSearchKey>Keyword</txtSearchKey>
+  <txtTuNgay>From date</txtTuNgay>
+  <txtDenNgay>To date</txtDenNgay>
+  <btnApproved>Approved</btnApproved>
+  <chkOnlyWaiting>Wait for Approval</chkOnlyWaiting>
+  <grd_DateChange>Date</grd_DateChange>
+  <grd_EmployeeName>Employee</grd_EmployeeName>
+  <grd_TitleName>Title</grd_TitleName>
+  <grd_Coefficient>Coefficient</grd_Coefficient>
+  <grd_BasicSalary_Ins>Allowance</grd_BasicSalary_Ins>
+  <grd_BasicSalary>Basic salary</grd_BasicSalary>
+  <grd_Status>Status</grd_Status>
+  <btnApprovedAll>Approved all</btnApprovedAll>
+  <btnRejectAll>Disapproved all</btnRejectAll>
+  <btnReviseAll>Review all</btnReviseAll>
+  <editor_Title>Approved salary</editor_Title>
+  <editor_btnApproved>Approved</editor_btnApproved>
+  <editor_btnReject>Disapproved</editor_btnReject>
+  <editor_btnRevise>Review</editor_btnRevise>
+  <editor_txtDate>Date</editor_txtDate>
+  <editor_txtEmployeeName>Employee</editor_txtEmployeeName>
+  <editor_txtEmployeeCode />
+  <editor_txtDepName>Department</editor_txtDepName>
+  <editor_txtTitleName />
+  <editor_txtBasicSalary>Basic salary</editor_txtBasicSalary>
+  <editor_txtBasicSalary_Ins>Allowance</editor_txtBasicSalary_Ins>
+  <editor_txtNotes>Note</editor_txtNotes>
+  <editor_txtRemark>Status note</editor_txtRemark>
+</Luong_PheDuyetLuong>

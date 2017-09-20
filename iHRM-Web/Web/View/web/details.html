@@ -1,0 +1,38 @@
+﻿{{INCLUDE Master\Header}}
+
+<script type="text/javascript">$(function () { activeMainMenu('{{catID}}'); });</script>
+
+
+<div class="page_content">
+    <div class="tile-page-main">
+        <h1 class="title" id="page-title" style="text-align: center; line-height: 24px;" >{{title}}</h1>
+    </div>
+
+
+    <!-- BEGIN SubCat -->
+    <div class="region region-content">
+        <div id="block-system-main" class="block block-system">
+
+
+            <div class="content" style=" text-align: justify; line-height: 22px; font-size: 16px;">
+                {{content}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="region region-sidebar-right">
+    <div id="block-image-background-image-background" class="block block-image-background">
+
+        <div class="content">
+            <img id="img_right1" src="" width="193" height="850" alt="">
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('#img_right1').attr('src', '/images/img-right/img (' + Math.floor((Math.random() * 6) + 1) + ').jpg')
+</script>
+
+{{INCLUDE Master\Footer}}

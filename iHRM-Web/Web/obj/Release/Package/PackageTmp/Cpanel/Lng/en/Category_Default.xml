@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Category_Default>
+  <msg_js1>Update category post</msg_js1>
+  <msg_js2>Update SEO data of category</msg_js2>
+  <msg_js3>Please fill in full data</msg_js3>
+  <msg_2>Not select category yet!</msg_2>
+  <msg_3>Select category to edit</msg_3>
+  <msg_4>Select category to delete</msg_4>
+  <msg_5>Original category must not delete</msg_5>
+  <msg_6>Error when deleting. Please try again...</msg_6>
+  <msg_7>Select category to add...</msg_7>
+  <themDMCon>Add sub category</themDMCon>
+  <sua>Edit</sua>
+  <xoa>Delete</xoa>
+  <refresh>Refresh data</refresh>
+  <saochep>Copy</saochep>
+  <cat>Cut</cat>
+  <dan>Paste</dan>
+  <them>Add</them>
+  <title_msg>Confirm again</title_msg>
+  <msg>This action will delete category permanently and cannot undo.&lt;br /&gt;Are you sure to continue?</msg>
+  <title>Article category</title>
+  <dmCha>Main category &lt;span class='red'&gt;*&lt;/span&gt;</dmCha>
+  <tenDM>Category name &lt;span class='red'&gt;*&lt;/span&gt;</tenDM>
+  <tenEN>Name EN</tenEN>
+  <tenKR>Name KR</tenKR>
+  <maDM>Category Code &lt;span class='red'&gt;*&lt;/span&gt;</maDM>
+  <thutu>Order</thutu>
+  <baiviet>Article</baiviet>
+  <trangthai>Status</trangthai>
+  <luu>Save</luu>
+  <dong>Close</dong>
+  <taomoi>Create</taomoi>
+  <chinhsua>Edit</chinhsua>
+  <xoatrang>Delete</xoatrang>
+</Category_Default>

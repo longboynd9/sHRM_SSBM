@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<QuetThe_LoaiNgayLamThem>
+  <ngay>Date</ngay>
+  <tenloai>Type name</tenloai>
+  <lamca>Working shift</lamca>
+  <hsluong>Salary coefficient</hsluong>
+  <heso>Coefficient (%)</heso>
+  <emptmsg>No record to display</emptmsg>
+  <kichthuoctrang>Page size:</kichthuoctrang>
+  <msg_js>Please fill in full data</msg_js>
+  <msg_js2>Update employees </msg_js2>
+  <msg_js3>Are you sure to delete?</msg_js3>
+  <titleMsg>Confirm</titleMsg>
+  <msg_1>From date must be less than to date!</msg_1>
+  <msg_2>Register successfully</msg_2>
+  <msg_3>Not find employee information</msg_3>
+  <msg_4>Register fail</msg_4>
+</QuetThe_LoaiNgayLamThem>

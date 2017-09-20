@@ -1,0 +1,224 @@
+D:\iHRM\iHRM-Web\Web\bin\iHRM.dll
+D:\iHRM\iHRM-Web\Web\bin\iHRM.pdb
+D:\iHRM\iHRM-Web\Web\bin\Aspose.Cells.dll
+D:\iHRM\iHRM-Web\Web\bin\CKEditor.NET.dll
+D:\iHRM\iHRM-Web\Web\bin\CKFinder.dll
+D:\iHRM\iHRM-Web\Web\bin\Ext.Net.dll
+D:\iHRM\iHRM-Web\Web\bin\Ext.Net.Utilities.dll
+D:\iHRM\iHRM-Web\Web\bin\Ext.Net.UX.dll
+D:\iHRM\iHRM-Web\Web\bin\iHRM.Common.dll
+D:\iHRM\iHRM-Web\Web\bin\iHRM.Core.dll
+D:\iHRM\iHRM-Web\Web\bin\Ionic.Zip.dll
+D:\iHRM\iHRM-Web\Web\bin\iTemplate.dll
+D:\iHRM\iHRM-Web\Web\bin\Microsoft.Exchange.WebServices.Auth.dll
+D:\iHRM\iHRM-Web\Web\bin\Microsoft.Exchange.WebServices.dll
+D:\iHRM\iHRM-Web\Web\bin\Microsoft.Web.Infrastructure.dll
+D:\iHRM\iHRM-Web\Web\bin\UrlRewritingNet.UrlRewriter.dll
+D:\iHRM\iHRM-Web\Web\bin\NCalc.dll
+D:\iHRM\iHRM-Web\Web\bin\iHRM.Common.pdb
+D:\iHRM\iHRM-Web\Web\bin\iHRM.Core.pdb
+D:\iHRM\iHRM-Web\Web\bin\iTemplate.pdb
+D:\iHRM\iHRM-Web\Web\bin\iTemplate.xml
+D:\iHRM\iHRM-Web\Web\bin\Microsoft.Web.Infrastructure.xml
+D:\iHRM\iHRM-Web\Web\obj\Debug\iHRM.Web.csprojResolveAssemblyReference.cache
+D:\iHRM\iHRM-Web\Web\obj\Debug\iHRM.Web.csproj.ResolveComReference.cache
+D:\iHRM\iHRM-Web\Web\obj\Debug\iHRM.dll
+D:\iHRM\iHRM-Web\Web\obj\Debug\iHRM.pdb
+G:\iHRM\iHRM-Web\Web\bin\iHRM.dll
+G:\iHRM\iHRM-Web\Web\bin\iHRM.pdb
+G:\iHRM\iHRM-Web\Web\bin\Aspose.Cells.dll
+G:\iHRM\iHRM-Web\Web\bin\CKEditor.NET.dll
+G:\iHRM\iHRM-Web\Web\bin\CKFinder.dll
+G:\iHRM\iHRM-Web\Web\bin\Ext.Net.dll
+G:\iHRM\iHRM-Web\Web\bin\Ext.Net.Utilities.dll
+G:\iHRM\iHRM-Web\Web\bin\Ext.Net.UX.dll
+G:\iHRM\iHRM-Web\Web\bin\iHRM.Common.dll
+G:\iHRM\iHRM-Web\Web\bin\iHRM.Core.dll
+G:\iHRM\iHRM-Web\Web\bin\Ionic.Zip.dll
+G:\iHRM\iHRM-Web\Web\bin\iTemplate.dll
+G:\iHRM\iHRM-Web\Web\bin\Microsoft.Exchange.WebServices.Auth.dll
+G:\iHRM\iHRM-Web\Web\bin\Microsoft.Exchange.WebServices.dll
+G:\iHRM\iHRM-Web\Web\bin\Microsoft.Web.Infrastructure.dll
+G:\iHRM\iHRM-Web\Web\bin\UrlRewritingNet.UrlRewriter.dll
+G:\iHRM\iHRM-Web\Web\bin\NCalc.dll
+G:\iHRM\iHRM-Web\Web\bin\iHRM.Common.pdb
+G:\iHRM\iHRM-Web\Web\bin\iHRM.Core.pdb
+G:\iHRM\iHRM-Web\Web\bin\iTemplate.pdb
+G:\iHRM\iHRM-Web\Web\bin\iTemplate.xml
+G:\iHRM\iHRM-Web\Web\bin\Microsoft.Web.Infrastructure.xml
+G:\iHRM\iHRM-Web\Web\obj\Debug\iHRM.Web.csprojResolveAssemblyReference.cache
+G:\iHRM\iHRM-Web\Web\obj\Debug\iHRM.Web.csproj.ResolveComReference.cache
+G:\iHRM\iHRM-Web\Web\obj\Debug\iHRM.dll
+G:\iHRM\iHRM-Web\Web\obj\Debug\iHRM.pdb
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\iHRM.dll.config
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\iHRM.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\iHRM.pdb
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\Aspose.Cells.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\CKEditor.NET.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\CKFinder.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\Ext.Net.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\Ext.Net.Utilities.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\Ext.Net.UX.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\iHRM.Common.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\iHRM.Core.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\Ionic.Zip.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\iTemplate.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\Microsoft.Exchange.WebServices.Auth.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\Microsoft.Exchange.WebServices.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\UrlRewritingNet.UrlRewriter.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\YS2_Class.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.XtraReports.v14.2.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\NCalc.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.Printing.v14.2.Core.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.Data.v14.2.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.Office.v14.2.Core.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.XtraCharts.v14.2.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.Charts.v14.2.Core.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.PivotGrid.v14.2.Core.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.Sparkline.v14.2.Core.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.RichEdit.v14.2.Core.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.XtraGauges.v14.2.Core.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\YS2_Class.pdb
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\iHRM.Common.pdb
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\iHRM.Core.pdb
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\iTemplate.pdb
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\iTemplate.xml
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\Microsoft.Web.Infrastructure.xml
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.XtraReports.v14.2.xml
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.Printing.v14.2.Core.xml
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.Data.v14.2.xml
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.Office.v14.2.Core.xml
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.XtraCharts.v14.2.xml
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.PivotGrid.v14.2.Core.xml
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.Sparkline.v14.2.Core.xml
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.RichEdit.v14.2.Core.xml
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\DevExpress.XtraGauges.v14.2.Core.xml
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\de\DevExpress.XtraReports.v14.2.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\es\DevExpress.XtraReports.v14.2.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ja\DevExpress.XtraReports.v14.2.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ru\DevExpress.XtraReports.v14.2.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\de\DevExpress.Printing.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\es\DevExpress.Printing.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ja\DevExpress.Printing.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ru\DevExpress.Printing.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\de\DevExpress.Data.v14.2.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\es\DevExpress.Data.v14.2.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ja\DevExpress.Data.v14.2.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ru\DevExpress.Data.v14.2.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\de\DevExpress.Office.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\es\DevExpress.Office.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ja\DevExpress.Office.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ru\DevExpress.Office.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\de\DevExpress.XtraCharts.v14.2.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\es\DevExpress.XtraCharts.v14.2.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ja\DevExpress.XtraCharts.v14.2.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ru\DevExpress.XtraCharts.v14.2.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\de\DevExpress.PivotGrid.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\es\DevExpress.PivotGrid.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ja\DevExpress.PivotGrid.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ru\DevExpress.PivotGrid.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\de\DevExpress.Sparkline.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\es\DevExpress.Sparkline.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ja\DevExpress.Sparkline.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ru\DevExpress.Sparkline.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\de\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\es\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ja\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ru\DevExpress.RichEdit.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\de\DevExpress.XtraGauges.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\es\DevExpress.XtraGauges.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ja\DevExpress.XtraGauges.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\bin\ru\DevExpress.XtraGauges.v14.2.Core.resources.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\obj\Debug\iHRM.Web.csprojResolveAssemblyReference.cache
+D:\WORK\iHRM\v2\iHRM-Web\Web\obj\Debug\iHRM.Web.csproj.ResolveComReference.cache
+D:\WORK\iHRM\v2\iHRM-Web\Web\obj\Debug\iHRM.dll
+D:\WORK\iHRM\v2\iHRM-Web\Web\obj\Debug\iHRM.pdb
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\iHRM.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\iHRM.pdb
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\Aspose.Cells.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\CKEditor.NET.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\CKFinder.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\Ext.Net.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\Ext.Net.Utilities.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\Ext.Net.UX.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\iHRM.Common.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\iHRM.Core.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\Ionic.Zip.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\iTemplate.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\Microsoft.Exchange.WebServices.Auth.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\Microsoft.Exchange.WebServices.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\Microsoft.Web.Infrastructure.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\UrlRewritingNet.UrlRewriter.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\YS2_Class.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\NCalc.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\YS2_Class.pdb
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\iHRM.Common.pdb
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\iHRM.Core.pdb
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\iTemplate.pdb
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\iTemplate.xml
+G:\sHRM - Ca dem\iHRM-Web\Web\bin\Microsoft.Web.Infrastructure.xml
+G:\sHRM - Ca dem\iHRM-Web\Web\obj\Debug\iHRM.Web.csprojResolveAssemblyReference.cache
+G:\sHRM - Ca dem\iHRM-Web\Web\obj\Debug\iHRM.Web.csproj.ResolveComReference.cache
+G:\sHRM - Ca dem\iHRM-Web\Web\obj\Debug\iHRM.dll
+G:\sHRM - Ca dem\iHRM-Web\Web\obj\Debug\iHRM.pdb
+G:\sHRM\iHRM-Web\Web\bin\iHRM.dll
+G:\sHRM\iHRM-Web\Web\bin\iHRM.pdb
+G:\sHRM\iHRM-Web\Web\bin\Aspose.Cells.dll
+G:\sHRM\iHRM-Web\Web\bin\CKEditor.NET.dll
+G:\sHRM\iHRM-Web\Web\bin\CKFinder.dll
+G:\sHRM\iHRM-Web\Web\bin\Ext.Net.dll
+G:\sHRM\iHRM-Web\Web\bin\Ext.Net.Utilities.dll
+G:\sHRM\iHRM-Web\Web\bin\Ext.Net.UX.dll
+G:\sHRM\iHRM-Web\Web\bin\iHRM.Common.dll
+G:\sHRM\iHRM-Web\Web\bin\iHRM.Core.dll
+G:\sHRM\iHRM-Web\Web\bin\Ionic.Zip.dll
+G:\sHRM\iHRM-Web\Web\bin\iTemplate.dll
+G:\sHRM\iHRM-Web\Web\bin\Microsoft.Exchange.WebServices.Auth.dll
+G:\sHRM\iHRM-Web\Web\bin\Microsoft.Exchange.WebServices.dll
+G:\sHRM\iHRM-Web\Web\bin\Microsoft.Web.Infrastructure.dll
+G:\sHRM\iHRM-Web\Web\bin\UrlRewritingNet.UrlRewriter.dll
+G:\sHRM\iHRM-Web\Web\bin\YS2_Class.dll
+G:\sHRM\iHRM-Web\Web\bin\NCalc.dll
+G:\sHRM\iHRM-Web\Web\bin\YS2_Class.pdb
+G:\sHRM\iHRM-Web\Web\bin\iHRM.Common.pdb
+G:\sHRM\iHRM-Web\Web\bin\iHRM.Core.pdb
+G:\sHRM\iHRM-Web\Web\bin\iTemplate.pdb
+G:\sHRM\iHRM-Web\Web\bin\iTemplate.xml
+G:\sHRM\iHRM-Web\Web\bin\Microsoft.Web.Infrastructure.xml
+G:\sHRM\iHRM-Web\Web\obj\Debug\iHRM.Web.csprojResolveAssemblyReference.cache
+G:\sHRM\iHRM-Web\Web\obj\Debug\iHRM.Web.csproj.ResolveComReference.cache
+G:\sHRM\iHRM-Web\Web\obj\Debug\iHRM.dll
+G:\sHRM\iHRM-Web\Web\obj\Debug\iHRM.pdb
+F:\sHRM\iHRM-Web\Web\bin\iHRM.dll
+F:\sHRM\iHRM-Web\Web\bin\iHRM.pdb
+F:\sHRM\iHRM-Web\Web\bin\Aspose.Cells.dll
+F:\sHRM\iHRM-Web\Web\bin\CKEditor.NET.dll
+F:\sHRM\iHRM-Web\Web\bin\CKFinder.dll
+F:\sHRM\iHRM-Web\Web\bin\Ext.Net.dll
+F:\sHRM\iHRM-Web\Web\bin\Ext.Net.Utilities.dll
+F:\sHRM\iHRM-Web\Web\bin\Ext.Net.UX.dll
+F:\sHRM\iHRM-Web\Web\bin\iHRM.Common.dll
+F:\sHRM\iHRM-Web\Web\bin\iHRM.Core.dll
+F:\sHRM\iHRM-Web\Web\bin\Ionic.Zip.dll
+F:\sHRM\iHRM-Web\Web\bin\iTemplate.dll
+F:\sHRM\iHRM-Web\Web\bin\Microsoft.Exchange.WebServices.Auth.dll
+F:\sHRM\iHRM-Web\Web\bin\Microsoft.Exchange.WebServices.dll
+F:\sHRM\iHRM-Web\Web\bin\Microsoft.Web.Infrastructure.dll
+F:\sHRM\iHRM-Web\Web\bin\UrlRewritingNet.UrlRewriter.dll
+F:\sHRM\iHRM-Web\Web\bin\YS2_Class.dll
+F:\sHRM\iHRM-Web\Web\bin\NCalc.dll
+F:\sHRM\iHRM-Web\Web\bin\YS2_Class.pdb
+F:\sHRM\iHRM-Web\Web\bin\iHRM.Common.pdb
+F:\sHRM\iHRM-Web\Web\bin\iHRM.Core.pdb
+F:\sHRM\iHRM-Web\Web\bin\iTemplate.pdb
+F:\sHRM\iHRM-Web\Web\bin\iTemplate.xml
+F:\sHRM\iHRM-Web\Web\bin\Microsoft.Web.Infrastructure.xml
+F:\sHRM\iHRM-Web\Web\obj\Debug\iHRM.Web.csprojResolveAssemblyReference.cache
+F:\sHRM\iHRM-Web\Web\obj\Debug\iHRM.Web.csproj.ResolveComReference.cache
+F:\sHRM\iHRM-Web\Web\obj\Debug\iHRM.dll
+F:\sHRM\iHRM-Web\Web\obj\Debug\iHRM.pdb
+F:\sHRM_YS2\iHRM-Web\Web\obj\Debug\iHRM.Web.csprojResolveAssemblyReference.cache
+F:\sHRM_YS2\iHRM-Web\Web\obj\Debug\iHRM.Web.csproj.ResolveComReference.cache
+F:\sHRM_YS2\iHRM-Web\Web\obj\Debug\iHRM.dll
+F:\sHRM_SSBM\iHRM-Web\Web\obj\Debug\iHRM.Web.csprojResolveAssemblyReference.cache
+F:\sHRM_SSBM\iHRM-Web\Web\obj\Debug\iHRM.Web.csproj.ResolveComReference.cache

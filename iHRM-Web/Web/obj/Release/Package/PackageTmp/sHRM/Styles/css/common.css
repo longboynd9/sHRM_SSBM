@@ -1,0 +1,208 @@
+.red
+{
+    color:Red !important;
+}
+.tree
+{
+    background:url("img/tree_bg.gif") no-repeat top left;
+}
+
+.tree
+{
+    font:normal 11px tahoma, arial, helvetica, sans-serif;
+    padding:3px 10px 3px 15px;
+    border:1px solid #fff;
+    border-bottom:1px solid #eeeeee;
+    white-space:normal;
+    color:#555;
+}
+        
+.tree h3 
+{
+    display:block;
+    font:inherit;
+    color:#222;
+}
+
+.alignButton
+{
+    float: left;
+    margin-left: 20px !important;
+}
+.dirty-row
+{
+    background: #ffffff;
+}
+        
+.new-row
+{
+    background: #f5f5f5;
+}
+
+#chamcong-panel
+{
+    height:372px;
+    overflow:scroll;
+    position:relative;
+}
+
+#chamcong-panel #header-panel
+{
+    height:47px;
+}
+
+#chamcong-panel #body-panel
+{
+    height:363px;
+    
+}
+
+#body-panel .font-small
+{
+    font-size:9px !important;
+    padding:2px;
+}
+
+#chamcong-help
+{
+    height:40px;
+    border:1px solid #5B7BA8;
+    float:left;
+    width:1145px;
+    padding:10px;
+    color:#000;
+    width:98%;
+    overflow-y:scroll;
+}
+#chamcong-help ul
+{
+    display:inline;
+}
+#chamcong-help ul li
+{
+    list-style-type:disc;
+    display:inline-block;
+    margin-right:10px;
+    padding-left:15px;
+    background:url(../icon/bullet.png) no-repeat center left;
+}
+
+
+table .header-fixed {
+  position: fixed;
+  top: 122px;
+  z-index: 1020; /* 10 less than .navbar-fixed to prevent any overlap */
+  border-bottom: 1px solid #d5d5d5;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.lbl-frm
+{
+    padding-top:7px;
+}
+/*
+﻿.red
+{
+    color:Red !important;
+}
+.tree
+{
+    background:url("img/tree_bg.gif") no-repeat top left;
+}
+
+.tree
+{
+    font:normal 11px tahoma, arial, helvetica, sans-serif;
+    padding:3px 10px 3px 15px;
+    border:1px solid #fff;
+    border-bottom:1px solid #eeeeee;
+    white-space:normal;
+    color:#555;
+}
+        
+.tree h3 
+{
+    display:block;
+    font:inherit;
+    color:#222;
+}
+
+.alignButton
+{
+    float: left;
+    margin-left: 20px !important;
+}
+.dirty-row
+{
+    background: #ffffff;
+}
+        
+.new-row
+{
+    background: #f5f5f5;
+}
+
+#chamcong-panel
+{
+    height:410px;
+    overflow:scroll;
+    position:relative;
+}
+
+#chamcong-panel #header-panel
+{
+    height:47px;
+}
+
+#chamcong-panel #body-panel
+{
+    height:363px;
+    
+}
+
+#body-panel .font-small
+{
+    font-size:9px !important;
+    padding:2px;
+}
+
+#chamcong-help
+{
+    height:40px;
+    border:1px solid #5B7BA8;
+    float:left;
+    width:1145px;
+    padding:10px;
+    color:#000;
+    width:98%;
+}
+#chamcong-help ul
+{
+    display:inline;
+}
+#chamcong-help ul li
+{
+    list-style-type:disc;
+    display:inline-block;
+    margin-right:10px;
+    padding-left:15px;
+    background:url(../icon/bullet.png) no-repeat center left;
+}
+
+
+table .header-fixed {
+  position: fixed;
+  top: 122px;
+  z-index: 1020; border-bottom: 1px solid #d5d5d5;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.scroll
+{
+    overflow:scroll;
+}
+*/

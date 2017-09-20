@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<common_msg>
+  <Please_Choose_Data>Please select data</Please_Choose_Data>
+  <RecordNotFound>Not find required data</RecordNotFound>
+  <Add_Success>Add successfully</Add_Success>
+  <Add_Fail>Add fail</Add_Fail>
+  <Edit_Success>Update successfully</Edit_Success>
+  <Edit_Fail>Update fail</Edit_Fail>
+  <Delete_Success>Delete successfully</Delete_Success>
+  <Delete_Fail>Delete fail</Delete_Fail>
+  <Save_Success>Save successfully</Save_Success>
+  <Save_Fail>Save fail</Save_Fail>
+  <Error_While_Exec>Error while executing. Please try again..</Error_While_Exec>
+  <Record_Duplicate>[Duplicate record] Existing data</Record_Duplicate>
+</common_msg>

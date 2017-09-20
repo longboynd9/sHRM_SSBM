@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Luong_ImportPhuCapCoDinh>
+  <msg_js>Cập nhật nhân viên </msg_js>
+  <msg_js2>Bạn chắn chắn muốn xóa?</msg_js2>
+  <msg_1>Xin vui lòng chọn MAPPING!</msg_1>
+  <pb>Phòng ban</pb>
+  <dkCN>Đăng ký cá nhân</dkCN>
+  <dkTH>Đăng ký tập thể</dkTH>
+  <maTH>Mã tổ</maTH>
+  <maNV>Mã NV</maNV>
+  <xangxe>Xăng xe</xangxe>
+  <nhanvien>Nhân viên</nhanvien>
+  <pcXangXe>PC Xăng Xe</pcXangXe>
+  <dangky>Đăng ký</dangky>
+  <msg_js3>Xin vui lòng điền đủ dữ liệu</msg_js3>
+  <to>Tổ</to>
+  <chon>Chọn</chon>
+  <msg_js4>Đăng ký thành công </msg_js4>
+  <msg_js5>Không tìm thấy thông tin của nhân viên</msg_js5>
+  <msg_2>Bạn cần nhập file zip (.zip) hoặc file text (.txt)</msg_2>
+  <msg_3>Có lỗi khi lưu file</msg_3>
+</Luong_ImportPhuCapCoDinh>

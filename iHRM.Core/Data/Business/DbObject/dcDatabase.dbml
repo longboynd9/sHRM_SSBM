@@ -1,0 +1,1385 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SSBM_sHRM" Class="dcDatabaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.12.0.3;Initial Catalog=SSBM_sHRM;User ID=sa" SettingsObjectName="iHRM.Core.Properties.Settings" SettingsPropertyName="SSBM_sHRMConnectionString3" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tbBangLuongCalc" Member="tbBangLuongCalcs">
+    <Type Name="tbBangLuongCalc">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fieldName" Type="System.String" DbType="VarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="expression" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.w5TinTuc" Member="w5TinTucs">
+    <Type Name="w5TinTuc">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NguoiDang" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="NguoiDuyet" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="MucTinID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="DanhMucID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="TenVN" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="TenEN" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="AnhDaiDienVN" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="AnhDaiDienEN" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="GioiThieuVN" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="GioiThieuEN" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="NoiDungVN" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="NoiDungEN" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="STT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="laDacBiet" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="TrangThai" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="LuotXem" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="NgayTao" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="NgayDuyet" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="w5DanhMuc_w5TinTuc" Member="w5DanhMuc" ThisKey="DanhMucID" OtherKey="id" Type="w5DanhMuc" IsForeignKey="true" />
+      <Association Name="w5sysUser_w5TinTuc" Member="w5sysUser" ThisKey="NguoiDang" OtherKey="id" Type="w5sysUser" IsForeignKey="true" />
+      <Association Name="w5sysUser_w5TinTuc1" Member="w5sysUser1" ThisKey="NguoiDuyet" OtherKey="id" Type="w5sysUser" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCaLam_TinhTangCa" Member="tbCaLam_TinhTangCas">
+    <Type Name="tbCaLam_TinhTangCa">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idCaLamViec" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="idx" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="thoiGian" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="heSoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tbCaLamViec_tbCaLam_TinhTangCa" Member="tbCaLamViec" ThisKey="idCaLamViec" OtherKey="id" Type="tbCaLamViec" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCaLamViec" Member="tbCaLamViecs">
+    <Type Name="tbCaLamViec">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="tuGio" Type="System.TimeSpan" DbType="Time NOT NULL" CanBeNull="false" />
+      <Column Name="denGio" Type="System.TimeSpan" DbType="Time NOT NULL" CanBeNull="false" />
+      <Column Name="caDem" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="tgQuetTruoc_Vao" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tgQuetSau_Vao" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tgQuetTruoc_Ra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tgQuetSau_Ra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="soTiengTinhCa" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="soTiengTangCaTrachNhiem" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="soTiengTinhTangCa" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="caSang_tuGio" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="caSang_denGio" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="caChieu_tuGio" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="caChieu_denGio" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Association Name="tbCaLamViec_tbCaLam_TinhTangCa" Member="tbCaLam_TinhTangCas" ThisKey="id" OtherKey="idCaLamViec" Type="tbCaLam_TinhTangCa" />
+      <Association Name="tbCaLamViec_tbKetQuaQuetThe" Member="tbKetQuaQuetThes" ThisKey="id" OtherKey="idCaLam" Type="tbKetQuaQuetThe" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCatDefine" Member="tbCatDefines">
+    <Type Name="tbCatDefine">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tableName" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="idColumnName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="columnIdEditType" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="autoExpanColumnName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="inGroup" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="sortIdx" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tbCatDefine_tbCatDefineColumn" Member="tbCatDefineColumns" ThisKey="id" OtherKey="catDefID" Type="tbCatDefineColumn" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCatDefineColumn" Member="tbCatDefineColumns">
+    <Type Name="tbCatDefineColumn">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="catDefID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="columnName" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="dataType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="sortIdx" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="width" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="dataLength" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="dataIsNullable" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="dataSource" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Association Name="tbCatDefine_tbCatDefineColumn" Member="tbCatDefine" ThisKey="catDefID" OtherKey="id" Type="tbCatDefine" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbChiNhanh" Member="tbChiNhanhs">
+    <Type Name="tbChiNhanh">
+      <Column Name="idChiNhanh" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="maCN" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="tenCN" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="logo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="diachi" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="dienthoai" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Association Name="tbChiNhanh_tbCuaHang" Member="tbCuaHangs" ThisKey="idChiNhanh" OtherKey="idChiNhanh" Type="tbCuaHang" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCty" Member="tbCties">
+    <Type Name="tbCty">
+      <Column Name="ma" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="diachi" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="dienthoai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="logo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ghichu" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbCuaHang" Member="tbCuaHangs">
+    <Type Name="tbCuaHang">
+      <Column Name="idCuaHang" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idChiNhanh" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="ma" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="logo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="diachi" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="dienthoai" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Association Name="tbChiNhanh_tbCuaHang" Member="tbChiNhanh" ThisKey="idChiNhanh" OtherKey="idChiNhanh" Type="tbChiNhanh" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbDangKyVangMat" Member="tbDangKyVangMats">
+    <Type Name="tbDangKyVangMat">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idKetQuaQuetThe" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="tuGio" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="denGio" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="lydo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ghiChu" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="nghiCaNgay" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EmployeeID" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="coHuongLuong" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="hourLeave" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="soTiengTinhCa" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="coTinhChuyenCan" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="tbKetQuaQuetThe_tbDangKyVangMat" Member="tbKetQuaQuetThe" ThisKey="idKetQuaQuetThe" OtherKey="id" Type="tbKetQuaQuetThe" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbDkCaMacDinh" Member="tbDkCaMacDinhs">
+    <Type Name="tbDkCaMacDinh">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="CardID" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="idCaLam" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="heSoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="chuNhat" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbDuLieuQuetThe" Member="tbDuLieuQuetThes">
+    <Type Name="tbDuLieuQuetThe">
+      <Column Name="thoigian" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="maThe" Type="System.String" DbType="VarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="soMay" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="maMay" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbFunction" Member="tbFunctions">
+    <Type Name="tbFunction">
+      <Column Name="idFunction" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="parentID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="code" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="category" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="path" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="asemblyPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sysLock" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="icon" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="showModal" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="requireAdmin" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="displayOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbFunction_tbFunction" Member="tbFunctions" ThisKey="idFunction" OtherKey="parentID" Type="tbFunction" />
+      <Association Name="tbFunction_tbRule" Member="tbRules" ThisKey="idFunction" OtherKey="idFunction" Type="tbRule" />
+      <Association Name="tbFunction_tbFunction" Member="tbFunction1" ThisKey="parentID" OtherKey="idFunction" Type="tbFunction" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbKho" Member="tbKhos">
+    <Type Name="tbKho">
+      <Column Name="idKho" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="maKho" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="tenKho" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="logo" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="nguoiDaiDien" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="diachi" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="dienthoai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ghichu" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbl_logXuLyDuLieu" Member="tbl_logXuLyDuLieus">
+    <Type Name="tbl_logXuLyDuLieu">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ngayhientai" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ngaytu" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ngayden" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="employeeID" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="idPhongBan" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="tenPhongBan" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="idNhom" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="tenNhom" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="isXuLyDLGoc" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="loginID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblEmp_Group1" Member="tblEmp_Group1s">
+    <Type Name="tblEmp_Group1">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="gName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="tblEmp_Group1_tblEmployee" Member="tblEmployees" ThisKey="id" OtherKey="InGroup1" Type="tblEmployee" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblEmpAllowanceFix" Member="tblEmpAllowanceFixes">
+    <Type Name="tblEmpAllowanceFix">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="DateChange" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="AllowanceID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Amount" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CurrType" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblEmpChild" Member="tblEmpChilds">
+    <Type Name="tblEmpChild">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ChildName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ChildBirthday" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ChildSex" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="RecievedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="EmployeeID" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblEmpContract" Member="tblEmpContracts">
+    <Type Name="tblEmpContract">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="BeginDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ContractID" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ContractTypeID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Association Name="tblRef_ContractType_tblEmpContract" Member="tblRef_ContractType" ThisKey="ContractTypeID" OtherKey="ContractTypeID" Type="tblRef_ContractType" IsForeignKey="true" />
+      <Association Name="tblEmployee_tblEmpContract" Member="tblEmployee" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="tblEmployee" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblEmpDep" Member="tblEmpDeps">
+    <Type Name="tblEmpDep">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="DateChange" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DepID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="LineID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SectionID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="TeamID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="PartID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Rpt_Dep" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Rpt_Line" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Rpt_Group" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="tblRef_Department_tblEmpDep" Member="tblRef_Department" ThisKey="DepID" OtherKey="DepID" Type="tblRef_Department" IsForeignKey="true" />
+      <Association Name="tblEmployee_tblEmpDep" Member="tblEmployee" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="tblEmployee" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblEmpHIPlace" Member="tblEmpHIPlaces">
+    <Type Name="tblEmpHIPlace">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="DateChange" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="FromM" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="FromY" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HIPlace" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblEmpPos" Member="tblEmpPos">
+    <Type Name="tblEmpPo">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="DateChange" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PosID" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="tblRef_Position_tblEmpPo" Member="tblRef_Position" ThisKey="PosID" OtherKey="PosID" Type="tblRef_Position" IsForeignKey="true" />
+      <Association Name="tblEmployee_tblEmpPo" Member="tblEmployee" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="tblEmployee" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblEmpSalary" Member="tblEmpSalaries">
+    <Type Name="tblEmpSalary">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="DateChange" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PosID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SalLevelID" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Coefficient" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="BasicSalary" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="CurrType" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BasicSalary_Ins" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="statusRemark" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="BeginDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ContractCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="tblEmployee_tblEmpSalary" Member="tblEmployee" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="tblEmployee" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblEmpType" Member="tblEmpTypes">
+    <Type Name="tblEmpType">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.String" DbType="NVarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="DateChange" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="EmpTypeID" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="tblRef_EmployeeType_tblEmpType" Member="tblRef_EmployeeType" ThisKey="EmpTypeID" OtherKey="EmpTypeID" Type="tblRef_EmployeeType" IsForeignKey="true" />
+      <Association Name="tblEmployee_tblEmpType" Member="tblEmployee" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="tblEmployee" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblHoliday" Member="tblHolidays">
+    <Type Name="tblHoliday">
+      <Column Name="Dating" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SalaryRate" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbLoaiNgayLamThem" Member="tbLoaiNgayLamThems">
+    <Type Name="tbLoaiNgayLamThem">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tenLoai" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="heSoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tbLoaiNgayLamThem_tbKetQuaQuetThe" Member="tbKetQuaQuetThes" ThisKey="id" OtherKey="dkLamThem" Type="tbKetQuaQuetThe" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Allowance" Member="tblRef_Allowances">
+    <Type Name="tblRef_Allowance">
+      <Column Name="AllowanceID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AllowanceName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Regular" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IncomeTax" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AllowanceName_VN" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="NotInPayroll" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Bank" Member="tblRef_Banks">
+    <Type Name="tblRef_Bank">
+      <Column Name="BankID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BankName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BankGroupID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_BankGroup" Member="tblRef_BankGroups">
+    <Type Name="tblRef_BankGroup">
+      <Column Name="BankGroupID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BankGroupName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_BasicSalary" Member="tblRef_BasicSalaries">
+    <Type Name="tblRef_BasicSalary">
+      <Column Name="SalID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="BasicSalary" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_City" Member="tblRef_Cities">
+    <Type Name="tblRef_City">
+      <Column Name="CityID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CityName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Company" Member="tblRef_Companies">
+    <Type Name="tblRef_Company">
+      <Column Name="CompanyID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CompKey" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="CompKey_Prin" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TransName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="CompanyCode" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Fax" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="VATCode" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="BankAccount" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="BankAccount_USD" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BankName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Accountant" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Director" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Nationality_Director" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PreparedBy" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PreparedBy_Payroll" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PreparedBy_Insurance" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PreparedBy_Attendance" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CheckedBy" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CheckedBy2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="President" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ManageLevel" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="FileNo" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="KCBNo" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_ContractType" Member="tblRef_ContractTypes">
+    <Type Name="tblRef_ContractType">
+      <Column Name="ContractTypeID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ContractTypeName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MonthNumber" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="ContractName_VN" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="tblRef_ContractType_tblEmpContract" Member="tblEmpContracts" ThisKey="ContractTypeID" OtherKey="ContractTypeID" Type="tblEmpContract" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Degree" Member="tblRef_Degrees">
+    <Type Name="tblRef_Degree">
+      <Column Name="DegreeID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DegreeName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Discipline" Member="tblRef_Disciplines">
+    <Type Name="tblRef_Discipline">
+      <Column Name="DisciplineID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DisciplineForm" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_District" Member="tblRef_Districts">
+    <Type Name="tblRef_District">
+      <Column Name="DistrictID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DistrictName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CityID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Education" Member="tblRef_Educations">
+    <Type Name="tblRef_Education">
+      <Column Name="EducationID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EducationType" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_EmployeeType" Member="tblRef_EmployeeTypes">
+    <Type Name="tblRef_EmployeeType">
+      <Column Name="EmpTypeID" Type="System.String" DbType="NVarChar(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmpTypeName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="tblRef_EmployeeType_tblEmpType" Member="tblEmpTypes" ThisKey="EmpTypeID" OtherKey="EmpTypeID" Type="tblEmpType" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_EvaluationType" Member="tblRef_EvaluationTypes">
+    <Type Name="tblRef_EvaluationType">
+      <Column Name="EvaluationTypeID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EvaluationTypeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Coefficient" Type="System.Decimal" DbType="Decimal(5,2)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_HIPlace" Member="tblRef_HIPlaces">
+    <Type Name="tblRef_HIPlace">
+      <Column Name="KeyID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HIPlace" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="HIPlaceID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Language" Member="tblRef_Languages">
+    <Type Name="tblRef_Language">
+      <Column Name="LangID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LangName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_LanguageLevel" Member="tblRef_LanguageLevels">
+    <Type Name="tblRef_LanguageLevel">
+      <Column Name="LangLevelID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LangLevelName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_LanguageSkill" Member="tblRef_LanguageSkills">
+    <Type Name="tblRef_LanguageSkill">
+      <Column Name="LangSkill" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LangSkillName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_LeaveType" Member="tblRef_LeaveTypes">
+    <Type Name="tblRef_LeaveType">
+      <Column Name="LeaveID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LeaveType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SalaryRate" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="IsBasicSal" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsInsurance" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsSick" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsAttendance" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_LeftType" Member="tblRef_LeftTypes">
+    <Type Name="tblRef_LeftType">
+      <Column Name="LeftTypeID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LeftTypeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Pension" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_MaritalStatus" Member="tblRef_MaritalStatus">
+    <Type Name="tblRef_MaritalStatus">
+      <Column Name="MaritalStatusID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaritalStatusName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Position" Member="tblRef_Positions">
+    <Type Name="tblRef_Position">
+      <Column Name="PosID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PosName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="WDInMonth" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="PosName_Eng" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="RankID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="OrderNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Advance_Percent" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DescriptionJob" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="IsNotOT" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="tblRef_Position_tblEmpPo" Member="tblEmpPos" ThisKey="PosID" OtherKey="PosID" Type="tblEmpPo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Qualification" Member="tblRef_Qualifications">
+    <Type Name="tblRef_Qualification">
+      <Column Name="QualificationID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="QualificationName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Race" Member="tblRef_Races">
+    <Type Name="tblRef_Race">
+      <Column Name="RaceID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RaceName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Reason" Member="tblRef_Reasons">
+    <Type Name="tblRef_Reason">
+      <Column Name="ReasonID" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ReasonName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ReasonName_VN" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IncomeTax" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Relation" Member="tblRef_Relations">
+    <Type Name="tblRef_Relation">
+      <Column Name="RelationID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RelationName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Religion" Member="tblRef_Religions">
+    <Type Name="tblRef_Religion">
+      <Column Name="ReligionID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ReligionName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_StatusEmployee" Member="tblRef_StatusEmployees">
+    <Type Name="tblRef_StatusEmployee">
+      <Column Name="StatusID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="StatusName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="tblRef_StatusEmployee_tblEmployee" Member="tblEmployees" ThisKey="StatusID" OtherKey="StatusID" Type="tblEmployee" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Title" Member="tblRef_Titles">
+    <Type Name="tblRef_Title">
+      <Column Name="TitleID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TitleName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblTetBonus_Date" Member="tblTetBonus_Dates">
+    <Type Name="tblTetBonus_Date">
+      <Column Name="YearID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DateID" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbLyDoVangMat" Member="tbLyDoVangMats">
+    <Type Name="tbLyDoVangMat">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="lydo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbNgayNghiPhepNam" Member="tbNgayNghiPhepNams">
+    <Type Name="tbNgayNghiPhepNam">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ngay" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="thang" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="nam" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbPhuCapCoDinh" Member="tbPhuCapCoDinhs">
+    <Type Name="tbPhuCapCoDinh">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="employeeID" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="pc_XangXe" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="pc_ConTho" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbRole" Member="tbRoles">
+    <Type Name="tbRole">
+      <Column Name="idRole" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idRule" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbRole_tbUser" Member="tbUsers" ThisKey="idRole" OtherKey="idRole" Type="tbUser" />
+      <Association Name="tbRule_tbRole" Member="tbRule" ThisKey="idRule" OtherKey="idRule" Type="tbRule" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbRule" Member="tbRules">
+    <Type Name="tbRule">
+      <Column Name="idRule" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="parentID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="pathIdx" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="path" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="rOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="type" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idFunction" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="rView" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="rAdd" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="rEdit" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="rDelete" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="rPrint" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="rImport" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="rExport" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="rChoose" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="rCustom" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbRule_tbRole" Member="tbRoles" ThisKey="idRule" OtherKey="idRule" Type="tbRole" />
+      <Association Name="tbRule_tbRule" Member="tbRules" ThisKey="idRule" OtherKey="parentID" Type="tbRule" />
+      <Association Name="tbFunction_tbRule" Member="tbFunction" ThisKey="idFunction" OtherKey="idFunction" Type="tbFunction" IsForeignKey="true" />
+      <Association Name="tbRule_tbRule" Member="tbRule1" ThisKey="parentID" OtherKey="idRule" Type="tbRule" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbSaveData" Member="tbSaveDatas">
+    <Type Name="tbSaveData">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="code" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="data" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbThamSoTinhLuong" Member="tbThamSoTinhLuongs">
+    <Type Name="tbThamSoTinhLuong">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="thang" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="employeeID" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="PC1" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC2" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC3" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC4" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC5" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC6" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC7" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC8" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC9" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC10" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC11" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC12" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC13" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC14" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC15" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC16" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC17" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC18" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC19" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC20" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="LuongSP" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="DataCalc1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DataCalc2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DataCalc3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DataCalc4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DataCalc5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DataCalc6" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DataCalc7" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DataCalc8" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DataCalc9" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="DataCalc10" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="tblEmployee_tbThamSoTinhLuong" Member="tblEmployee" ThisKey="employeeID" OtherKey="EmployeeID" Type="tblEmployee" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbUser" Member="tbUsers">
+    <Type Name="tbUser">
+      <Column Name="idUser" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="idRole" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="idNhanVien" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="loginID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="loginPW" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="firstLogin" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="isAdmin" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tbRole_tbUser" Member="tbRole" ThisKey="idRole" OtherKey="idRole" Type="tbRole" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.w5DanhMuc" Member="w5DanhMucs">
+    <Type Name="w5DanhMuc">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sysCode" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="DanhMucChaID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Ma" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Ten" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Ten_en" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="AnhDaiDien" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="STT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Link" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TrangThai" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="DaKhoa" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DuongDan" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="laDacBiet" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="Vitri" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="w5DanhMuc_w5TinTuc" Member="w5TinTucs" ThisKey="id" OtherKey="DanhMucID" Type="w5TinTuc" />
+      <Association Name="w5DanhMuc_w5DanhMuc" Member="w5DanhMucs" ThisKey="id" OtherKey="DanhMucChaID" Type="w5DanhMuc" />
+      <Association Name="w5DanhMuc_w5Slide" Member="w5Slides" ThisKey="id" OtherKey="DanhMucID" Type="w5Slide" />
+      <Association Name="w5DanhMuc_w5DanhMuc" Member="w5DanhMuc1" ThisKey="DanhMucChaID" OtherKey="id" Type="w5DanhMuc" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.w5NguoiDung" Member="w5NguoiDungs">
+    <Type Name="w5NguoiDung">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TenDangNhap" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MatKhauDangNhap" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TaiKhoanGoogle" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TaiKhoanFacebook" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="Ten" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Ten_en" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="AnhDaiDien" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="DiaChi" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="DiaChi_en" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="NgaySinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="GioiTinh" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="SDT" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="NguoiGioiThieu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="TrangThai" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="Quyen" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="GiftCard" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SoTienTrongCard" Type="System.Decimal" DbType="Decimal(18,2) NOT NULL" CanBeNull="false" />
+      <Column Name="NgayDangKy" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="website" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TinhTP" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="QuanHuyen" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.w5Slide" Member="w5Slides">
+    <Type Name="w5Slide">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DanhMucID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="ten" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ten_en" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="LienKet" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Anh" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="Rong" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Cao" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TrangThai" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="w5DanhMuc_w5Slide" Member="w5DanhMuc" ThisKey="DanhMucID" OtherKey="id" Type="w5DanhMuc" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.w5sysConnectionString" Member="w5sysConnectionStrings">
+    <Type Name="w5sysConnectionString">
+      <Column Name="code" Type="System.String" DbType="NVarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="strcnn" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="logo" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="caption_EN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="strMCC" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.w5sysEmail" Member="w5sysEmails">
+    <Type Name="w5sysEmail">
+      <Column Name="Mail_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SMTPServer" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SMTPServerPort" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SMTPServerName" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="SMTPServerPassword" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ListMail" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.w5sysParameter" Member="w5sysParameters">
+    <Type Name="w5sysParameter">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="code" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="value" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="visible" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.w5sysRole" Member="w5sysRoles">
+    <Type Name="w5sysRole">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="status" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="w5sysRole_w5sysRule" Member="w5sysRules" ThisKey="id" OtherKey="roleID" Type="w5sysRule" />
+      <Association Name="w5sysRole_w5sysUser" Member="w5sysUsers" ThisKey="id" OtherKey="roleID" Type="w5sysUser" />
+    </Type>
+  </Table>
+  <Table Name="dbo.w5sysRule" Member="w5sysRules">
+    <Type Name="w5sysRule">
+      <Column Name="roleID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="functionID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="rules" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="w5sysRole_w5sysRule" Member="w5sysRole" ThisKey="roleID" OtherKey="id" Type="w5sysRole" IsForeignKey="true" />
+      <Association Name="w5sysFunction_w5sysRule" Member="w5sysFunction" ThisKey="functionID" OtherKey="id" Type="w5sysFunction" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.w5System" Member="w5Systems">
+    <Type Name="w5System">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ma" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="TitleVN" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TitleEN" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="KeywordVN" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="KeywordEN" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="DescriptionVN" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="DescriptionEN" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.w5sysUser" Member="w5sysUsers">
+    <Type Name="w5sysUser">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="linkID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="roleID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="loginID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="loginPW" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="avatar" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="firstLogin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="isAdmin" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="loginCode" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="w5sysUser_w5TinTuc" Member="w5TinTucs" ThisKey="id" OtherKey="NguoiDang" Type="w5TinTuc" />
+      <Association Name="w5sysUser_w5TinTuc1" Member="w5TinTucs1" ThisKey="id" OtherKey="NguoiDuyet" Type="w5TinTuc" />
+      <Association Name="w5sysRole_w5sysUser" Member="w5sysRole" ThisKey="roleID" OtherKey="id" Type="w5sysRole" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Department" Member="tblRef_Departments">
+    <Type Name="tblRef_Department">
+      <Column Name="DepID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DepKey" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DepName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DepName_Eng" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DepParent" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="DepTypeID" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Direct" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BasicWD" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="OrderNo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CenterCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MealSection" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Rpt_Dep" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Rpt_Line" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Rpt_Group" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Path" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="tblRef_Department_tblEmpDep" Member="tblEmpDeps" ThisKey="DepID" OtherKey="DepID" Type="tblEmpDep" />
+      <Association Name="tblRef_Department_tblRef_Department" Member="tblRef_Departments" ThisKey="DepID" OtherKey="DepParent" Type="tblRef_Department" />
+      <Association Name="tblRef_Department_tblRef_Department" Member="tblRef_Department1" ThisKey="DepParent" OtherKey="DepID" Type="tblRef_Department" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblRef_Nationality" Member="tblRef_Nationalities">
+    <Type Name="tblRef_Nationality">
+      <Column Name="NationalityID" Type="System.String" DbType="NVarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NationalityName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="NationalityName_VIE" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbBangLuongThang" Member="tbBangLuongThangs">
+    <Type Name="tbBangLuongThang">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="thang" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="empoyeeID" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="luongCB" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="luongPC" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngaycong_bt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngaycong_phep" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngaycong_lt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngaycong_cn" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongNgayCong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_bt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_phep" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_lt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_cn" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNgayCong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tgTangCa_bt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tgTangCa_cn" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tgTangCa_lt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongThoiGianTangCa" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa_bt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa_cn" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa_lt" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc6" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc7" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc8" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc9" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc10" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc11" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc12" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc13" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc14" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc15" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc16" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc17" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc18" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc19" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc20" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongThuongCalc" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PC1" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC2" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC3" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC4" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC5" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC6" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC7" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC8" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC9" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC10" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC11" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC12" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC13" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC14" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC15" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC16" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC17" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC18" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC19" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC20" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="tongPhuCapKhac" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongLuong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="BH105" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="khoanTruKhac" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tamUngLuong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongKhauTru" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="actualBankTransfer" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="approved" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="luongSP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="luongTangCaSP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="luongSP_tong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="luongThoiGian" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="laBangLuongCu" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ngaycong_phepNam" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_phepNam" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTgTangCa_cn_gio" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="analyzeDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="analyzeBy" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="isLocked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="isLuongSP" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="phiCongDoan" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienThuongSL" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thuongLamCa" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thuongBuaToi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongLuongTG" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="statePushServer" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ConTho" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_Dem" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_Dem" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tgTangCa_Dem" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa_Dem" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PhuCapTrachNhiem" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="LuongThucNhanTinhThue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SoNguoiPhuThuoc" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ThueTNCN" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.w5sysFunction" Member="w5sysFunctions">
+    <Type Name="w5sysFunction">
+      <Column Name="id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="sysCode" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="parentId" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="code" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="caption" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="caption_EN" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="asemblyPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="asemblyInherits" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="order1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sys_locked" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="modal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="icon" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="isFunction" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="w5sysFunction_w5sysRule" Member="w5sysRules" ThisKey="id" OtherKey="functionID" Type="w5sysRule" />
+      <Association Name="w5sysFunction_w5sysFunction" Member="w5sysFunctions" ThisKey="id" OtherKey="parentId" Type="w5sysFunction" />
+      <Association Name="w5sysFunction_w5sysFunction" Member="w5sysFunction1" ThisKey="parentId" OtherKey="id" Type="w5sysFunction" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbKetQuaQuetThe" Member="tbKetQuaQuetThes">
+    <Type Name="tbKetQuaQuetThe">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="CardID" Type="System.String" DbType="NVarChar(14)" CanBeNull="true" />
+      <Column Name="ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="idCaLam" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="tgQuetDen" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="tgQuetVe" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="tgQuetDen_old" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="tgQuetVe_old" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="tgDiMuon" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tgVeSom" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tgTinhTangCa" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="dkLamThem" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="heSoLuong" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="kqNgayCong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tt_ok" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tt_leTet" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tt_diMuonVeSom" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tt_nghiPhep" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tt_coQuetTay" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="tt_nghiPhep_Alias" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="tt_chuNhat" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="tt_error" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="modifyDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="modifyBy" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="analyzeDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="analyzeBy" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="isLocked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Emp_LeftDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="statePushServer" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="daysOfNghiCoLuong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="tbKetQuaQuetThe_tbDangKyVangMat" Member="tbDangKyVangMats" ThisKey="id" OtherKey="idKetQuaQuetThe" Type="tbDangKyVangMat" />
+      <Association Name="tbCaLamViec_tbKetQuaQuetThe" Member="tbCaLamViec" ThisKey="idCaLam" OtherKey="id" Type="tbCaLamViec" IsForeignKey="true" />
+      <Association Name="tbLoaiNgayLamThem_tbKetQuaQuetThe" Member="tbLoaiNgayLamThem" ThisKey="dkLamThem" OtherKey="id" Type="tbLoaiNgayLamThem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbBangLuongThang_1dong" Member="tbBangLuongThang_1dongs">
+    <Type Name="tbBangLuongThang_1dong">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="thang" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="empoyeeID" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="luongCB_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="luongPC_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="luongCB_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="luongPC_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_bt_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_Dem_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_ChoViec_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_phep_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_phepNam_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_lt_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_cn_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongNgayCong_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_bt_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_Dem_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_ChoViec_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_phep_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_phepNam_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_lt_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ngayCong_cn_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongNgayCong_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongNgayCong_bt_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongNgayCong_Dem_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongNgayCong_ChoViec_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongNgayCong_phep_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongNgayCong_phepNam_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongNgayCong_lt_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongNgayCong_cn_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongNgayCong_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_bt_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_Dem_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_ChoViec_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_phep_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_phepNam_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_lt_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_cn_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienNgayCong_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_bt_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_Dem_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_ChoViec_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_phep_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_phepNam_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_lt_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienNC_cn_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienNgayCong_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienNC_bt_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienNC_Dem_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienNC_ChoViec_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienNC_phep_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienNC_phepNam_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienNC_lt_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienNC_cn_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienNgayCong_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tgTangCa_bt_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tgTangCa_Dem_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tgTangCa_cn_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tgTangCa_lt_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTgTangCa_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tgTangCa_bt_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tgTangCa_Dem_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tgTangCa_cn_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tgTangCa_lt_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTgTangCa_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTgTangCa_bt_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTgTangCa_Dem_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTgTangCa_cn_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTgTangCa_lt_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTgTangCa_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa_bt_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa_Dem_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa_cn_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa_lt_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienTangCa_Cu" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa_bt_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa_Dem_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa_cn_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienTangCa_lt_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienTangCa_Moi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienTangCa_bt_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienTangCa_Dem_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienTangCa_cn_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienTangCa_lt_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTienTangCa_Total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc6" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc7" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc8" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc9" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc10" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc11" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc12" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc13" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc14" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc15" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc16" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc17" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc18" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc19" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Calc20" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongThuongCalc" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PC1" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC2" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC3" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC4" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC5" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC6" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC7" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC8" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC9" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC10" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC11" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC12" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC13" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC14" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC15" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC16" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC17" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC18" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC19" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PC20" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="tongPhuCapKhac" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongLuong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienBH105" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienBHXH" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienBHYT" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienBHTN" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="khoanTruKhac" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tamUngLuong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongKhauTru" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="actualBankTransfer" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="approved" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="luongSP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="luongTangCaSP" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="luongSP_tong" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="luongThoiGian" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongTgTangCa_cn_gio" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="analyzeDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="analyzeBy" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="isLocked" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="isLuongSP" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="phiCongDoan" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tienThuongSL" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongLuongTG" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="statePushServer" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ConTho" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PhuCapTrachNhiem" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="LuongThucNhanTinhThue" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SoNguoiPhuThuoc" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ThueTNCN" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thuongBuaToi" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="thuongLamCa" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="tongLuongSP" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tbGioiThieuCongNhan" Member="tbGioiThieuCongNhans">
+    <Type Name="tbGioiThieuCongNhan">
+      <Column Name="id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeID_New" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Sotien" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblHopDongLaoDong" Member="tblHopDongLaoDongs">
+    <Type Name="tblHopDongLaoDong">
+      <Column Name="MaHopDong" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="tenCongTy" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="tenGiamDoc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="QuocTichGiamDoc" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="SDT" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DiaChiCongTy" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="DiaDiemLamViec" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="ChucVuGD" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MaHopDong_Eng" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="tenCongTy_Eng" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="tenGiamDoc_Eng" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="QuocTichGiamDoc_Eng" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DiaChiCongTy_Eng" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="DiaDiemLamViec_Eng" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="ChucVuGD_Eng" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="NgaySinhGD" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="HoChieuGD" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblEmployee" Member="tblEmployees">
+    <Type Name="tblEmployee">
+      <Column Name="EmployeeID" Type="System.String" DbType="NVarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeCode" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="EmployeeName" Type="System.String" DbType="NVarChar(60)" CanBeNull="true" />
+      <Column Name="CardID" Type="System.String" DbType="NVarChar(14)" CanBeNull="true" />
+      <Column Name="EmpTypeID" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="EmpTypeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EmployedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ContractTypeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ContractDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TempMonth" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TempEndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SINo" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="SIDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SIFrom_MY" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SIPlace" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="IssuedSI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ReserveSIBook" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SITo_MY" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Reason_Reserve" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TransferToPlace" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TransferSIBook" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SINo_Old" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="SINo_DateChange" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="HI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HINo" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="HIDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="HIIssueAt" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="HIFrom_MY" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="HIPlace" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Labor" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LaborNo" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="LaborDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LaborPlace" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TradeUnionMember" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TradeUnionDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TradeUnionFee" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SubmitDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LeftDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LeftTypeID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="LeftTypeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ReasonForLeft" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DecisionNo" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="TransferReportNo" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="FinalPaymentDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BankAccount" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="BankID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="RegionID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="RegionName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SubRegionID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SubRegionName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CompanyID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SectionID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SectionName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LineID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="LineName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DepID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="DepName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TeamID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="TeamName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PartID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="PartName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PosID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="PosName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BasicSalary" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SalLevelID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SalaryTypeName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BasicSalaryUSD" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="RegularAllowance" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="RegularAllowanceUSD" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="WD" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="AppliedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Heath_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Heath_Reult" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OT" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="OldEmployeeID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IsForeigner" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HasATMCard" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HasFinalPayment" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BankAccount_USD" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="IsMaternity" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FinalPaymentMonth" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FinalPaymentYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LastPayrollMonth" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LastPayrollYear" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StatusID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Birthday" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="MaritalStatusID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SexID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="IDCard" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="IssuePlace" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IssueDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EmployeeName_Eng" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PITCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IsNotOT" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="LeftDateReg" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RaceName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Mobile" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="NativeCountry" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="NationalityName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MaritalStatusName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ReligionName" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="NameSearch" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="LinkImage" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="AnnualLeave" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="coBH" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="coBH_ngay" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="PermanentAddress" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="InGroup1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BankName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="BankNameAcount" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="ContractTypeID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="ContractID" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="EducationID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="EducationType" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="numChild" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NationalityID" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="mailCongTy" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="mailNgoai" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="dis" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="statePushServer" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="PosName_Eng" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DepName_Eng" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DepID_Final" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="DepName_Final" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NationalityName_VIE" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="SoNguoiPhuThuoc" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SoNguoiGioiThieu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NgayGioiThieu" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="truongDH" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="chuyenNganh" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="isTinhChuyenCan" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="tblEmployee_tblEmpContract" Member="tblEmpContracts" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="tblEmpContract" />
+      <Association Name="tblEmployee_tblEmpDep" Member="tblEmpDeps" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="tblEmpDep" />
+      <Association Name="tblEmployee_tblEmpPo" Member="tblEmpPos" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="tblEmpPo" />
+      <Association Name="tblEmployee_tblEmpSalary" Member="tblEmpSalaries" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="tblEmpSalary" />
+      <Association Name="tblEmployee_tblEmpType" Member="tblEmpTypes" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="tblEmpType" />
+      <Association Name="tblEmployee_tbThamSoTinhLuong" Member="tbThamSoTinhLuongs" ThisKey="EmployeeID" OtherKey="employeeID" Type="tbThamSoTinhLuong" />
+      <Association Name="tblEmp_Group1_tblEmployee" Member="tblEmp_Group1" ThisKey="InGroup1" OtherKey="id" Type="tblEmp_Group1" IsForeignKey="true" />
+      <Association Name="tblRef_StatusEmployee_tblEmployee" Member="tblRef_StatusEmployee" ThisKey="StatusID" OtherKey="StatusID" Type="tblRef_StatusEmployee" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

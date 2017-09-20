@@ -1,0 +1,1 @@
+﻿<datasource><source>SELECT * FROM tblRef_City</source><displayField>CityName</displayField><valueField>CityID</valueField></datasource>

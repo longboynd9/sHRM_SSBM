@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="xrLabel53.Text" xml:space="preserve">
+    <value>- Regime for trainning: Workers will be well- trained for their positions. In case of necessity, training content, arising training costs and other provisions will be included in training contracts according to the provisions of the Labor Code of Vietnam.</value>
+  </data>
+  <data name="xrLabel50.Text" xml:space="preserve">
+    <value>- Chế độ đào tạo: Người lao động sẽ được đào tạo phù hợp với vị trí công việc. Trong trường hợp cần thiết, nội dung đào tạo, chi phí đào tạo phát sinh và các điều khoản khác sẽ được lập thành hợp đồng đào tạo theo quy định của Luật Lao động Việt Nam.</value>
+  </data>
+  <data name="xrLabel44.Text" xml:space="preserve">
+    <value>- Chế độ nâng lương: Chế độ nâng lương được xem xét dựa trên mức độ hoàn thành công việc được giao và ý thức chấp hành nội quy lao động, kỉ luật lao động của CBCNV. Mức lương tăng theo bậc lương ghi trong thang bảng lương đã ban hành công khai tại công ty.</value>
+  </data>
+  <data name="xrLabel21.Text" xml:space="preserve">
+    <value>- Trang bị dụng cụ lao động và bảo hộ lao động cho người lao động: Người lao động sẽ được cấp phát đầy đủ khẩu trang, khăn buộc tóc, găng tay, tạp dề, các bảo hộ lao động và dụng cụ lao động khác tùy thuộc vào từng vị trí làm việc cụ thể. Trong trường hợp bảo hộ lao động bị hỏng hoặc mất người lao động có thể thông báo đến văn phòng xưởng sản xuất tương ứng để được cấp mới.</value>
+  </data>
+  <data name="xrLabel41.Text" xml:space="preserve">
+    <value>Equip working equipment’s and labor protection for workers: Workers will be fully allocated masks, hair tie scarf, gloves, aprons, other labor protection and labor tools depending on work location. In case labor protection is damaged or lost, employees can notify and get new one in factory’s office.</value>
+  </data>
+  <data name="xrLabel149.Text" xml:space="preserve">
+    <value>The labor contract are made in duplicate with equal validity from the date of signing, each party keeps one original. Where any addendum to this contract is concluded by parties, such addendum has the same validity as this labor contract.</value>
+  </data>
+  <data name="xrLabel117.Text" xml:space="preserve">
+    <value>- Bảo hiểm: Công ty chi trả 18% Bảo hiểm Xã hội, 3% Bảo hiểm Y tế, 1% bảo hiểm Thất nghiệp. Người lao động chi trả 8% Bảo hiểm xã hội, 1,5% Bảo hiểm Y tế, 1% bảo hiểm Thất nghiệp. Tỷ lệ chi trả theo quy định của Luật Lao động Việt Nam.</value>
+  </data>
+  <data name="xrLabel139.Text" xml:space="preserve">
+    <value>Company pays 18% social insurance, health insurance 3%, Unemployment insurance 1%. Employee pays 8% social insurance, health insurance1,5%, Unemployment insurance 1%.The rate of payment base on the labor Code of Viet Nam.</value>
+  </data>
+  <data name="xrLabel125.Text" xml:space="preserve">
+    <value>(Ban hành kèm theo Thông tư số: 21/2003/TT-BLĐTBXH
+Ngày 22/9/2003 của Bộ Lao động - Thương binh và Xã hội)
+(Issued under the circular of the Ministry of labor, Invalids and
+Social Affairs No 21/2003/TT-BLĐTBXH on 22 September 2003)
+</value>
+  </data>
+  <data name="xrLabel23.Text" xml:space="preserve">
+    <value>For labor issues which are not stated in this labor contract, the provisions of the collective labor agreement shall apply. Where a collective labor agreement does not exist, the provisions of the Labor Code shall apply.</value>
+  </data>
+  <data name="xrLabel84.Text" xml:space="preserve">
+    <value>- Hợp đồng lao động đựoc lập thành 02 bản có giá trị ngang nhau, mỗi bên giữ một bản, và có hiệu lực từ ngày ký. 
+Khi hai bên ký kết phụ lục hợp đồng thị nội dung của phụ lục hợp đồng cũng có giá trị như các nội dung của bản hợp đồng này.</value>
+  </data>
+  <data name="xrLabel88.Text" xml:space="preserve">
+    <value>Rights: To manage the employee to fulfill the jobs under labor contract (arrangement, transfer and suspension of jobs etc.). To suspend, terminate the labor contract and apply disciplinary measures in accordance with the provision of the Labor contract, the collective labor agreement (if any) and internal labor regulations of the Company.</value>
+  </data>
+  <data name="xrLabel83.Text" xml:space="preserve">
+    <value>2. Quyền hạn: Điều hành người lao đông hoàn thành công việc theo hợp đồng (bố trí, điều chuyển, tạm ngừng việc). Tạm hoãn, chấm dứt hợp đồng lao động, kỷ luật người lao động theo quy định của pháp luật và nội quy của doanh nghiệp. </value>
+  </data>
+  <data name="xrLabel109.Text" xml:space="preserve">
+    <value>Time of work: 
+1. Company starts working at 7:30; break 01 hours, finishes at 16:30.
+2. Total 8 hours/ day, 48 hours/ week.
+3. Overtime maximum 4 hours per day (time overtime based on woker voluntary)
+</value>
+  </data>
+  <data name="xrLabel108.Text" xml:space="preserve">
+    <value>- Thời gian làm việc:
+       1. Công ty bắt đầu làm việc lúc 7:30, nghỉ trưa 1 tiếng, kết thúc thời gian làm việc lúc 16:30. 
+       2. Tổng số giờ làm việc 8h/ngày, 48h/ tuần.
+       3. Thời gian tăng ca một ngày không quá 4 tiếng (Thời gian tăng ca dựa trên sự tự nguyện của người lao động).</value>
+  </data>
+  <metadata name="bindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

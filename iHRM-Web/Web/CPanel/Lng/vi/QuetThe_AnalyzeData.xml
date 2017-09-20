@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<QuetThe_AnalyzeData>
+  <lblNote>Hành động này sẽ phân tích tất cả dữ liệu quẹt thẻ đã được import và thực hiện cập nhật tính công cho nhân viên làm ca.</lblNote>
+  <lbTuNgay>Từ ngày</lbTuNgay>
+  <lbDenNgay>Đến ngày</lbDenNgay>
+  <msg_kqqt>Kết quả quẹt thẻ: </msg_kqqt>
+  <msgTitleConfirm>Xác nhận lại</msgTitleConfirm>
+  <msgConfirm>Hành động này không hủy bỏ và không hoàn tác được!&lt;br /&gt;Bạn chắc chắn muốn tiếp tục?</msgConfirm>
+  <msg_1>Không có bản ghi nào được thực hiện!</msg_1>
+  <msg_2>Cập nhật thành công (</msg_2>
+  <msg_3>bản ghi</msg_3>
+</QuetThe_AnalyzeData>
