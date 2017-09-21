@@ -445,10 +445,6 @@ namespace iHRM.Win.ExtClass.Luong
                         r.tongLuongTG = r.luongThoiGian;
                         r.tongLuongSP = r.luongSP + r.tongTienNC_phepNam_Total + r.tongTienNC_phep_Total + r.tongTienNC_lt_Total;
                         r.tongPhuCapKhac += r.tongThuongCalc + r.ConTho + r.thuongBuaToi + r.thuongLamCa;
-                        if (true)
-                        {
-
-                        }
                         // Calc1: chuyên cần
                         if (r.luongSP > 0 && r.tongLuongSP > r.tongLuongTG)
                         {
@@ -528,7 +524,7 @@ namespace iHRM.Win.ExtClass.Luong
         private double i_Round(double v)
         {
             double d = v - (int)v;
-            return (int)v + (d < 0.88 ? (d >= 0.25 ? 0.5 : 0) : 1);
+            return (int)v + (d < 0.88 ? (d >= 0.38 ? 0.5 : 0) : 1);
         }
 
         private double TinhNgayCongPhep(dsTinhLuong.tbDangKyVangMatRow i)

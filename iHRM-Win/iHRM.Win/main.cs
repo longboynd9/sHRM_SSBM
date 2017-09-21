@@ -38,7 +38,8 @@ namespace iHRM.Win
 
         protected Queue<Dowork_Item> Queue_DoworkItem = new Queue<Dowork_Item>();
         protected Dowork_Item Doworking_Item;
-        public virtual void DoworkItem_Reg(Dowork_Item item) { }
+        public virtual void DoworkItem_Reg(Dowork_Item item) {
+        }  
 
         public mainBase()
         {
