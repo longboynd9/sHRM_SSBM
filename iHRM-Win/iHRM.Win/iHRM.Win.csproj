@@ -1399,13 +1399,13 @@
     <None Include="Resources\logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\My Project\Sprj\sHRM\MayChamCong_Manager\AttMachineCore\AttMachineCore.csproj">
+    <ProjectReference Include="..\..\..\MayChamCong_Manager\AttMachineCore\AttMachineCore.csproj">
       <Project>{4EE3902F-1316-4014-AE35-82610038798C}</Project>
       <Name>AttMachineCore</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Class\YS2_Class\YS2_Class.csproj">
-      <Project>{d926563e-bc56-4f49-9faf-4e24198e4ee4}</Project>
-      <Name>YS2_Class</Name>
+    <ProjectReference Include="..\..\Class\SSVN_Class\SSVN_Class.csproj">
+      <Project>{36aa23d6-ae9e-443e-b836-fe5990db37ef}</Project>
+      <Name>SSVN_Class</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\iHRM.Core\Common\iHRM.Common.csproj">
       <Project>{120caae4-814a-43f4-8969-5753d51f8c94}</Project>

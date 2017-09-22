@@ -302,6 +302,10 @@ namespace iHRM.Win.ExtClass.Luong
 
             if (type == 3) //le tet
             {
+                if (tinhCaDem != _kq.caDem)
+                {
+                    return 0;
+                }
                 if (_kq.tt_leTet == 0)
                 {
                     return 0;
